@@ -24,10 +24,17 @@
 				}
 			},
 			{
-				"title": "Mt. Mortar",
+				"title": "Mt. Mortar 1F",
 				"content": {
 					"type": "map",
-					"maps": ["mtmortar"]
+					"maps": ["mtmortar1f"]
+				}
+			},
+			{
+				"title": "Mt. Mortar 2F/B1F",
+				"content": {
+					"type": "map",
+					"maps": ["mtmortar2fb1f"]
 				}
 			},
 			{

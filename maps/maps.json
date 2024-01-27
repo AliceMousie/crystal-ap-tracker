@@ -18,10 +18,16 @@
 		"img": "images/maps/unioncave.png"
 	},
 	{
-		"name": "mtmortar",
+		"name": "mtmortar1f",
 		"location_size": 12,
 		"location_border_thickness": 2,
-		"img": "images/maps/mtmortar.png"
+		"img": "images/maps/mtmortar1f.png"
+	},
+	{
+		"name": "mtmortar2fb1f",
+		"location_size": 12,
+		"location_border_thickness": 2,
+		"img": "images/maps/mtmortar2fb1f.png"
 	},
 	{
 		"name": "icepath",
