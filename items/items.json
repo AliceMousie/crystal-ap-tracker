@@ -1,0 +1,236 @@
+[
+	{
+		"name": "Zephyr Badge",
+		"type": "toggle",
+		"img": "/images/items/zephyrbadge.png",
+		"codes": "zephyrbadge"
+	},
+	{
+		"name": "Hive Badge",
+		"type": "toggle",
+		"img": "/images/items/hivebadge.png",
+		"codes": "hivebadge"
+	},
+	{
+		"name": "Plain Badge",
+		"type": "toggle",
+		"img": "/images/items/plainbadge.png",
+		"codes": "plainbadge"
+	},
+	{
+		"name": "Fog Badge",
+		"type": "toggle",
+		"img": "/images/items/fogbadge.png",
+		"codes": "fogbadge"
+	},
+	{
+		"name": "Storm Badge",
+		"type": "toggle",
+		"img": "/images/items/stormbadge.png",
+		"codes": "stormbadge"
+	},
+	{
+		"name": "Mineral Badge",
+		"type": "toggle",
+		"img": "/images/items/mineralbadge.png",
+		"codes": "mineralbadge"
+	},
+	{
+		"name": "Glacier Badge",
+		"type": "toggle",
+		"img": "/images/items/glacierbadge.png",
+		"codes": "glacierbadge"
+	},
+	{
+		"name": "Rising Badge",
+		"type": "toggle",
+		"img": "/images/items/risingbadge.png",
+		"codes": "risingbadge"
+	},
+	{
+		"name": "Boulder Badge",
+		"type": "toggle",
+		"img": "/images/items/boulderbadge.png",
+		"codes": "boulderbadge"
+	},
+	{
+		"name": "Cascade Badge",
+		"type": "toggle",
+		"img": "/images/items/cascadebadge.png",
+		"codes": "cascadebadge"
+	},
+	{
+		"name": "Thunder Badge",
+		"type": "toggle",
+		"img": "/images/items/thunderbadge.png",
+		"codes": "thunderbadge"
+	},
+	{
+		"name": "Rainbow Badge",
+		"type": "toggle",
+		"img": "/images/items/rainbowbadge.png",
+		"codes": "rainbowbadge"
+	},
+	{
+		"name": "Soul Badge",
+		"type": "toggle",
+		"img": "/images/items/soulbadge.png",
+		"codes": "soulbadge"
+	},
+	{
+		"name": "Marsh Badge",
+		"type": "toggle",
+		"img": "/images/items/marshbadge.png",
+		"codes": "marshbadge"
+	},
+	{
+		"name": "Volcano Badge",
+		"type": "toggle",
+		"img": "/images/items/volcanobadge.png",
+		"codes": "volcanobadge"
+	},
+	{
+		"name": "Earth Badge",
+		"type": "toggle",
+		"img": "/images/items/earthbadge.png",
+		"codes": "earthbadge"
+	},
+	{
+		"name": "HM01 - Cut",
+		"type": "toggle",
+		"img": "/images/items/hm01.png",
+		"codes": "hm01"
+	},
+	{
+		"name": "HM02 - Fly",
+		"type": "toggle",
+		"img": "/images/items/hm02.png",
+		"codes": "hm02"
+	},
+	{
+		"name": "HM03 - Surf",
+		"type": "toggle",
+		"img": "/images/items/hm03.png",
+		"codes": "hm03"
+	},
+	{
+		"name": "HM04 - Strength",
+		"type": "toggle",
+		"img": "/images/items/hm04.png",
+		"codes": "hm04"
+	},
+	{
+		"name": "HM05 - Flash",
+		"type": "toggle",
+		"img": "/images/items/hm05.png",
+		"codes": "hm05"
+	},
+	{
+		"name": "HM06 - Whirlpool",
+		"type": "toggle",
+		"img": "/images/items/hm06.png",
+		"codes": "hm06"
+	},
+	{
+		"name": "HM07 - Waterfall",
+		"type": "toggle",
+		"img": "/images/items/hm07.png",
+		"codes": "hm07"
+	},
+	{
+		"name": "TM08 - Rock Smash",
+		"type": "toggle",
+		"img": "/images/items/tm08.png",
+		"codes": "tm08"
+	},
+	{
+		"name": "Bicycle",
+		"type": "toggle",
+		"img": "/images/items/bicycle.png",
+		"codes": "bicycle"
+	},
+	{
+		"name": "Itemfinder",
+		"type": "toggle",
+		"img": "/images/items/itemfinder.png",
+		"codes": "itemfinder"
+	},
+	{
+		"name": "Red Scale",
+		"type": "toggle",
+		"img": "/images/items/redscale.png",
+		"codes": "redscale"
+	},
+	{
+		"name": "Secretpotion",
+		"type": "toggle",
+		"img": "/images/items/secretpotion.png",
+		"codes": "secretpotion"
+	},
+	{
+		"name": "S.S. Ticket",
+		"type": "toggle",
+		"img": "/images/items/ssticket.png",
+		"codes": "ssticket"
+	},
+	{
+		"name": "Mystery Egg",
+		"type": "toggle",
+		"img": "/images/items/mysteryegg.png",
+		"codes": "mysteryegg"
+	},
+	{
+		"name": "Clear Bell",
+		"type": "toggle",
+		"img": "/images/items/clearbell.png",
+		"codes": "clearbell"
+	},
+	// {
+	// 	"name": "Blue Card",
+	// 	"type": "toggle",
+	// 	"img": "/images/items/bluecard.png",
+	// 	"codes": "bluecard"
+	// },
+	{
+		"name": "Card Key",
+		"type": "toggle",
+		"img": "/images/items/cardkey.png",
+		"codes": "cardkey"
+	},
+	{
+		"name": "Machine Part",
+		"type": "toggle",
+		"img": "/images/items/machinepart.png",
+		"codes": "machinepart"
+	},
+	{
+		"name": "Lost Item",
+		"type": "toggle",
+		"img": "/images/items/lostitem.png",
+		"codes": "lostitem"
+	},
+	{
+		"name": "Basement Key",
+		"type": "toggle",
+		"img": "/images/items/basementkey.png",
+		"codes": "basementkey"
+	},
+	{
+		"name": "Pass",
+		"type": "toggle",
+		"img": "/images/items/pass.png",
+		"codes": "pass"
+	},
+	{
+		"name": "Squirtbottle",
+		"type": "toggle",
+		"img": "/images/items/squirtbottle.png",
+		"codes": "squirtbottle"
+	},
+	{
+		"name": "EXPN Card",
+		"type": "toggle",
+		"img": "/images/items/expncard.png",
+		"codes": "expncard"
+	}
+]

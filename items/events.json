@@ -1,0 +1,62 @@
+[
+	{
+		"name": "Kenya Collected",
+		"type": "toggle",
+		"img": "/images/events/kenya_collected.png",
+		"codes": "kenya_collected"
+	},
+	{
+		"name": "Kenya Delivered",
+		"type": "toggle",
+		"img": "/images/events/kenya_delivered.png",
+		"codes": "kenya_delivered"
+	},
+	{
+		"name": "Heal Amphy",
+		"type": "toggle",
+		"img": "/images/events/jasmine_returned.png",
+		"codes": "jasmine_returned"
+	},
+	{
+		"name": "Help Lance",
+		"type": "toggle",
+		"img": "/images/events/help_lance.png",
+		"codes": "help_lance"
+	},
+	{
+		"name": "Clear Rocket HQ",
+		"type": "toggle",
+		"img": "/images/events/hideout_cleared.png",
+		"codes": "hideout_cleared"
+	},
+	{
+		"name": "Clear Radio Tower",
+		"type": "toggle",
+		"img": "/images/events/tower_cleared.png",
+		"codes": "tower_cleared"
+	},
+	{
+		"name": "Defeat Elite Four",
+		"type": "toggle",
+		"img": "/images/events/become_champion.png",
+		"codes": "become_champion"
+	},
+	{
+		"name": "Restore Power to Kanto",
+		"type": "toggle",
+		"img": "/images/events/restored_power.png",
+		"codes": "restored_power"
+	},
+	{
+		"name": "Blue Returns to Gym",
+		"type": "toggle",
+		"img": "/images/events/blue_returned.png",
+		"codes": "blue_returned"
+	},
+	{
+		"name": "Defeat Red",
+		"type": "toggle",
+		"img": "/images/events/defeat_red.png",
+		"codes": "defeat_red"
+	}
+]

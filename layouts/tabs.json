@@ -1,0 +1,14 @@
+{
+	"tabbed_maps": {
+		"type": "tabbed",
+		"tabs": [
+			{
+				"title": "Overworld",
+				"content": {
+					"type": "map",
+					"maps": ["johtokanto"]
+				}
+			}
+		]
+	}
+}

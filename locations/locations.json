@@ -1,0 +1,2305 @@
+[
+	{
+		"name": "JohtoKanto",
+		"chest_unopened_img": "/images/items/pokeball.png",
+		"chest_opened_img": "/images/items/pokeball_open.png",
+		"children": [
+			{
+				"name": "New Bark Town",
+				"sections": [
+					{
+						"name": "Elm's Lab - Potion from Aide"
+					},
+					{
+						"name": "Elm's Lab - Gift from Aide After Returning Mystery Egg",
+						"access_rules": ["mysteryegg"]
+					},
+					{
+						"name": "Elm's Lab - Master Ball from Elm",
+						"access_rules": ["risingbadge"]
+					},
+					{
+						"name": "Elm's Lab - S.S. Ticket from Elm",
+						"access_rules": ["beat_e4"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 660,
+						"y": 420
+					}
+				]
+			},
+			{
+				"name": "Route 29",
+				"sections": [
+					{
+						"name": "Item"
+					},
+					{
+						"name": "Pink Bow from Tuscany",
+						"access_rules": ["zephyrbadge"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 580,
+						"y": 420
+					}
+				]
+			},
+			{
+				"name": "Cherrygrove City",
+				"sections": [
+					{
+						"name": "Mystic Water from Island Man",
+						"access_rules": ["$can_surf"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 460,
+						"y": 420
+					}
+				]
+			},
+			{
+				"name": "Route 30",
+				"sections": [
+					{
+						"name": "Item"
+					},
+					{
+						"name": "Berry from House"
+					},
+					{
+						"name": "Hidden Item in Flowers",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "Mystery Egg from Mr Pokemon"
+					},
+					{
+						"name": "Exp Share from Mr Pokemon",
+						"access_rules": ["redscale"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 460,
+						"y": 340
+					}
+				]
+			},
+			{
+				"name": "Route 31",
+				"sections": [
+					{
+						"name": "Item 1"
+					},
+					{
+						"name": "Item 2"
+					},
+					{
+						"name": "Deliver Kenya",
+						"access_rules": ["kenya_collected"],
+						"hosted_item": "kenya_delivered"
+					},
+					{
+						"name": "TM50 for Delivering Kenya",
+						"access_rules": ["kenya_collected"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 460,
+						"y": 260
+					}
+				]
+			},
+			{
+				"name": "Dark Cave - Violet Entrance",
+				"access_rules": ["$can_flash"],
+				"sections": [
+					{
+						"name": "Item 1"
+					},
+					{
+						"name": "Item 2",
+						"access_rules": ["$can_rocksmash"]
+					},
+					{
+						"name": "Item 3",
+						"access_rules": ["$can_rocksmash"]
+					},
+					{
+						"name": "Item 4",
+						"access_rules": ["$can_rocksmash"]
+					},
+					{
+						"name": "Hidden Item in North",
+						"access_rules": ["$can_rocksmash,$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 500,
+						"y": 260
+					}
+				]
+			},
+			{
+				"name": "Violet City",
+				"sections": [
+					{
+						"name": "Gym - Zephyr Badge from Falkner"
+					},
+					{
+						"name": "Gym - TM31 from Falkner"
+					},
+					{
+						"name": "Item 1",
+						"access_rules": ["$can_surf"]
+					},
+					{
+						"name": "Item 2",
+						"access_rules": ["$can_surf"]
+					},
+					{
+						"name": "Hidden Item Behind Cut Tree",
+						"access_rules": ["$can_cut,$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 380,
+						"y": 220
+					}
+				]
+			},
+			{
+				"name": "Sprout Tower",
+				"sections": [
+					{
+						"name": "1F - Item"
+					},
+					{
+						"name": "2F - Item"
+					},
+					{
+						"name": "3F - Item 1"
+					},
+					{
+						"name": "3F - Item 2"
+					},
+					{
+						"name": "3F - HM05 from Sage"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 380,
+						"y": 180
+					}
+				]
+			},
+			{
+				"name": "Ruins of Alph",
+				"sections": [],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 340,
+						"y": 300
+					}
+				]
+			},
+			{
+				"name": "Route 32",
+				"sections": [
+					{
+						"name": "Miracle Seed from Old Man"
+					},
+					{
+						"name": "Poison Barb from Frieda"
+					},
+					{
+						"name": "Old Rod from Pokecenter Fishing Guru"
+					},
+					{
+						"name": "TM05 from Roar Guy",
+						"access_rules": ["$can_cut"]
+					},
+					{
+						"name": "Item 1"
+					},
+					{
+						"name": "Item 2"
+					},
+					{
+						"name": "Hidden Item North of Bridge",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "Hidden Item by Frieda",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 380,
+						"y": 380
+					}
+				]
+			},
+			{
+				"name": "Union Cave",
+				"sections": [
+					{
+						"name": "1F - Item 1"
+					},
+					{
+						"name": "1F - Item 2"
+					},
+					{
+						"name": "1F - Item 3"
+					},
+					{
+						"name": "1F - Item 4"
+					},
+					{
+						"name": "B1F - Item 1"
+					},
+					{
+						"name": "B1F - Item 2"
+					},
+					{
+						"name": "B2F - Item 1",
+						"access_rules": ["$can_surf"]
+					},
+					{
+						"name": "B2F - Item 2",
+						"access_rules": ["$can_surf"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 380,
+						"y": 540
+					}
+				]
+			},
+			{
+				"name": "Slowpoke Well",
+				"sections": [
+					{
+						"name": "B1F - Item 1"
+					},
+					{
+						"name": "B2F - Item 1",
+						"access_rules": ["$can_surf,$can_strength"]
+					},
+					{
+						"name": "B2F - Kings Rock from Man",
+						"access_rules": ["$can_surf,$can_strength"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 300,
+						"y": 500
+					}
+				]
+			},
+			{
+				"name": "Azalea Town",
+				"sections": [
+					{
+						"name": "Gym - Hive Badge from Bugsy"
+					},
+					{
+						"name": "Gym - TM49 from Bugsy"
+					},
+					{
+						"name": "Lure Ball from Kurt"
+					},
+					{
+						"name": "Charcoal from Charcoal Kiln"
+					},
+					{
+						"name": "Hidden Item By Well",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 300,
+						"y": 540
+					}
+				]
+			},
+			{
+				"name": "Ilex Forest",
+				"sections": [
+					{
+						"name": "HM01 from Farfetch'd Guy"
+					},
+					{
+						"name": "TM02 from Headbutt Guy"
+					},
+					{
+						"name": "Item 1"
+					},
+					{
+						"name": "Item 2"
+					},
+					{
+						"name": "Item 3"
+					},
+					{
+						"name": "Item 4"
+					},
+					{
+						"name": "Hidden Item 1",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "Hidden Item 2",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "Hidden Item 3",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 220,
+						"y": 540
+					}
+				]
+			},
+			{
+				"name": "Route 34",
+				"sections": [
+					{
+						"name": "TM12 from Woman in Gate"
+					},
+					{
+						"name": "Soft Sand from Kate",
+						"access_rules": ["$can_surf"]
+					},
+					{
+						"name": "Item Across Water",
+						"access_rules": ["$can_surf"]
+					},
+					{
+						"name": "Hidden Item in Day-Care Yard",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "Hidden Item Across Water",
+						"access_rules": ["$can_surf,$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 220,
+						"y": 460
+					}
+				]
+			},
+			{
+				"name": "Goldenrod City",
+				"sections": [
+					{
+						"name": "Gym - Plain Badge from Whitney"
+					},
+					{
+						"name": "Gym - TM45 from Whitney"
+					},
+					{
+						"name": "Bicycle from Bike Shop"
+					},
+					{
+						"name": "Squirtbottle from Flower Shop",
+						"access_rules": ["plainbadge"]
+					},
+					{
+						"name": "Dept. Store B1F - Item 1"
+					},
+					{
+						"name": "Dept. Store B1F - Item 2"
+					},
+					{
+						"name": "Dept. Store B1F - Item 3"
+					},
+					{
+						"name": "Dept. Store B1F - Item 4"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 240,
+						"y": 360
+					}
+				]
+			},
+			{
+				"name": "Goldenrod Underground", //nologic
+				"sections": [
+					{
+						"name": "Item 1"
+					},
+					{
+						"name": "Hidden Item Between Tables",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "Hidden Item in Center",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "Hidden Item by Blue Door",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "B2F - Item 1"
+					},
+					{
+						"name": "B2F - Item 2"
+					},
+					{
+						"name": "B2F - Hidden Item 1",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "B2F - Hidden Item 2",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "Warehouse - Item 1"
+					},
+					{
+						"name": "Warehouse - Item 2"
+					},
+					{
+						"name": "Warehouse - Item 3"
+					},
+					{
+						"name": "Warehouse - Card Key from Director"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 220,
+						"y": 400
+					}
+				]
+			},
+			{
+				"name": "Radio Tower",
+				"sections": [
+					{
+						"name": "2F - Blue Card from Buena"
+					},
+					{
+						"name": "3F - TM11 from Woman",
+						"access_rules": ["tower_cleared"]
+					},
+					{
+						"name": "4F - Pink Bow from Mary",
+						"access_rules": ["tower_cleared"]
+					},
+					{
+						"name": "5F - Clear Bell from Director",
+						"access_rules": ["$tower_takeover"]
+					},
+					{
+						"name": "5F - Basement Key from Rocket Exec",
+						"access_rules": ["$tower_takeover,cardkey"]
+					},
+					{
+						"name": "5F - Item",
+						"access_rules": ["$tower_takeover,cardkey"]
+					},
+					{
+						"name": "Clear Radio Tower",
+						"access_rules": ["$tower_takeover,cardkey"],
+						"hosted_item": "tower_cleared"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 200,
+						"y": 360
+					}
+				]
+			},
+			{
+				"name": "Route 35",
+				"sections": [
+					{
+						"name": "Collect Kenya",
+						"hosted_item": "kenya_collected"
+					},
+					{
+						"name": "HP Up After Delivering Kenya",
+						"access_rules": ["kenya_delivered"]
+					},
+					{
+						"name": "Item"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 220,
+						"y": 300
+					}
+				]
+			},
+			{
+				"name": "National Park",
+				"sections": [
+					{
+						"name": "Quick Claw from Lady"
+					},
+					{
+						"name": "Item 1"
+					},
+					{
+						"name": "Item 2"
+					},
+					{
+						"name": "Hidden Item Behind Fence",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 220,
+						"y": 220
+					}
+				]
+			},
+			{
+				"name": "Route 36",
+				"sections": [
+					{
+						"name": "TM08 from Rock Smash Guy",
+						"access_rules": ["squirtbottle"]
+					},
+					{
+						"name": "Hard Stone from Arthur"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 300,
+						"y": 220
+					}
+				]
+			},
+			{
+				"name": "Route 37",
+				"access_rules": ["$ecruteak_access"],
+				"sections": [
+					{
+						"name": "Magnet from Sunny"
+					},
+					{
+						"name": "Hidden Item",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 300,
+						"y": 180
+					}
+				]
+			},
+			{
+				"name": "Ecruteak City",
+				"access_rules": ["$ecruteak_access"],
+				"sections": [
+					{
+						"name": "Gym - Fog Badge from Morty"
+					},
+					{
+						"name": "Gym - TM30 from Morty"
+					},
+					{
+						"name": "Itemfinder from Itemfinder Guy"
+					},
+					{
+						"name": "HM03 from Theater Director"
+					},
+					{
+						"name": "Hidden Item by Pond",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 300,
+						"y": 140
+					}
+				]
+			},
+			{
+				"name": "Burned Tower",
+				"access_rules": ["$ecruteak_access"],
+				"sections": [
+					{
+						"name": "1F - Item",
+						"access_rules": ["$can_rocksmash"]
+					},
+					{
+						"name": "1F - Hidden Item 1",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "1F - Hidden Item 2",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "B1F - Item",
+						"access_rules": ["$can_strength"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 260,
+						"y": 100
+					}
+				]
+			},
+			{
+				"name": "Tin Tower",
+				"access_rules": ["$tintower_access"],
+				"sections": [
+					{
+						"name": "3F - Item"
+					},
+					{
+						"name": "4F - Item 1"
+					},
+					{
+						"name": "4F - Item 2"
+					},
+					{
+						"name": "4F - Item 3"
+					},
+					{
+						"name": "4F - Hidden Item in Center",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "5F - Item"
+					},
+					{
+						"name": "5F - Hidden Item in Southeast",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "5F - Hidden Item in Southwest",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "6F - Item"
+					},
+					{
+						"name": "7F - Item"
+					},
+					{
+						"name": "8F - Item 1"
+					},
+					{
+						"name": "8F - Item 2"
+					},
+					{
+						"name": "8F - Item 3"
+					},
+					{
+						"name": "9F - Item"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 300,
+						"y": 100
+					}
+				]
+			},
+			{
+				"name": "Route 38",
+				"access_rules": ["$ecruteak_access"],
+				"sections": [],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 220,
+						"y": 140
+					}
+				]
+			},
+			{
+				"name": "Route 39",
+				"access_rules": ["$ecruteak_access"],
+				"sections": [
+					{
+						"name": "Moomoo Farm - TM13 After Feeding Moomoo"
+					},
+					{
+						"name": "Hidden Item Between Miltank",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 140,
+						"y": 140
+					}
+				]
+			},
+			{
+				"name": "Olivine City",
+				"access_rules": ["$ecruteak_access"],
+				"sections": [
+					{
+						"name": "Gym - Mineral Badge from Jasmine",
+						"access_rules": ["jasmine_returned"]
+					},
+					{
+						"name": "Gym - TM23 from Jasmine",
+						"access_rules": ["jasmine_returned"]
+					},
+					{
+						"name": "HM04 from Sailor in Cafe"
+					},
+					{
+						"name": "Good Rod from Fishing Guru"
+					},
+					{
+						"name": "Port - Hidden Item in Southeast Buoy",
+						"access_rules": ["ssticket,$can_surf,$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 140,
+						"y": 220
+					}
+				]
+			},
+			{
+				"name": "Olivine Lighthouse",
+				"access_rules": ["$ecruteak_access"],
+				"sections": [
+					{
+						"name": "3F - Item"
+					},
+					{
+						"name": "5F - Item 1"
+					},
+					{
+						"name": "5F - Item 2"
+					},
+					{
+						"name": "5F - Item 3"
+					},
+					{
+						"name": "5F - Hidden Item",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "6F - Item"
+					},
+					{
+						"name": "Heal Amphy",
+						"access_rules": ["secretpotion"],
+						"hosted_item": "jasmine_returned"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 180,
+						"y": 220
+					}
+				]
+			},
+			{
+				"name": "S.S. Aqua",
+				"access_rules": ["$ecruteak_access,ssticket"],
+				"sections": [
+					{
+						"name": "Metal Coat from Grandpa"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 140,
+						"y": 260
+					},
+					{
+						"map": "johtokanto",
+						"x": 1180,
+						"y": 380
+					}
+				]
+			},
+			{
+				"name": "Route 40",
+				"access_rules": ["$ecruteak_access"],
+				"sections": [
+					{
+						"name": "Sharp Beak from Monica"
+					},
+					{
+						"name": "Hidden Item in Rock",
+						"access_rules": ["$can_rocksmash,$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 100,
+						"y": 260
+					}
+				]
+			},
+			{
+				"name": "Whirl Islands",
+				"access_rules": ["$cianwood_access,$can_whirlpool,$can_flash"],
+				"sections": [
+					{
+						"name": "1F - Item in Northeast"
+					},
+					{
+						"name": "1F - Item in Southwest"
+					},
+					{
+						"name": "B1F - Item 1"
+					},
+					{
+						"name": "B1F - Item 2"
+					},
+					{
+						"name": "B1F - Item 3"
+					},
+					{
+						"name": "B1F - Item 4"
+					},
+					{
+						"name": "B1F - Item 5"
+					},
+					{
+						"name": "B1F - Hiddden Item in Northeast"
+					},
+					{
+						"name": "B1F - Hiddden Item in Northwest"
+					},
+					{
+						"name": "B1F - Hiddden Item on Boulder in West"
+					},
+					{
+						"name": "B2F - Item 1"
+					},
+					{
+						"name": "B2F - Item 2"
+					},
+					{
+						"name": "B2F - Item 3"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 100,
+						"y": 380
+					}
+				]
+			},
+			{
+				"name": "Cianwood City",
+				"access_rules": ["$cianwood_access"],
+				"sections": [
+					{
+						"name": "Gym - Storm Badge from Chuck",
+						"access_rules": ["$can_strength"]
+					},
+					{
+						"name": "Gym - TM01 from Chuck",
+						"access_rules": ["$can_strength"]
+					},
+					{
+						"name": "HM02 from Chuck's Wife",
+						"access_rules": ["$can_strength"]
+					},
+					{
+						"name": "Secretpotion from Pharmacy"
+					},
+					{
+						"name": "Hidden Item in North Rock",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "Hidden Item in West Rock",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 60,
+						"y": 420
+					}
+				]
+			},
+			{
+				"name": "Route 42",
+				"access_rules": ["$ecruteak_access"],
+				"sections": [
+					{
+						"name": "Item 1",
+						"access_rules": ["$can_surf"]
+					},
+					{
+						"name": "Item 2"
+					},
+					{
+						"name": "Hidden Item in Pond Rock",
+						"access_rules": ["$can_surf,$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 380,
+						"y": 140
+					}
+				]
+			},
+			{
+				"name": "Mount Mortar",
+				"access_rules": ["$ecruteak_access"],
+				"sections": [
+					{
+						"name": "1F Outside - Item Up West Ladder"
+					},
+					{
+						"name": "1F Outside - Item Up East Ladder"
+					},
+					{
+						"name": "1F Inside - Item 1",
+						"access_rules": ["$can_strength"]
+					},
+					{
+						"name": "1F Inside - Item 2",
+						"access_rules": ["$can_strength"]
+					},
+					{
+						"name": "1F Inside - Item 3"
+					},
+					{
+						"name": "1F Inside - Item 4"
+					},
+					{
+						"name": "1F Inside - Item 5"
+					},
+					{
+						"name": "1F Inside - Item 6",
+						"access_rules": ["$can_strength"]
+					},
+					{
+						"name": "1F Inside - Item 7",
+						"access_rules": ["$can_strength"]
+					},
+					{
+						"name": "1F Inside - Hidden Item",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "2F Inside - Item 1"
+					},
+					{
+						"name": "2F Inside - Item 2"
+					},
+					{
+						"name": "2F Inside - Item 3"
+					},
+					{
+						"name": "2F Inside - Item 4"
+					},
+					{
+						"name": "2F Inside - Item 5"
+					},
+					{
+						"name": "2F Inside - Item 6"
+					},
+					{
+						"name": "B1F - Item 1"
+					},
+					{
+						"name": "B1F - Item 2"
+					},
+					{
+						"name": "B1F - Item 3"
+					},
+					{
+						"name": "B1F - Item 4"
+					},
+					{
+						"name": "B1F - Item 5"
+					},
+					{
+						"name": "B1F - Hidden Item on Boulder",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 380,
+						"y": 100
+					}
+				]
+			},
+			{
+				"name": "Mahogany Town",
+				"access_rules": ["$ecruteak_access"],
+				"sections": [
+					{
+						"name": "Gym - Glacier Badge from Pryce",
+						"access_rules": ["hideout_cleared"]
+					},
+					{
+						"name": "Gym - TM16 from Pryce",
+						"access_rules": ["hideout_cleared"]
+					},
+					{
+						"name": "Rocket HQ B1F - Item 1",
+						"access_rules": ["help_lance"]
+					},
+					{
+						"name": "Rocket HQ B1F - Item 2",
+						"access_rules": ["help_lance"]
+					},
+					{
+						"name": "Rocket HQ B1F - Item 3",
+						"access_rules": ["help_lance"]
+					},
+					{
+						"name": "Rocket HQ B1F - Hidden Item in West",
+						"access_rules": ["help_lance,$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "Rocket HQ B2F - Item",
+						"access_rules": ["help_lance"]
+					},
+					{
+						"name": "Rocket HQ B2F - HM06 from Lance",
+						"access_rules": ["help_lance"]
+					},
+					{
+						"name": "Rocket HQ B2F - Hidden Item",
+						"access_rules": ["help_lance,$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "Rocket HQ B3F - Item 1",
+						"access_rules": ["help_lance"]
+					},
+					{
+						"name": "Rocket HQ B3F - Item 2",
+						"access_rules": ["help_lance"]
+					},
+					{
+						"name": "Rocket HQ B3F - Item 3",
+						"access_rules": ["help_lance"]
+					},
+					{
+						"name": "Rocket HQ B3F - Item 4",
+						"access_rules": ["help_lance"]
+					},
+					{
+						"name": "Rocket HQ B3F - Item 5",
+						"access_rules": ["help_lance"]
+					},
+					{
+						"name": "Clear Rocket HQ",
+						"access_rules": ["help_lance"],
+						"hosted_item": "hideout_cleared"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 500,
+						"y": 140
+					}
+				]
+			},
+			{
+				"name": "Route 43",
+				"access_rules": ["$ecruteak_access"],
+				"sections": [
+					{
+						"name": "Sludge Bomb from Guard in Gate",
+						"access_rules": ["hideout_cleared"]
+					},
+					{
+						"name": "Item"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 500,
+						"y": 100
+					}
+				]
+			},
+			{
+				"name": "Lake of Rage",
+				"access_rules": ["$ecruteak_access"],
+				"sections": [
+					{
+						"name": "TM10 from Hidden Power House",
+						"access_rules": ["$can_cut"]
+					},
+					{
+						"name": "Blackbelt from Wesley",
+						"access_rules": ["$can_cut"]
+					},
+					{
+						"name": "Red Scale from Gyarados",
+						"access_rules": ["$can_surf"]
+					},
+					{
+						"name": "Item 1",
+						"access_rules": ["$can_cut"]
+					},
+					{
+						"name": "Item 2",
+						"access_rules": ["$can_cut"]
+					},
+					{
+						"name": "Hidden Item in West Path",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "Hidden Item Behind Cut Tree",
+						"access_rules": ["$can_cut,$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "Hidden Item in Northeast",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "Help Lance",
+						"access_rules": ["$can_surf"],
+						"hosted_item": "help_lance"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 500,
+						"y": 60
+					}
+				]
+			},
+			{
+				"name": "Route 44",
+				"access_rules": ["$icepath_access"],
+				"sections": [
+					{
+						"name": "Item 1"
+					},
+					{
+						"name": "Item 2",
+						"access_rules": ["$can_surf"]
+					},
+					{
+						"name": "Item 3"
+					},
+					{
+						"name": "Hidden Item Across Water",
+						"access_rules": ["$can_surf,$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 540,
+						"y": 140
+					}
+				]
+			},
+			{
+				"name": "Ice Path", //nologic
+				"access_rules": ["$icepath_access"],
+				"sections": [
+					{
+						"name": "1F - HM07 in Itemball"
+					},
+					{
+						"name": "1F - Item 1"
+					},
+					{
+						"name": "1F - Item 2"
+					},
+					{
+						"name": "B1F - Item"
+					},
+					{
+						"name": "B1F - Hidden Item on Boulder",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "B2F - Item 1"
+					},
+					{
+						"name": "B2F - Item 2"
+					},
+					{
+						"name": "B2F - Item 3"
+					},
+					{
+						"name": "B2F - Hidden Item in Corner",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "B2F - Hidden Item on Boulder",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "B3F - Item"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 620,
+						"y": 100
+					}
+				]
+			},
+			{
+				"name": "Blackthorn City",
+				"access_rules": ["$blackthorn_access"],
+				"sections": [
+					{
+						"name": "Gym - Rising Badge from Clair",
+						"access_rules": ["tower_cleared"]
+					},
+					{
+						"name": "Gym - TM24 from Clair",
+						"access_rules": ["tower_cleared"]
+					},
+					{
+						"name": "Spell Tag from Santos"
+					},
+					{
+						"name": "Dragon's Den B1F - Item 1",
+						"access_rules": ["$can_surf,tower_cleared"]
+					},
+					{
+						"name": "Dragon's Den B1F - Item 2",
+						"access_rules": ["$can_surf,tower_cleared"]
+					},
+					{
+						"name": "Dragon's Den B1F - Item 3",
+						"access_rules": ["$can_surf,tower_cleared"]
+					},
+					{
+						"name": "Dragon's Den B1F - Hidden Item in SE Corner",
+						"access_rules": ["$can_surf,tower_cleared,$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "Dragon's Den B1F - Hidden Item in Water 1",
+						"access_rules": ["$can_surf,tower_cleared,$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "Dragon's Den B1F - Hidden Item in Water 2",
+						"access_rules": ["$can_surf,tower_cleared,$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 620,
+						"y": 140
+					}
+				]
+			},
+			{
+				"name": "Dark Cave - Blackthorn Entrance",
+				"access_rules": ["$blackthorn_access,$can_flash"],
+				"sections": [
+					{
+						"name": "Blackglasses from Man"
+					},
+					{
+						"name": "Item 1"
+					},
+					{
+						"name": "Item 2"
+					},
+					{
+						"name": "Item 3"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 580,
+						"y": 220
+					}
+				]
+			},
+			{
+				"name": "Route 45",
+				"access_rules": ["$blackthorn_access"],
+				"sections": [
+					{
+						"name": "Item 1"
+					},
+					{
+						"name": "Item 2"
+					},
+					{
+						"name": "Item 3"
+					},
+					{
+						"name": "Item 4"
+					},
+					{
+						"name": "Hidden Item in Southeast Pond",
+						"access_rules": ["$can_surf,$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 620,
+						"y": 260
+					}
+				]
+			},
+			{
+				"name": "Route 46",
+				"access_rules": ["$blackthorn_access"],
+				"sections": [
+					{
+						"name": "Item"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 580,
+						"y": 340
+					}
+				]
+			},
+			{
+				"name": "Route 27",
+				"sections": [
+					{
+						"name": "Sandstorm from Woman in House",
+						"access_rules": ["$can_waterfall"]
+					},
+					{
+						"name": "Item 1",
+						"access_rules": ["$can_surf"]
+					},
+					{
+						"name": "Item 2",
+						"access_rules": ["$can_whirlpool,$can_waterfall"]
+					},
+					{
+						"name": "Tohjo Falls - Item",
+						"access_rules": ["$can_surf"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 740,
+						"y": 420
+					}
+				]
+			},
+			{
+				"name": "Route 26",
+				"access_rules": ["$can_waterfall"],
+				"sections": [
+					{
+						"name": "Item"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 820,
+						"y": 380
+					}
+				]
+			},
+			{
+				"name": "Victory Road",
+				"access_rules": ["$victoryroad_access"],
+				"sections": [
+					{
+						"name": "1F - Item 1"
+					},
+					{
+						"name": "1F - Item 2"
+					},
+					{
+						"name": "1F - Hidden Item on Southwest Boulder",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "2F - Item 1"
+					},
+					{
+						"name": "2F - Item 2"
+					},
+					{
+						"name": "2F - Item 3"
+					},
+					{
+						"name": "2F - Hidden Item on Northwest Boulder",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 820,
+						"y": 180
+					}
+				]
+			},
+			{
+				"name": "Indigo Plateau",
+				"access_rules": ["$victoryroad_access"],
+				"sections": [
+					{
+						"name": "Become Champion",
+						"hosted_item": "become_champion"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 820,
+						"y": 100
+					}
+				]
+			},
+			{
+				"name": "Route 28",
+				"access_rules": ["$red_access"],
+				"sections": [
+					{
+						"name": "Steel Wing from from Celebrity in House"
+					},
+					{
+						"name": "Hidden Item Behind Cut Tree",
+						"access_rules": ["$can_cut,$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 780,
+						"y": 260
+					}
+				]
+			},
+			{
+				"name": "Silver Cave",
+				"access_rules": ["$red_access"],
+				"sections": [
+					{
+						"name": "Outside - Hidden Item Across Water",
+						"access_rules": ["$can_surf,$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "1F - Item 1"
+					},
+					{
+						"name": "1F - Item 2"
+					},
+					{
+						"name": "1F - Item 3"
+					},
+					{
+						"name": "1F - Item 4"
+					},
+					{
+						"name": "1F - Hidden Item 1",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "1F - Hidden Item 2",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "2F - Item 1",
+						"access_rules": ["$can_waterfall"]
+					},
+					{
+						"name": "2F - Item 2",
+						"access_rules": ["$can_waterfall"]
+					},
+					{
+						"name": "2F - Item 3"
+					},
+					{
+						"name": "2F - Chambers Item 1",
+						"access_rules": ["$can_waterfall"]
+					},
+					{
+						"name": "2F - Chambers Item 2",
+						"access_rules": ["$can_waterfall"]
+					},
+					{
+						"name": "2F - Hidden Item",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "Defeat Red",
+						"hosted_item": "defeat_red"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 700,
+						"y": 260
+					}
+				]
+			},
+			{
+				"name": "Route 22",
+				"sections": [],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 860,
+						"y": 260
+					}
+				]
+			},
+			{
+				"name": "Viridian City",
+				"access_rules": ["$viridian_access"],
+				"sections": [
+					{
+						"name": "Gym - Earth Badge from Blue",
+						"access_rules": ["blue_returned"]
+					},
+					{
+						"name": "TM42 from Sleepy Guy",
+						"access_rules": ["$can_surf"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 940,
+						"y": 300
+					}
+				]
+			},
+			{
+				"name": "Route 1",
+				"access_rules": ["$viridian_access"],
+				"sections": [],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 940,
+						"y": 380
+					}
+				]
+			},
+			{
+				"name": "Pallet Town",
+				"access_rules": ["$viridian_access"],
+				"sections": [],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 940,
+						"y": 460
+					}
+				]
+			},
+			{
+				"name": "Route 2", //nologic
+				"access_rules": ["$viridian_access"],
+				"sections": [
+					{
+						"name": "Nugget from Guy"
+					},
+					{
+						"name": "Item 1"
+					},
+					{
+						"name": "Item 2"
+					},
+					{
+						"name": "Item 3"
+					},
+					{
+						"name": "Item 4"
+					},
+					{
+						"name": "Hidden Item 1",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "Hidden Item 2",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "Hidden Item 3",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "Hidden Item 4",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 940,
+						"y": 260
+					}
+				]
+			},
+			{
+				"name": "Pewter City",
+				"access_rules": ["$viridian_access"],
+				"sections": [
+					{
+						"name": "Gym - Boulder Badge from Brock"
+					},
+					{
+						"name": "Silver Wing from Old Man"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 940,
+						"y": 180
+					}
+				]
+			},
+			{
+				"name": "Route 3",
+				"access_rules": ["$viridian_access"],
+				"sections": [],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 1060,
+						"y": 180
+					}
+				]
+			},
+			{
+				"name": "Mt. Moon",
+				"access_rules": ["$viridian_access"],
+				"sections": [],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 1060,
+						"y": 140
+					}
+				]
+			},
+			{
+				"name": "Route 4",
+				"access_rules": ["$viridian_access"],
+				"sections": [
+					{
+						"name": "Item"
+					},
+					{
+						"name": "Hidden Item on Plateau",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 1100,
+						"y": 180
+					}
+				]
+			},
+			{
+				"name": "Cerulean City",
+				"access_rules": ["$saffron_access"],
+				"sections": [
+					{
+						"name": "Gym - Cascade Badge from Misty"
+					},
+					{
+						"name": "Gym - Machine Part in Water"
+					},
+					{
+						"name": "Hidden Item in Water",
+						"access_rules": ["$can_surf"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 1180,
+						"y": 180
+					}
+				]
+			},
+			{
+				"name": "Route 24",
+				"access_rules": ["$saffron_access"],
+				"sections": [],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 1180,
+						"y": 100
+					}
+				]
+			},
+			{
+				"name": "Route 25",
+				"access_rules": ["$saffron_access"],
+				"sections": [
+					{
+						"name": "Nugget Bridge Prize"
+					},
+					{
+						"name": "Item Behind Cut Tree",
+						"access_rules": ["$can_cut"]
+					},
+					{
+						"name": "Hidden Item in Tree",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 1260,
+						"y": 100
+					}
+				]
+			},
+			{
+				"name": "Route 9",
+				"access_rules": ["$saffron_access,$can_cut"],
+				"sections": [
+					{
+						"name": "Hidden Item in Southeast Corner",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 1260,
+						"y": 180
+					}
+				]
+			},
+			{
+				"name": "Rock Tunnel",
+				"access_rules": ["$saffron_access,$can_flash"],
+				"sections": [
+					{
+						"name": "1F - Item 1"
+					},
+					{
+						"name": "1F - Item 2"
+					},
+					{
+						"name": "B1F - Hidden Item 1",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "B1F - Hidden Item 2",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "B1F - Item 1"
+					},
+					{
+						"name": "B1F - Item 2"
+					},
+					{
+						"name": "B1F - Item 3"
+					},
+					{
+						"name": "B1F - Hidden Item",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 1340,
+						"y": 180
+					}
+				]
+			},
+			{
+				"name": "Power Plant",
+				"access_rules": ["$powerplant_access"],
+				"sections": [
+					{
+						"name": "TM07 from Manager",
+						"access_rules": ["machinepart"]
+					},
+					{
+						"name": "Restore Power to Kanto",
+						"access_rules": ["machinepart"],
+						"hosted_item": "restored_power"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 1380,
+						"y": 220
+					}
+				]
+			},
+			{
+				"name": "Lavendar Town",
+				"access_rules": ["$saffron_access"],
+				"sections": [
+					{
+						"name": "Radio Tower - EXPN Card",
+						"access_rules": ["restored_power"],
+						"hosted_item": "expncard"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 1340,
+						"y": 260
+					}
+				]
+			},
+			{
+				"name": "Route 8",
+				"access_rules": ["$saffron_access"],
+				"sections": [],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 1260,
+						"y": 260
+					}
+				]
+			},
+			{
+				"name": "Saffron City",
+				"access_rules": ["$saffron_access"],
+				"sections": [
+					{
+						"name": "Gym - Marsh Badge from Sabrina"
+					},
+					{
+						"name": "TM29 from Mr Psychic"
+					},
+					{
+						"name": "Pass from Copycat",
+						"access_rules": ["lostitem"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 1180,
+						"y": 260
+					}
+				]
+			},
+			{
+				"name": "Celadon City",
+				"access_rules": ["$saffron_access"],
+				"sections": [
+					{
+						"name": "Gym - Rainbow Badge from Erika",
+						"access_rules": ["$can_cut"]
+					},
+					{
+						"name": "Gym - TM19 from Erika",
+						"access_rules": ["$can_cut"]
+					},
+					{
+						"name": "TM03 from Man in Mansion Roof"
+					},
+					{
+						"name": "Hidden Item At Dead End",
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 1060,
+						"y": 260
+					}
+				]
+			},
+			{
+				"name": "Route 17",
+				"access_rules": ["$saffron_access,bicycle"],
+				"sections": [
+					{
+						"name": "Hidden Item at Corner",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "Hidden Item in Fence",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 1020,
+						"y": 380
+					}
+				]
+			},
+			{
+				"name": "Vermilion City",
+				"access_rules": ["$saffron_access"],
+				"sections": [
+					{
+						"name": "Gym - Thunder Badge from Lt. Surge",
+						"access_rules": ["$can_cut", "$can_surf"]
+					},
+					{
+						"name": "Lost Item from Guy in Fan Club",
+						"access_rules": ["restored_power"]
+					},
+					{
+						"name": "Rare Candy from Fan Club President"
+					},
+					{
+						"name": "HP Up from Lance",
+						"access_rules": ["$red_access"]
+					},
+					{
+						"name": "Hidden Item by Gym",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "Port - Hidden Item in Buoy",
+						"access_rules": ["ssticket,$can_surf,$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 1180,
+						"y": 340
+					}
+				]
+			},
+			{
+				"name": "Diglett's Cave",
+				"access_rules": ["$viridian_access"],
+				"sections": [
+					{
+						"name": "Hidden Item on Boulder",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 1220,
+						"y": 300
+					}
+				]
+			},
+			{
+				"name": "Route 11",
+				"access_rules": ["$saffron_access"],
+				"sections": [
+					{
+						"name": "Hidden Item in Tree",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 1260,
+						"y": 340
+					}
+				]
+			},
+			{
+				"name": "Route 12",
+				"access_rules": ["$saffron_access"],
+				"sections": [
+					{
+						"name": "Super Rod from Fishing Guru"
+					},
+					{
+						"name": "Item 1",
+						"access_rules": ["$can_cut"]
+					},
+					{
+						"name": "Item 2",
+						"access_rules": ["$can_cut,$can_surf"]
+					},
+					{
+						"name": "Hidden Item on Island",
+						"access_rules": ["$can_surf,$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 1340,
+						"y": 340
+					}
+				]
+			},
+			{
+				"name": "Route 13",
+				"access_rules": ["$saffron_access"],
+				"sections": [
+					{
+						"name": "Hidden Item in Fence Maze",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 1300,
+						"y": 420
+					}
+				]
+			},
+			{
+				"name": "Route 14",
+				"access_rules": ["$saffron_access"],
+				"sections": [],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 1260,
+						"y": 460
+					}
+				]
+			},
+			{
+				"name": "Route 15",
+				"access_rules": ["$saffron_access"],
+				"sections": [
+					{
+						"name": "Item",
+						"access_rules": ["$can_cut"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 1220,
+						"y": 500
+					}
+				]
+			},
+			{
+				"name": "Fuchsia City",
+				"access_rules": ["$saffron_access"],
+				"sections": [
+					{
+						"name": "Gym - Soul Badge from Janine"
+					},
+					{
+						"name": "Gym - TM06 from Janine"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 1140,
+						"y": 500
+					}
+				]
+			},
+			{
+				"name": "Route 19",
+				"access_rules": ["$saffron_access"],
+				"sections": [],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 1100,
+						"y": 580
+					}
+				]
+			},
+			{
+				"name": "Seafoam Islands",
+				"access_rules": ["$viridian_access,$can_surf"],
+				"sections": [
+					{
+						"name": "Gym - Volcano Badge from Blaine"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 1020,
+						"y": 580
+					}
+				]
+			},
+			{
+				"name": "Cinnabar Island",
+				"access_rules": ["$viridian_access,$can_surf"],
+				"sections": [
+					{
+						"name": "Blue Returns to Gym",
+						"hosted_item": "blue_returned"
+					},
+					{
+						"name": "Hidden Item in North",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 940,
+						"y": 580
+					}
+				]
+			}
+		]
+	}
+]
