@@ -8,6 +8,48 @@
 					"type": "map",
 					"maps": ["johtokanto"]
 				}
+			},
+			{
+				"title": "Dark Cave",
+				"content": {
+					"type": "map",
+					"maps": ["darkcave"]
+				}
+			},
+			{
+				"title": "Union Cave",
+				"content": {
+					"type": "map",
+					"maps": ["unioncave"]
+				}
+			},
+			{
+				"title": "Mt. Mortar",
+				"content": {
+					"type": "map",
+					"maps": ["mtmortar"]
+				}
+			},
+			{
+				"title": "Ice Path",
+				"content": {
+					"type": "map",
+					"maps": ["icepath"]
+				}
+			},
+			{
+				"title": "Whirl Islands",
+				"content": {
+					"type": "map",
+					"maps": ["whirlislands"]
+				}
+			},
+			{
+				"title": "Silver Cave",
+				"content": {
+					"type": "map",
+					"maps": ["silvercave"]
+				}
 			}
 		]
 	}
