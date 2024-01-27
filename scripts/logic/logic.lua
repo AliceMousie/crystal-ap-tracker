@@ -26,7 +26,7 @@ end
 -- end
 
 function hid()
-	return (has("itemfinder") or has("op_if_off"))
+	return (has("itemfinder") or has("reqitemfinder_off"))
 end
 
 function can_cut()
