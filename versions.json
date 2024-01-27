@@ -1,0 +1,10 @@
+{
+	"versions": [
+		{
+			"package_version": "0.0.1",
+			"download_url": "https://codeload.github.com/AliceMousie/crystal-ap-tracker/zip/refs/tags/v0.0.1",
+			"sha256": "36980be5dd894a2de1d0e994c2f4e5a8893144d1a67841e84f32716105b805b9",
+			"changelog": ["Initial release!"]
+		}
+	]
+}
