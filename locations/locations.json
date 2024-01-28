@@ -229,7 +229,8 @@
 				"name": "Route 32",
 				"sections": [
 					{
-						"name": "Miracle Seed from Man in North"
+						"name": "Miracle Seed from Man in North",
+						"access_rules": ["zephyrbadge"]
 					},
 					{
 						"name": "Poison Barb from Frieda"
