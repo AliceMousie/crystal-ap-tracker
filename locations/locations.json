@@ -1899,7 +1899,8 @@
 					},
 					{
 						"name": "Hidden Item in Water",
-						"access_rules": ["$can_surf"]
+						"access_rules": ["$can_surf,$hid"],
+						"visibility_rules": ["hiddenitems_on"]
 					}
 				],
 				"map_locations": [
