@@ -239,7 +239,7 @@ LOCATION_MAPPING = {
 	[1666] = "@JohtoKanto/Mount Mortar/2F - Item 5",
 	[1667] = "@JohtoKanto/Mount Mortar/2F - Item 6",
 	[1668] = "@JohtoKanto/Mount Mortar/2F - Item 1",
-	[1669] = "@JohtoKanto/Mount Mortar/2F - Item 1",
+	[1669] = "@JohtoKanto/Mount Mortar/2F - Item 2",
 	[1670] = "@JohtoKanto/Mount Mortar/2F - Item 3",
 	[1671] = "@JohtoKanto/Mount Mortar/B1F - Item 3",
 	[1672] = "@JohtoKanto/Mount Mortar/B1F - Item 1",
@@ -334,5 +334,5 @@ LOCATION_MAPPING = {
 	[1996] = "@JohtoKanto/Mount Mortar/B1F - Item 4",
 	[1997] = "@JohtoKanto/Mount Mortar/B1F - Item 5",
 	[1998] = "@JohtoKanto/Radio Tower/5F - Item",
-	[1999] = "@JohtoKanto/Dark Cave Violet Entrance/Item 1",
+	[1999] = "@JohtoKanto/Dark Cave Violet Entrance/Item 1"
 }

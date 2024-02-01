@@ -509,7 +509,7 @@
 					},
 					{
 						"name": "B2F - Hidden Item 2",
-						"access_rules": ["$hid"],
+						"access_rules": ["$hid,cardkey", "$hid,basementkey"],
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
@@ -938,7 +938,9 @@
 				"access_rules": ["$cianwood_access,$can_whirlpool"],
 				"sections": [
 					{
-						"name": "Hidden Item on Southwest Island"
+						"name": "Hidden Item on Southwest Island",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
 						"name": "1F - Item in Northeast",
@@ -1933,7 +1935,7 @@
 					{
 						"map": "johtokanto",
 						"x": 1180,
-						"y": 100
+						"y": 220
 					}
 				]
 			},
