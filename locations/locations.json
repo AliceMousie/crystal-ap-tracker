@@ -128,7 +128,8 @@
 				"access_rules": ["$can_flash"],
 				"sections": [
 					{
-						"name": "Item 1"
+						"name": "Item 1",
+						"access_rules": ["$can_rocksmash"]
 					},
 					{
 						"name": "Item 2",
@@ -139,8 +140,7 @@
 						"access_rules": ["$can_rocksmash"]
 					},
 					{
-						"name": "Item 4",
-						"access_rules": ["$can_rocksmash"]
+						"name": "Item 4"
 					},
 					{
 						"name": "Hidden Item in North",
