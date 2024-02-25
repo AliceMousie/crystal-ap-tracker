@@ -1,7 +1,7 @@
 ITEM_MAPPING = {
 	[7] = "bicycle",
 	[52] = "itemfinder",
-	[63] = "itemfinder",
+	[63] = "redscale",
 	[64] = "secretpotion",
 	[65] = "ssticket",
 	[66] = "mysteryegg",

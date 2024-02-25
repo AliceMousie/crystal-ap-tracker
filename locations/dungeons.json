@@ -1,1 +1,1172 @@
-[]
+[
+	{
+		"name": "Dungeons",
+		"chest_unopened_img": "/images/items/pokeball.png",
+		"chest_opened_img": "/images/items/pokeball_open.png",
+		"children": [
+			{
+				"name": "",
+				"sections": [
+					{
+						"name": "Violet Entrace Item 1",
+						"ref": "JohtoKanto/Dark Cave Violet Entrance/Item 1"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "darkcave",
+						"x": 488,
+						"y": 456
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"name": "Violet Entrace Item 2",
+						"ref": "JohtoKanto/Dark Cave Violet Entrance/Item 2"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "darkcave",
+						"x": 584,
+						"y": 360
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"name": "Violet Entrace Item 3",
+						"ref": "JohtoKanto/Dark Cave Violet Entrance/Item 3"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "darkcave",
+						"x": 568,
+						"y": 152
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"name": "Violet Entrace Item 4",
+						"ref": "JohtoKanto/Dark Cave Violet Entrance/Item 4"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "darkcave",
+						"x": 104,
+						"y": 136
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"name": "Violet Entrace Hidden Item",
+						"ref": "JohtoKanto/Dark Cave Violet Entrance/Hidden Item in North"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "darkcave",
+						"x": 424,
+						"y": 56
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"name": "Blackthorn Entrance Item 1",
+						"ref": "JohtoKanto/Dark Cave Blackthorn Entrance/Item 1"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "darkcave",
+						"x": 984,
+						"y": 392
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"name": "Blackthorn Entrance Item 2",
+						"ref": "JohtoKanto/Dark Cave Blackthorn Entrance/Item 2"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "darkcave",
+						"x": 760,
+						"y": 360
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"name": "Blackthorn Entrance Blackglasses from Man",
+						"ref": "JohtoKanto/Dark Cave Blackthorn Entrance/Blackglasses from Man"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "darkcave",
+						"x": 760,
+						"y": 56
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Union Cave/1F - Item 1"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "unioncave",
+						"x": 200,
+						"y": 536
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Union Cave/1F - Item 2"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "unioncave",
+						"x": 280,
+						"y": 344
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Union Cave/1F - Item 3"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "unioncave",
+						"x": 72,
+						"y": 280
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Union Cave/1F - Item 4"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "unioncave",
+						"x": 72,
+						"y": 40
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Union Cave/B1F - Item 1"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "unioncave",
+						"x": 360,
+						"y": 264
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Union Cave/B1F - Item 2"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "unioncave",
+						"x": 600,
+						"y": 376
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Union Cave/B2F - Item 1"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "unioncave",
+						"x": 904,
+						"y": 40
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Union Cave/B2F - Item 2"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "unioncave",
+						"x": 840,
+						"y": 312
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Mount Mortar/1F Outside - Item Up West Ladder"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mtmortar1f",
+						"x": 216,
+						"y": 248
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Mount Mortar/1F Outside - Item Up East Ladder"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mtmortar1f",
+						"x": 504,
+						"y": 296
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Mount Mortar/1F Outside - Hidden Item"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mtmortar1f",
+						"x": 408,
+						"y": 360
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Mount Mortar/1F Inside - Item 1"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mtmortar1f",
+						"x": 1208,
+						"y": 616
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Mount Mortar/1F Inside - Item 2"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mtmortar1f",
+						"x": 808,
+						"y": 440
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Mount Mortar/1F Inside - Item 3"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mtmortar1f",
+						"x": 776,
+						"y": 296
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Mount Mortar/1F Inside - Item 4"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mtmortar1f",
+						"x": 1000,
+						"y": 328
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Mount Mortar/1F Inside - Item 5"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mtmortar1f",
+						"x": 904,
+						"y": 168
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Mount Mortar/1F Inside - Item 6"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mtmortar1f",
+						"x": 1208,
+						"y": 312
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Mount Mortar/1F Inside - Item 7"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mtmortar1f",
+						"x": 920,
+						"y": 280
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Mount Mortar/1F Inside - Hidden Item"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mtmortar1f",
+						"x": 1128,
+						"y": 184
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Mount Mortar/2F - Item 1"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mtmortar2fb1f",
+						"x": 264,
+						"y": 88
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Mount Mortar/2F - Item 2"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mtmortar2fb1f",
+						"x": 152,
+						"y": 184
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Mount Mortar/2F - Item 3"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mtmortar2fb1f",
+						"x": 456,
+						"y": 88
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Mount Mortar/2F - Item 4"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mtmortar2fb1f",
+						"x": 456,
+						"y": 360
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Mount Mortar/2F - Item 5"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mtmortar2fb1f",
+						"x": 40,
+						"y": 536
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Mount Mortar/2F - Item 6"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mtmortar2fb1f",
+						"x": 312,
+						"y": 280
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Mount Mortar/2F - Hidden Item"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mtmortar2fb1f",
+						"x": 392,
+						"y": 136
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Mount Mortar/B1F - Item 1"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mtmortar2fb1f",
+						"x": 712,
+						"y": 264
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Mount Mortar/B1F - Item 2"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mtmortar2fb1f",
+						"x": 1192,
+						"y": 392
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Mount Mortar/B1F - Item 3"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mtmortar2fb1f",
+						"x": 1112,
+						"y": 200
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Mount Mortar/B1F - Item 4"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mtmortar2fb1f",
+						"x": 1160,
+						"y": 56
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Mount Mortar/B1F - Item 5"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mtmortar2fb1f",
+						"x": 984,
+						"y": 424
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Mount Mortar/B1F - Hidden Item on Boulder"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "mtmortar2fb1f",
+						"x": 712,
+						"y": 104
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Ice Path/1F - HM07 in Itemball"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "icepath",
+						"x": 504,
+						"y": 120
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Ice Path/1F - Item 1"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "icepath",
+						"x": 520,
+						"y": 376
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Ice Path/1F - Item 2"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "icepath",
+						"x": 568,
+						"y": 152
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Ice Path/B1F - Item"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "icepath",
+						"x": 732,
+						"y": 568
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Ice Path/B1F - Hidden Item on Boulder"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "icepath",
+						"x": 924,
+						"y": 488
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Ice Path/B2F - Item 1"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "icepath",
+						"x": 976,
+						"y": 40
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Ice Path/B2F - Item 2"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "icepath",
+						"x": 1104,
+						"y": 152
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Ice Path/B2F - Item 3"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "icepath",
+						"x": 1428,
+						"y": 264
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Ice Path/B2F - Hidden Item in Corner"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "icepath",
+						"x": 976,
+						"y": 280
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Ice Path/B2F - Hidden Item on Boulder"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "icepath",
+						"x": 1332,
+						"y": 168
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Ice Path/B3F - Item"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "icepath",
+						"x": 1056,
+						"y": 412
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Whirl Islands/1F - Item in Northeast"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "whirlislands",
+						"x": 184,
+						"y": 184
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Whirl Islands/1F - Item in Southwest"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "whirlislands",
+						"x": 248,
+						"y": 328
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Whirl Islands/B1F - Item 1"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "whirlislands",
+						"x": 856,
+						"y": 376
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Whirl Islands/B1F - Item 2"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "whirlislands",
+						"x": 360,
+						"y": 296
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Whirl Islands/B1F - Item 3"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "whirlislands",
+						"x": 632,
+						"y": 424
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Whirl Islands/B1F - Item 4"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "whirlislands",
+						"x": 440,
+						"y": 216
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Whirl Islands/B1F - Item 5"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "whirlislands",
+						"x": 600,
+						"y": 136
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Whirl Islands/B1F - Hidden Item on Boulder in West"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "whirlislands",
+						"x": 360,
+						"y": 376
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Whirl Islands/B1F - Hidden Item in Northeast"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "whirlislands",
+						"x": 808,
+						"y": 72
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Whirl Islands/B1F - Hidden Item in East"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "whirlislands",
+						"x": 904,
+						"y": 296
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Whirl Islands/B2F - Item 1"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "whirlislands",
+						"x": 1128,
+						"y": 184
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Whirl Islands/B2F - Item 2"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "whirlislands",
+						"x": 1048,
+						"y": 200
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Whirl Islands/B2F - Item 3"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "whirlislands",
+						"x": 1064,
+						"y": 72
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Silver Cave/1F - Item 1"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "silvercave",
+						"x": 88,
+						"y": 488
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Silver Cave/1F - Item 2"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "silvercave",
+						"x": 72,
+						"y": 152
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Silver Cave/1F - Item 3"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "silvercave",
+						"x": 248,
+						"y": 472
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Silver Cave/1F - Item 4"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "silvercave",
+						"x": 120,
+						"y": 296
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Silver Cave/1F - Hidden Item 1"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "silvercave",
+						"x": 264,
+						"y": 376
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Silver Cave/1F - Hidden Item 2"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "silvercave",
+						"x": 280,
+						"y": 200
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Silver Cave/2F - Item 1"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "silvercave",
+						"x": 712,
+						"y": 168
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Silver Cave/2F - Item 2"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "silvercave",
+						"x": 392,
+						"y": 328
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Silver Cave/2F - Item 3"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "silvercave",
+						"x": 680,
+						"y": 392
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Silver Cave/2F - Hidden Item"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "silvercave",
+						"x": 552,
+						"y": 504
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Silver Cave/2F - Chambers Item 1"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "silvercave",
+						"x": 1008,
+						"y": 488
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Silver Cave/2F - Chambers Item 2"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "silvercave",
+						"x": 968,
+						"y": 552
+					}
+				]
+			},
+			{
+				"name": "",
+				"sections": [
+					{
+						"ref": "JohtoKanto/Silver Cave/Defeat Red"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "silvercave",
+						"x": 952,
+						"y": 43
+					}
+				]
+			}
+		]
+	}
+]

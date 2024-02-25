@@ -971,17 +971,17 @@
 						"access_rules": ["$can_flash"]
 					},
 					{
-						"name": "B1F - Hiddden Item in Northeast",
+						"name": "B1F - Hidden Item in Northeast",
 						"access_rules": ["$can_flash,$hid"],
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
-						"name": "B1F - Hiddden Item in Northwest",
+						"name": "B1F - Hidden Item in East",
 						"access_rules": ["$can_flash,$hid"],
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
-						"name": "B1F - Hiddden Item on Boulder in West",
+						"name": "B1F - Hidden Item on Boulder in West",
 						"access_rules": ["$can_flash,$hid"],
 						"visibility_rules": ["hiddenitems_on"]
 					},
@@ -1027,12 +1027,12 @@
 					},
 					{
 						"name": "Hidden Item in North Rock",
-						"access_rules": ["$hid"],
+						"access_rules": ["$hid,$can_rocksmash"],
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
 						"name": "Hidden Item in West Rock",
-						"access_rules": ["$hid"],
+						"access_rules": ["$hid,$can_rocksmash"],
 						"visibility_rules": ["hiddenitems_on"]
 					}
 				],
@@ -1140,6 +1140,11 @@
 					{
 						"name": "2F - Item 6",
 						"access_rules": ["$can_waterfall"]
+					},
+					{
+						"name": "2F - Hidden Item",
+						"access_rules": ["$hid,$can_waterfall"],
+						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
 						"name": "B1F - Item 1",
@@ -1473,9 +1478,6 @@
 					},
 					{
 						"name": "Item 2"
-					},
-					{
-						"name": "Item 3"
 					}
 				],
 				"map_locations": [
@@ -1518,7 +1520,7 @@
 			},
 			{
 				"name": "Route 46",
-				"access_rules": ["$blackthorn_access"],
+				"access_rules": ["$can_flash,$can_rocksmash", "$blackthorn_access"],
 				"sections": [
 					{
 						"name": "Item"
@@ -1636,7 +1638,8 @@
 				"access_rules": ["$red_access"],
 				"sections": [
 					{
-						"name": "Steel Wing from Celebrity in House"
+						"name": "Steel Wing from Celebrity in House",
+						"access_rules": ["$can_cut"]
 					},
 					{
 						"name": "Hidden Item Behind Cut Tree",
@@ -1966,7 +1969,7 @@
 			},
 			{
 				"name": "Route 9",
-				"access_rules": ["$saffron_access,$can_cut"],
+				"access_rules": ["$saffron_access,$can_cut", "$saffron_access,$can_flash"],
 				"sections": [
 					{
 						"name": "Hidden Item in Southeast Corner",

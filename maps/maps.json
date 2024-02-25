@@ -43,8 +43,8 @@
 	},
 	{
 		"name": "silvercave",
-		"location_size": 32,
-		"location_border_thickness": 4,
+		"location_size": 12,
+		"location_border_thickness": 2,
 		"img": "images/maps/silvercave.png"
 	}
 ]

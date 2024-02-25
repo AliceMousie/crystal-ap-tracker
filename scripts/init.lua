@@ -10,9 +10,9 @@ ScriptHost:LoadScript("scripts/logic/logic.lua")
 Tracker:AddMaps("maps/maps.json")
 -- Locations
 Tracker:AddLocations("locations/locations.json")
--- if PopVersion and PopVersion >= "0.23.0" then
--- 	Tracker:AddLocations("locations/dungeons.json")
--- end
+if PopVersion and PopVersion >= "0.23.0" then
+	Tracker:AddLocations("locations/dungeons.json")
+end
 
 -- Layout
 Tracker:AddLayouts("layouts/events.json")
