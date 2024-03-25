@@ -499,7 +499,7 @@
 						"access_rules": ["cardkey", "basementkey"]
 					},
 					{
-						"name": "B2F - Item 2",
+						"name": "B2F - Item 2 - Switches 13213",
 						"access_rules": ["cardkey", "basementkey"]
 					},
 					{
@@ -1436,7 +1436,7 @@
 					},
 					{
 						"name": "Dragon's Den B1F - Item 2",
-						"access_rules": ["$can_surf,tower_cleared"]
+						"access_rules": ["$can_surf,tower_cleared,$can_whirlpool"]
 					},
 					{
 						"name": "Dragon's Den B1F - Item 3",
