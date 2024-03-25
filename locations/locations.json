@@ -553,11 +553,11 @@
 					},
 					{
 						"name": "5F - Clear Bell from Director",
-						"access_rules": ["$tower_takeover"]
+						"access_rules": ["$tower_takeover,cardkey"]
 					},
 					{
 						"name": "5F - Basement Key from Rocket Exec",
-						"access_rules": ["$tower_takeover,cardkey"]
+						"access_rules": ["$tower_takeover"]
 					},
 					{
 						"name": "5F - Item",
@@ -1436,7 +1436,7 @@
 					},
 					{
 						"name": "Dragon's Den B1F - Item 2",
-						"access_rules": ["$can_surf,tower_cleared"]
+						"access_rules": ["$can_surf,tower_cleared,$can_whirlpool"]
 					},
 					{
 						"name": "Dragon's Den B1F - Item 3",
@@ -1444,12 +1444,12 @@
 					},
 					{
 						"name": "Dragon's Den B1F - Hidden Item in SE Corner",
-						"access_rules": ["$can_surf,tower_cleared,$hid"],
+						"access_rules": ["$can_surf,tower_cleared,$hid,$can_whirlpool"],
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
 						"name": "Dragon's Den B1F - Hidden Item in Water 1",
-						"access_rules": ["$can_surf,tower_cleared,$hid"],
+						"access_rules": ["$can_surf,tower_cleared,$hid,$can_whirlpool"],
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
