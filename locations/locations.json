@@ -553,11 +553,11 @@
 					},
 					{
 						"name": "5F - Clear Bell from Director",
-						"access_rules": ["$tower_takeover"]
+						"access_rules": ["$tower_takeover,cardkey"]
 					},
 					{
 						"name": "5F - Basement Key from Rocket Exec",
-						"access_rules": ["$tower_takeover,cardkey"]
+						"access_rules": ["$tower_takeover"]
 					},
 					{
 						"name": "5F - Item",
