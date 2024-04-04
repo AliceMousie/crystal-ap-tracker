@@ -96,7 +96,7 @@ function powerplant_access()
 end
 
 function viridian_access()
-	return has("expncard") and (saffron_access() or victoryroad_access())
+	return has("expncard") and ((saffron_access() and can_cut()) or victoryroad_access())
 end
 
 function red_badges()
