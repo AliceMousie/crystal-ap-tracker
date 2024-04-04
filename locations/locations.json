@@ -1539,7 +1539,7 @@
 				"sections": [
 					{
 						"name": "Sandstorm from Woman in House",
-						"access_rules": ["$can_waterfall"]
+						"access_rules": ["$can_waterfall","$victoryroad_access"]
 					},
 					{
 						"name": "Item 1",
@@ -1547,7 +1547,7 @@
 					},
 					{
 						"name": "Item 2",
-						"access_rules": ["$can_whirlpool,$can_waterfall"]
+						"access_rules": ["$can_whirlpool,$can_waterfall","can_whirlpool,$victoryroad_access"]
 					},
 					{
 						"name": "Tohjo Falls - Item",
@@ -1564,7 +1564,7 @@
 			},
 			{
 				"name": "Route 26",
-				"access_rules": ["$can_waterfall"],
+				"access_rules": ["$can_waterfall","$victoryroad_access"],
 				"sections": [
 					{
 						"name": "Item"
@@ -1787,42 +1787,45 @@
 			},
 			{
 				"name": "Route 2",
-				"access_rules": ["$viridian_access"],
 				"sections": [
 					{
-						"name": "Nugget from Guy"
+						"name": "Nugget from Guy",
+						"access_rules": ["expncard"]
 					},
 					{
-						"name": "Item 1"
+						"name": "Item 1",
+						"access_rules": ["expncard"]
 					},
 					{
-						"name": "Item 2"
+						"name": "Item 2",
+						"access_rules": ["$viridian_access"]
 					},
 					{
 						"name": "Item 3",
-						"access_rules": ["$can_cut"]
+						"access_rules": ["$viridian_access"]
 					},
 					{
-						"name": "Item 4"
+						"name": "Item 4",
+						"access_rules": ["$viridian_access"]
 					},
 					{
 						"name": "Hidden Item 1",
-						"access_rules": ["$hid"],
+						"access_rules": ["$hid,$viridian_access"],
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
 						"name": "Hidden Item 2",
-						"access_rules": ["$hid"],
+						"access_rules": ["$hid,$viridian_access"],
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
 						"name": "Hidden Item 3",
-						"access_rules": ["$hid"],
+						"access_rules": ["$hid,$viridian_access"],
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
 						"name": "Hidden Item 4",
-						"access_rules": ["$hid"],
+						"access_rules": ["$hid,$viridian_access"],
 						"visibility_rules": ["hiddenitems_on"]
 					}
 				],
