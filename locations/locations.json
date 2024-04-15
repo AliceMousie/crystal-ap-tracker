@@ -20,7 +20,7 @@
 					},
 					{
 						"name": "Elm's Lab - S.S. Ticket from Elm",
-						"access_rules": ["beat_e4"]
+						"access_rules": ["become_champion"]
 					}
 				],
 				"map_locations": [
@@ -553,11 +553,11 @@
 					},
 					{
 						"name": "5F - Clear Bell from Director",
-						"access_rules": ["$tower_takeover"]
+						"access_rules": ["$tower_takeover,cardkey"]
 					},
 					{
 						"name": "5F - Basement Key from Rocket Exec",
-						"access_rules": ["$tower_takeover,cardkey"]
+						"access_rules": ["$tower_takeover"]
 					},
 					{
 						"name": "5F - Item",
@@ -1436,7 +1436,7 @@
 					},
 					{
 						"name": "Dragon's Den B1F - Item 2",
-						"access_rules": ["$can_surf,tower_cleared"]
+						"access_rules": ["$can_surf,tower_cleared,$can_whirlpool"]
 					},
 					{
 						"name": "Dragon's Den B1F - Item 3",
@@ -1444,12 +1444,12 @@
 					},
 					{
 						"name": "Dragon's Den B1F - Hidden Item in SE Corner",
-						"access_rules": ["$can_surf,tower_cleared,$hid"],
+						"access_rules": ["$can_surf,tower_cleared,$hid,$can_whirlpool"],
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
 						"name": "Dragon's Den B1F - Hidden Item in Water 1",
-						"access_rules": ["$can_surf,tower_cleared,$hid"],
+						"access_rules": ["$can_surf,tower_cleared,$hid,$can_whirlpool"],
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
@@ -1539,7 +1539,7 @@
 				"sections": [
 					{
 						"name": "Sandstorm from Woman in House",
-						"access_rules": ["$can_waterfall"]
+						"access_rules": ["$can_waterfall","$victoryroad_access"]
 					},
 					{
 						"name": "Item 1",
@@ -1547,7 +1547,7 @@
 					},
 					{
 						"name": "Item 2",
-						"access_rules": ["$can_whirlpool,$can_waterfall"]
+						"access_rules": ["$can_whirlpool,$can_waterfall","can_whirlpool,$victoryroad_access"]
 					},
 					{
 						"name": "Tohjo Falls - Item",
@@ -1564,7 +1564,7 @@
 			},
 			{
 				"name": "Route 26",
-				"access_rules": ["$can_waterfall"],
+				"access_rules": ["$can_waterfall","$victoryroad_access"],
 				"sections": [
 					{
 						"name": "Item"
@@ -1665,54 +1665,60 @@
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
-						"name": "1F - Item 1"
+						"name": "1F - Item 1",
+						"access_rules": ["$can_flash"]
 					},
 					{
-						"name": "1F - Item 2"
+						"name": "1F - Item 2",
+						"access_rules": ["$can_flash"]
 					},
 					{
-						"name": "1F - Item 3"
+						"name": "1F - Item 3",
+						"access_rules": ["$can_flash"]
 					},
 					{
-						"name": "1F - Item 4"
+						"name": "1F - Item 4",
+						"access_rules": ["$can_flash"]
 					},
 					{
 						"name": "1F - Hidden Item 1",
-						"access_rules": ["$hid"],
+						"access_rules": ["$hid,$canflash"],
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
 						"name": "1F - Hidden Item 2",
-						"access_rules": ["$hid"],
+						"access_rules": ["$hid,$canflash"],
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
 						"name": "2F - Item 1",
-						"access_rules": ["$can_waterfall"]
+						"access_rules": ["$can_waterfall,$canflash"]
 					},
 					{
 						"name": "2F - Item 2",
-						"access_rules": ["$can_waterfall"]
+						"access_rules": ["$can_waterfall,$canflash"]
 					},
 					{
-						"name": "2F - Item 3"
+						"name": "2F - Item 3",
+						"access_rules": ["$can_flash"]
 					},
 					{
 						"name": "2F - Chambers Item 1",
-						"access_rules": ["$can_waterfall"]
+						"access_rules": ["$can_waterfall,$canflash"]
 					},
 					{
 						"name": "2F - Chambers Item 2",
-						"access_rules": ["$can_waterfall"]
+						"access_rules": ["$can_waterfall,$canflash"]
 					},
 					{
 						"name": "2F - Hidden Item",
-						"access_rules": ["$hid"],
+						"access_rules": ["$hid,$canflash"],
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
 						"name": "Defeat Red",
-						"hosted_item": "defeat_red"
+						"hosted_item": "defeat_red",
+						"access_rules": ["$can_flash"]
 					}
 				],
 				"map_locations": [
@@ -1781,42 +1787,45 @@
 			},
 			{
 				"name": "Route 2",
-				"access_rules": ["$viridian_access"],
 				"sections": [
 					{
-						"name": "Nugget from Guy"
+						"name": "Nugget from Guy",
+						"access_rules": ["expncard"]
 					},
 					{
-						"name": "Item 1"
+						"name": "Item 1",
+						"access_rules": ["expncard"]
 					},
 					{
-						"name": "Item 2"
+						"name": "Item 2",
+						"access_rules": ["$viridian_access"]
 					},
 					{
 						"name": "Item 3",
-						"access_rules": ["$can_cut"]
+						"access_rules": ["$viridian_access"]
 					},
 					{
-						"name": "Item 4"
+						"name": "Item 4",
+						"access_rules": ["$viridian_access"]
 					},
 					{
 						"name": "Hidden Item 1",
-						"access_rules": ["$hid"],
+						"access_rules": ["$hid,$viridian_access"],
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
 						"name": "Hidden Item 2",
-						"access_rules": ["$hid"],
+						"access_rules": ["$hid,$viridian_access"],
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
 						"name": "Hidden Item 3",
-						"access_rules": ["$hid"],
+						"access_rules": ["$hid,$viridian_access"],
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
 						"name": "Hidden Item 4",
-						"access_rules": ["$hid"],
+						"access_rules": ["$hid,$viridian_access"],
 						"visibility_rules": ["hiddenitems_on"]
 					}
 				],

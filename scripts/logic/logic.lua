@@ -84,7 +84,7 @@ function blackthorn_access()
 end
 
 function victoryroad_access()
-	return (can_waterfall() or (has("expncard") and saffron_access())) and badges() >= 8
+	return (can_waterfall() and badges() >= 8) or (has("expncard") and saffron_access())
 end
 
 function saffron_access()
@@ -96,7 +96,7 @@ function powerplant_access()
 end
 
 function viridian_access()
-	return has("expncard") and (saffron_access() or victoryroad_access())
+	return (has("expncard") or victoryroad_access()) and saffron_access()
 end
 
 function red_badges()
