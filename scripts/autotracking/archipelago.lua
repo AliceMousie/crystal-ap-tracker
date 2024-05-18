@@ -30,6 +30,14 @@ function onClear(slot_data)
 	for k,v in pairs(slot_data) do
 		if SLOT_CODES[k] then
 			Tracker:FindObjectForCode(SLOT_CODES[k].code).CurrentStage = SLOT_CODES[k].mapping[v]
+		else
+			print(v)
+			if k == "elite_four_badges" then
+				Tracker:FindObjectForCode("e4_badges").AcquiredCount = v
+			end 
+			if k == "red_badges" then
+				Tracker:FindObjectForCode("red_badges").AcquiredCount = v
+			end
 		end
 	end
 

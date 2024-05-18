@@ -3286,11 +3286,6 @@
 						"name": "Hidden Item in Southeast Corner",
 						"access_rules": ["$hid"],
 						"visibility_rules": ["hiddenitems_on"]
-					},
-					{
-						"name": "Hidden Item in Southeast Corner",
-						"access_rules": ["$hid"],
-						"visibility_rules": ["hiddenitems_on"]
 					}
 				],
 				"map_locations": [
