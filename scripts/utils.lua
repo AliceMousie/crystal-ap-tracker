@@ -16,7 +16,7 @@ function has(item, amount)
 end
 
 function progCount(code)
-	return Tracker:FindObjectForCode(code).CurrentStage
+	return Tracker:FindObjectForCode(code).AcquiredCount
 end
 
 function dump_table(o, depth)

@@ -8,26 +8,35 @@
 				"name": "New Bark Town",
 				"sections": [
 					{
+						"name": "Player's House - Pokegear from Mom",
+						"visibility_rules": ["pokegear_on"]
+					},
+					{
+						"name": "​Player's House - Pokegear from Mom",
+						"visibility_rules": ["pokegear_off"],
+						"hosted_item": "POKE_GEAR"
+					},
+					{
 						"name": "Elm's Lab - Potion from Aide"
 					},
 					{
 						"name": "Elm's Lab - Gift from Aide After Returning Mystery Egg",
-						"access_rules": ["mysteryegg"]
+						"access_rules": ["MYSTERY_EGG"]
 					},
 					{
 						"name": "Elm's Lab - Master Ball from Elm",
-						"access_rules": ["risingbadge"]
+						"access_rules": ["RISING_BADGE"]
 					},
 					{
 						"name": "Elm's Lab - S.S. Ticket from Elm",
-						"access_rules": ["beat_e4"]
+						"access_rules": ["EVENT_BEAT_ELITE_FOUR"]
 					}
 				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 660,
-						"y": 420
+						"x": 132,
+						"y": 84
 					}
 				]
 			},
@@ -39,14 +48,14 @@
 					},
 					{
 						"name": "Pink Bow from Tuscany",
-						"access_rules": ["zephyrbadge"]
+						"access_rules": ["ZEPHYR_BADGE"]
 					}
 				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 580,
-						"y": 420
+						"x": 116,
+						"y": 84
 					}
 				]
 			},
@@ -56,13 +65,17 @@
 					{
 						"name": "Mystic Water from Island Man",
 						"access_rules": ["$can_surf"]
+					},
+					{
+						"name": "Map Card from Guide",
+						"visibility_rules": ["pokegear_on"]
 					}
 				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 460,
-						"y": 420
+						"x": 92,
+						"y": 84
 					}
 				]
 			},
@@ -81,18 +94,30 @@
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
+						"name": "Bug Catcher Don",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Youngster Joey",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Youngster Mikey",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
 						"name": "Mystery Egg from Mr Pokemon"
 					},
 					{
 						"name": "Exp Share from Mr Pokemon",
-						"access_rules": ["redscale"]
+						"access_rules": ["RED_SCALE"]
 					}
 				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 460,
-						"y": 340
+						"x": 92,
+						"y": 68
 					}
 				]
 			},
@@ -106,20 +131,24 @@
 						"name": "Item 2"
 					},
 					{
+						"name": "Bug Catcher Wade",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
 						"name": "Deliver Kenya",
-						"access_rules": ["kenya_collected"],
-						"hosted_item": "kenya_delivered"
+						"access_rules": ["EVENT_GOT_KENYA"],
+						"hosted_item": "EVENT_GAVE_KENYA"
 					},
 					{
 						"name": "TM50 for Delivering Kenya",
-						"access_rules": ["kenya_collected"]
+						"access_rules": ["EVENT_GOT_KENYA"]
 					}
 				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 460,
-						"y": 260
+						"x": 92,
+						"y": 52
 					}
 				]
 			},
@@ -151,8 +180,8 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 500,
-						"y": 260
+						"x": 100,
+						"y": 52
 					}
 				]
 			},
@@ -160,10 +189,24 @@
 				"name": "Violet City",
 				"sections": [
 					{
-						"name": "Gym - Zephyr Badge from Falkner"
+						"name": "Gym - Zephyr Badge from Falkner",
+						"visibility_rules": ["badges_on", "badges_shuffle"]
+					},
+					{
+						"name": "​Gym - Zephyr Badge from Falkner",
+						"visibility_rules": ["badges_off"],
+						"hosted_item": "ZEPHYR_BADGE"
 					},
 					{
 						"name": "Gym - TM31 from Falkner"
+					},
+					{
+						"name": "Gym - Bird Keeper Abe",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - Bird Keeper Rod",
+						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "Item 1",
@@ -182,8 +225,8 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 380,
-						"y": 220
+						"x": 76,
+						"y": 44
 					}
 				]
 			},
@@ -194,7 +237,19 @@
 						"name": "1F - Item"
 					},
 					{
+						"name": "1F - Sage Chow",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
 						"name": "2F - Item"
+					},
+					{
+						"name": "2F - Sage Edmond",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "2F - Sage Nico",
+						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "3F - Item 1"
@@ -204,24 +259,105 @@
 					},
 					{
 						"name": "3F - HM05 from Sage"
+					},
+					{
+						"name": "3F - Sage Jin",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "3F - Sage Neal",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "3F - Sage Troy",
+						"visibility_rules": ["trainersanity_on"]
 					}
 				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 380,
-						"y": 180
+						"x": 76,
+						"y": 36
 					}
 				]
 			},
 			{
 				"name": "Ruins of Alph",
-				"sections": [],
+				"sections": [
+					{
+						"name": "Outside - Psychic Nathan",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Outside - Super Nerd Stan",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Aerodactyl Room - Item 1",
+						"access_rules": ["$can_surf,$can_flash"]
+					},
+					{
+						"name": "Aerodactyl Room - Item 2",
+						"access_rules": ["$can_surf,$can_flash"]
+					},
+					{
+						"name": "Aerodactyl Room - Item 3",
+						"access_rules": ["$can_surf,$can_flash"]
+					},
+					{
+						"name": "Aerodactyl Room - Item 4",
+						"access_rules": ["$can_surf,$can_flash"]
+					},
+					{
+						"name": "Ho-oh Room - Item 1",
+						"access_rules": ["$can_surf"]
+					},
+					{
+						"name": "Ho-oh Room - Item 2",
+						"access_rules": ["$can_surf"]
+					},
+					{
+						"name": "Ho-oh Room - Item 3",
+						"access_rules": ["$can_surf"]
+					},
+					{
+						"name": "Ho-oh Room - Item 4",
+						"access_rules": ["$can_surf"]
+					},
+					{
+						"name": "Kabuto Room - Item 1"
+					},
+					{
+						"name": "Kabuto Room - Item 2"
+					},
+					{
+						"name": "Kabuto Room - Item 3"
+					},
+					{
+						"name": "Kabuto Room - Item 4"
+					},
+					{
+						"name": "Omanyte Room - Item 1",
+						"access_rules": ["$can_surf,$can_strength"]
+					},
+					{
+						"name": "Omanyte Room - Item 2",
+						"access_rules": ["$can_surf,$can_strength"]
+					},
+					{
+						"name": "Omanyte Room - Item 3",
+						"access_rules": ["$can_surf,$can_strength"]
+					},
+					{
+						"name": "Omanyte Room - Item 4",
+						"access_rules": ["$can_surf,$can_strength"]
+					}
+				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 340,
-						"y": 300
+						"x": 68,
+						"y": 60
 					}
 				]
 			},
@@ -230,7 +366,7 @@
 				"sections": [
 					{
 						"name": "Miracle Seed from Man in North",
-						"access_rules": ["zephyrbadge"]
+						"access_rules": ["ZEPHYR_BADGE"]
 					},
 					{
 						"name": "Poison Barb from Frieda"
@@ -249,6 +385,38 @@
 						"name": "Item 2"
 					},
 					{
+						"name": "Bird Keeper Peter",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Camper Roland",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Fisher Henry",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Fisher Justin",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Fisher Ralph",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Picnicker Liz",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Youngster Albert",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Youngster Gordon",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
 						"name": "Hidden Item North of Bridge",
 						"access_rules": ["$hid"],
 						"visibility_rules": ["hiddenitems_on"]
@@ -262,8 +430,8 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 380,
-						"y": 380
+						"x": 76,
+						"y": 76
 					}
 				]
 			},
@@ -283,10 +451,50 @@
 						"name": "1F - Item 4"
 					},
 					{
+						"name": "1F - Firebreather Bill",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "1F - Firebreather Ray",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "1F - Hiker Daniel",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "1F - Hiker Russell",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "1F - Pokemaniac Larry",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
 						"name": "B1F - Item 1"
 					},
 					{
 						"name": "B1F - Item 2"
+					},
+					{
+						"name": "B1F - Hiker Leonard",
+						"access_rules": ["$can_surf"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "B1F - Hiker Phillip",
+						"access_rules": ["$can_surf"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "B1F - Pokemaniac Andrew",
+						"access_rules": ["$can_surf"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "B1F - Pokemaniac Calvin",
+						"access_rules": ["$can_surf"],
+						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "B2F - Item 1",
@@ -295,13 +503,44 @@
 					{
 						"name": "B2F - Item 2",
 						"access_rules": ["$can_surf"]
+					},
+					{
+						"name": "B2F - Cool Trainer Emma",
+						"access_rules": ["$can_surf"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "B2F - Cool Trainer Gwen",
+						"access_rules": ["$can_surf"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "B2F - Cool Trainer Nick",
+						"access_rules": ["$can_surf"],
+						"visibility_rules": ["trainersanity_on"]
 					}
 				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 380,
-						"y": 540
+						"x": 76,
+						"y": 100
+					}
+				]
+			},
+			{
+				"name": "Route 33",
+				"sections": [
+					{
+						"name": "Hiker Anthony",
+						"visibility_rules": ["trainersanity_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 76,
+						"y": 108
 					}
 				]
 			},
@@ -310,6 +549,22 @@
 				"sections": [
 					{
 						"name": "B1F - Item 1"
+					},
+					{
+						"name": "B1F - Grunt 1",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "B1F - Grunt 2",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "B1F - Grunt 3",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "B1F - Grunt 4",
+						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "B2F - Item 1",
@@ -323,8 +578,8 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 300,
-						"y": 500
+						"x": 60,
+						"y": 100
 					}
 				]
 			},
@@ -332,10 +587,32 @@
 				"name": "Azalea Town",
 				"sections": [
 					{
-						"name": "Gym - Hive Badge from Bugsy"
+						"name": "Gym - Hive Badge from Bugsy",
+						"visibility_rules": ["badges_on", "badges_shuffle"]
+					},
+					{
+						"name": "​Gym - Hive Badge from Bugsy",
+						"visibility_rules": ["badges_off"],
+						"hosted_item": "HIVE_BADGE"
 					},
 					{
 						"name": "Gym - TM49 from Bugsy"
+					},
+					{
+						"name": "Gym - Bug Catcher Al",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - Bug Catcher Benny",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - Bug Catcher Josh",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - Twins Amy & May",
+						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "Lure Ball from Kurt"
@@ -352,8 +629,8 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 300,
-						"y": 540
+						"x": 60,
+						"y": 108
 					}
 				]
 			},
@@ -379,6 +656,10 @@
 						"name": "Item 4"
 					},
 					{
+						"name": "Bug Catcher Wayne",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
 						"name": "Hidden Item 1",
 						"access_rules": ["$hid"],
 						"visibility_rules": ["hiddenitems_on"]
@@ -397,8 +678,8 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 220,
-						"y": 540
+						"x": 44,
+						"y": 108
 					}
 				]
 			},
@@ -407,6 +688,41 @@
 				"sections": [
 					{
 						"name": "TM12 from Woman in Gate"
+					},
+					{
+						"name": "Camper Todd",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Picnicker Gina",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Pokefan Brandon",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Youngster Ian",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Youngster Samuel",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Cool Trainer Irene",
+						"access_rules": ["$can_surf"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Cool Trainer Jenn",
+						"access_rules": ["$can_surf"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Cool Trainer Kate",
+						"access_rules": ["$can_surf"],
+						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "Soft Sand from Kate",
@@ -430,8 +746,8 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 220,
-						"y": 460
+						"x": 44,
+						"y": 92
 					}
 				]
 			},
@@ -439,17 +755,39 @@
 				"name": "Goldenrod City",
 				"sections": [
 					{
-						"name": "Gym - Plain Badge from Whitney"
+						"name": "Gym - Plain Badge from Whitney",
+						"visibility_rules": ["badges_on", "badges_off"]
+					},
+					{
+						"name": "​Gym - Plain Badge from Whitney",
+						"visibility_rules": ["badges_off"],
+						"hosted_item": "PLAIN_BADGE"
 					},
 					{
 						"name": "Gym - TM45 from Whitney"
+					},
+					{
+						"name": "Gym - Beauty Samantha",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - Beauty Victoria",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - Lass Bridget",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - Lass Carrie",
+						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "Bicycle from Bike Shop"
 					},
 					{
 						"name": "Squirtbottle from Flower Shop",
-						"access_rules": ["plainbadge"]
+						"access_rules": ["PLAIN_BADGE"]
 					},
 					{
 						"name": "Dept. Store B1F - Northwest Item"
@@ -462,14 +800,14 @@
 					},
 					{
 						"name": "Dept. Store B1F - Item Behind Card Key Door",
-						"access_rules": ["cardkey", "basementkey"]
+						"access_rules": ["CARD_KEY", "BASEMENT_KEY"]
 					}
 				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 240,
-						"y": 360
+						"x": 48,
+						"y": 72
 					}
 				]
 			},
@@ -478,6 +816,22 @@
 				"sections": [
 					{
 						"name": "Item 1"
+					},
+					{
+						"name": "Pokemaniac Donald",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Pokemaniac Issac",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Super Nerd Eric",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Super Nerd Teru",
+						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "Hidden Item Between Tables",
@@ -496,44 +850,89 @@
 					},
 					{
 						"name": "B2F - Item 1",
-						"access_rules": ["cardkey", "basementkey"]
+						"access_rules": ["CARD_KEY", "BASEMENT_KEY"]
 					},
 					{
 						"name": "B2F - Item 2",
-						"access_rules": ["cardkey", "basementkey"]
+						"access_rules": ["CARD_KEY", "BASEMENT_KEY"]
+					},
+					{
+						"name": "B2F - Burglar Duncan",
+						"access_rules": ["$tower_takeover,CARD_KEY", "$tower_takeover,BASEMENT_KEY"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "B2F - Burglar Eddie",
+						"access_rules": ["$tower_takeover,CARD_KEY", "$tower_takeover,BASEMENT_KEY"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "B2F - Grunt 1",
+						"access_rules": ["$tower_takeover,CARD_KEY", "$tower_takeover,BASEMENT_KEY"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "B2F - Grunt 2",
+						"access_rules": ["$tower_takeover,CARD_KEY", "$tower_takeover,BASEMENT_KEY"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "B2F - Grunt 3",
+						"access_rules": ["$tower_takeover,CARD_KEY", "$tower_takeover,BASEMENT_KEY"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "B2F - Grunt 4",
+						"access_rules": ["$tower_takeover,CARD_KEY", "$tower_takeover,BASEMENT_KEY"],
+						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "B2F - Hidden Item 1",
-						"access_rules": ["$hid,cardkey", "$hid,basementkey"],
+						"access_rules": ["$hid,CARD_KEY", "$hid,BASEMENT_KEY"],
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
 						"name": "B2F - Hidden Item 2",
-						"access_rules": ["$hid,cardkey", "$hid,basementkey"],
+						"access_rules": ["$hid,CARD_KEY", "$hid,BASEMENT_KEY"],
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
 						"name": "Warehouse - Item 1",
-						"access_rules": ["cardkey", "basementkey"]
+						"access_rules": ["CARD_KEY", "BASEMENT_KEY"]
 					},
 					{
 						"name": "Warehouse - Item 2",
-						"access_rules": ["cardkey", "basementkey"]
+						"access_rules": ["CARD_KEY", "BASEMENT_KEY"]
 					},
 					{
 						"name": "Warehouse - Item 3",
-						"access_rules": ["cardkey", "basementkey"]
+						"access_rules": ["CARD_KEY", "BASEMENT_KEY"]
 					},
 					{
 						"name": "Warehouse - Card Key from Director",
-						"access_rules": ["cardkey", "basementkey"]
+						"access_rules": ["CARD_KEY", "BASEMENT_KEY"]
+					},
+					{
+						"name": "Warehouse - Grunt 1",
+						"access_rules": ["$tower_takeover,CARD_KEY", "$tower_takeover,BASEMENT_KEY"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Warehouse - Grunt 2",
+						"access_rules": ["$tower_takeover,CARD_KEY", "$tower_takeover,BASEMENT_KEY"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Warehouse - Grunt 3",
+						"access_rules": ["$tower_takeover,CARD_KEY", "$tower_takeover,BASEMENT_KEY"],
+						"visibility_rules": ["trainersanity_on"]
 					}
 				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 220,
-						"y": 400
+						"x": 44,
+						"y": 80
 					}
 				]
 			},
@@ -541,39 +940,118 @@
 				"name": "Radio Tower",
 				"sections": [
 					{
+						"name": "1F - Radio Card from Quiz",
+						"visibility_rules": ["pokegear_on"]
+					},
+					{
+						"name": "​1F - Radio Card from Quiz",
+						"visibility_rules": ["pokegear_off"],
+						"hosted_item": "RADIO_CARD"
+					},
+					{
+						"name": "1F - Grunt",
+						"access_rules": ["$tower_takeover"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
 						"name": "2F - Blue Card from Buena"
 					},
 					{
+						"name": "2F - Grunt 1",
+						"access_rules": ["$tower_takeover"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "2F - Grunt 2",
+						"access_rules": ["$tower_takeover"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "2F - Grunt 3",
+						"access_rules": ["$tower_takeover"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "2F - Grunt 4",
+						"access_rules": ["$tower_takeover"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
 						"name": "3F - TM11 from Woman",
-						"access_rules": ["tower_cleared"]
+						"access_rules": ["EVENT_CLEARED_RADIO_TOWER"]
+					},
+					{
+						"name": "3F - Grunt 1",
+						"access_rules": ["$tower_takeover"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "3F - Grunt 2",
+						"access_rules": ["$tower_takeover"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "3F - Grunt 3",
+						"access_rules": ["$tower_takeover"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "3F - Scientist Marc",
+						"access_rules": ["$tower_takeover"],
+						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "4F - Pink Bow from Mary",
-						"access_rules": ["tower_cleared"]
+						"access_rules": ["EVENT_CLEARED_RADIO_TOWER"]
 					},
 					{
-						"name": "5F - Clear Bell from Director",
+						"name": "4F - Grunt 1",
+						"access_rules": ["$tower_takeover"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "4F - Grunt 2",
+						"access_rules": ["$tower_takeover"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "4F - Rocket Executive",
+						"access_rules": ["$tower_takeover"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "4F - Scientist Rich",
+						"access_rules": ["$tower_takeover"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "5F - Basement Key from False Director",
 						"access_rules": ["$tower_takeover"]
 					},
 					{
-						"name": "5F - Basement Key from Rocket Exec",
-						"access_rules": ["$tower_takeover,cardkey"]
+						"name": "5F - Clear Bell from Rocket Boss",
+						"access_rules": ["$tower_takeover,CARD_KEY"]
 					},
 					{
 						"name": "5F - Item",
-						"access_rules": ["$tower_takeover,cardkey"]
+						"access_rules": ["$tower_takeover,CARD_KEY"]
+					},
+					{
+						"name": "5F - Rocket Executive",
+						"access_rules": ["$tower_takeover,CARD_KEY"],
+						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "Clear Radio Tower",
-						"access_rules": ["$tower_takeover,cardkey"],
-						"hosted_item": "tower_cleared"
+						"access_rules": ["$tower_takeover,CARD_KEY"],
+						"hosted_item": "EVENT_CLEARED_RADIO_TOWER"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 200,
-						"y": 360
+						"x": 40,
+						"y": 72
 					}
 				]
 			},
@@ -581,22 +1059,54 @@
 				"name": "Route 35",
 				"sections": [
 					{
+						"name": "Item"
+					},
+					{
+						"name": "Bird Keeper Bryan",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Bug Catcher Arnie",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Camper Elliot",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Camper Ivan",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Firebreather Walt",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Juggler Irwin",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Picnicker Brooke",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Picnicker Kim",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
 						"name": "Collect Kenya",
-						"hosted_item": "kenya_collected"
+						"hosted_item": "EVENT_GOT_KENYA"
 					},
 					{
 						"name": "HP Up After Delivering Kenya",
-						"access_rules": ["kenya_delivered"]
-					},
-					{
-						"name": "Item"
+						"access_rules": ["EVENT_GAVE_KENYA"]
 					}
 				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 220,
-						"y": 300
+						"x": 44,
+						"y": 60
 					}
 				]
 			},
@@ -613,6 +1123,22 @@
 						"name": "Item 2"
 					},
 					{
+						"name": "Lass Krise",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Pokefan Beverly",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Pokefan William",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Schoolboy Jack",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
 						"name": "Hidden Item Behind Fence",
 						"access_rules": ["$hid"],
 						"visibility_rules": ["hiddenitems_on"]
@@ -621,8 +1147,8 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 220,
-						"y": 220
+						"x": 44,
+						"y": 44
 					}
 				]
 			},
@@ -630,8 +1156,16 @@
 				"name": "Route 36",
 				"sections": [
 					{
+						"name": "Psychic Mark",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Schoolboy Alan",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
 						"name": "TM08 from Rock Smash Guy",
-						"access_rules": ["squirtbottle"]
+						"access_rules": ["SQUIRTBOTTLE"]
 					},
 					{
 						"name": "Hard Stone from Arthur"
@@ -640,8 +1174,8 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 300,
-						"y": 220
+						"x": 60,
+						"y": 44
 					}
 				]
 			},
@@ -649,6 +1183,14 @@
 				"name": "Route 37",
 				"access_rules": ["$ecruteak_access"],
 				"sections": [
+					{
+						"name": "Psychic Greg",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Twins Ann & Anne",
+						"visibility_rules": ["trainersanity_on"]
+					},
 					{
 						"name": "Magnet from Sunny"
 					},
@@ -661,8 +1203,8 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 300,
-						"y": 180
+						"x": 60,
+						"y": 36
 					}
 				]
 			},
@@ -671,16 +1213,58 @@
 				"access_rules": ["$ecruteak_access"],
 				"sections": [
 					{
-						"name": "Gym - Fog Badge from Morty"
+						"name": "Gym - Fog Badge from Morty",
+						"visibility_rules": ["badges_on", "badges_shuffle"]
+					},
+					{
+						"name": "​Gym - Fog Badge from Morty",
+						"visibility_rules": ["badges_off"],
+						"hosted_item": "FOG_BADGE"
 					},
 					{
 						"name": "Gym - TM30 from Morty"
 					},
 					{
+						"name": "Gym - Medium Grace",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - Medium Martha",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - Sage Jeffrey",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - Sage Ping",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
 						"name": "Itemfinder from Itemfinder Guy"
 					},
 					{
-						"name": "HM03 from Theater Director"
+						"name": "Dance Theater - HM03 from Theater Director"
+					},
+					{
+						"name": "Dance Theater - Kimono Girl Kuni",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Dance Theater - Kimono Girl Miki",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Dance Theater - Kimono Girl Naoko",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Dance Theater - Kimono Girl Sayo",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Dance Theater - Kimono Girl Zuki",
+						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "Hidden Item by Pond",
@@ -691,8 +1275,8 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 300,
-						"y": 140
+						"x": 60,
+						"y": 28
 					}
 				]
 			},
@@ -722,8 +1306,8 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 260,
-						"y": 100
+						"x": 52,
+						"y": 20
 					}
 				]
 			},
@@ -783,20 +1367,45 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 300,
-						"y": 100
+						"x": 60,
+						"y": 20
 					}
 				]
 			},
 			{
 				"name": "Route 38",
 				"access_rules": ["$ecruteak_access"],
-				"sections": [],
+				"sections": [
+					{
+						"name": "Beauty Olivia",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Beauty Valerie",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Bird Keeper Toby",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Lass Dana",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Sailor Harry",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Schoolboy Chad",
+						"visibility_rules": ["trainersanity_on"]
+					}
+				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 220,
-						"y": 140
+						"x": 44,
+						"y": 28
 					}
 				]
 			},
@@ -808,6 +1417,22 @@
 						"name": "Moomoo Farm - TM13 After Feeding Moomoo"
 					},
 					{
+						"name": "Pokefan Derek",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Pokefan Ruth",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Psychic Norman",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Sailor Eugene",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
 						"name": "Hidden Item Between Miltank",
 						"access_rules": ["$hid"],
 						"visibility_rules": ["hiddenitems_on"]
@@ -816,8 +1441,8 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 140,
-						"y": 140
+						"x": 28,
+						"y": 28
 					}
 				]
 			},
@@ -827,11 +1452,18 @@
 				"sections": [
 					{
 						"name": "Gym - Mineral Badge from Jasmine",
-						"access_rules": ["jasmine_returned"]
+						"access_rules": ["EVENT_JASMINE_RETURNED_TO_GYM"],
+						"visibility_rules": ["badges_on", "badges_shuffle"]
+					},
+					{
+						"name": "​Gym - Mineral Badge from Jasmine",
+						"access_rules": ["EVENT_JASMINE_RETURNED_TO_GYM"],
+						"visibility_rules": ["badges_off"],
+						"hosted_item": "MINERAL_BADGE"
 					},
 					{
 						"name": "Gym - TM23 from Jasmine",
-						"access_rules": ["jasmine_returned"]
+						"access_rules": ["EVENT_JASMINE_RETURNED_TO_GYM"]
 					},
 					{
 						"name": "HM04 from Sailor in Cafe"
@@ -841,15 +1473,15 @@
 					},
 					{
 						"name": "Port - Hidden Item in Southeast Buoy",
-						"access_rules": ["ssticket,$can_surf,$hid"],
+						"access_rules": ["S_S_TICKET,$can_surf,$hid"],
 						"visibility_rules": ["hiddenitems_on"]
 					}
 				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 140,
-						"y": 220
+						"x": 28,
+						"y": 44
 					}
 				]
 			},
@@ -858,7 +1490,35 @@
 				"access_rules": ["$ecruteak_access"],
 				"sections": [
 					{
+						"name": "2F - Gentleman Alfred",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "2F - Sailor Huey",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
 						"name": "3F - Item"
+					},
+					{
+						"name": "3F - Bird Keeper Theo",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "3F - Gentleman Preston",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "3F - Sailor Terrell",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "4F - Lass Connie",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "4F - Sailor Kent",
+						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "5F - Item 1"
@@ -870,6 +1530,14 @@
 						"name": "5F - Item 3"
 					},
 					{
+						"name": "5F - Bird Keeper Denis",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "5F - Sailor Ernest",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
 						"name": "5F - Hidden Item",
 						"access_rules": ["$hid"],
 						"visibility_rules": ["hiddenitems_on"]
@@ -879,22 +1547,99 @@
 					},
 					{
 						"name": "Heal Amphy",
-						"access_rules": ["secretpotion"],
-						"hosted_item": "jasmine_returned"
+						"access_rules": ["SECRETPOTION"],
+						"hosted_item": "EVENT_JASMINE_RETURNED_TO_GYM"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 180,
-						"y": 220
+						"x": 36,
+						"y": 44
 					}
 				]
 			},
 			{
 				"name": "S.S. Aqua",
-				"access_rules": ["$ecruteak_access,ssticket"],
+				"access_rules": ["$ecruteak_access,S_S_TICKET"],
+				"visibility_rules": ["johto_only_off"],
 				"sections": [
+					{
+						"name": "1F - Beauty Cassie (Eastbound)",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "1F - Cool Trainer Carol (Eastbound)",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "1F - Cool Trainer Sean (Eastbound)",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "1F - Gentleman Edward (Eastbound)",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "1F - Psychic Rodney (Eastbound)",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "1F - Super Nerd Shawn (Eastbound)",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "1F - Bug Catcher Ken (Westbound)",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "1F - Burglar Corey (Westbound)",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "1F - Guitarist Clyde (Westbound)",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "1F - Pokefan Georgia (Westbound)",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "1F - Pokefan Jeremy (Westbound)",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "1F - Pokemaniac Ethan (Westbound)",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "B1F - Blackbelt Wai (Eastbound)",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "B1F - Fisher Jonah (Eastbound)",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "B1F - Sailor Garrett (Eastbound)",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "B1F - Sailor Kenneth (Westbound)",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "B1F - Schoolboy Nate (Westbound)",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "B1F - Schoolboy Ricky (Westbound)",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "B1F - Teacher Shirley (Westbound)",
+						"visibility_rules": ["trainersanity_on"]
+					},
 					{
 						"name": "Metal Coat from Grandpa"
 					}
@@ -902,13 +1647,13 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 140,
-						"y": 260
+						"x": 28,
+						"y": 52
 					},
 					{
 						"map": "johtokanto",
-						"x": 1180,
-						"y": 380
+						"x": 236,
+						"y": 76
 					}
 				]
 			},
@@ -920,6 +1665,26 @@
 						"name": "Sharp Beak from Monica"
 					},
 					{
+						"name": "Swimmer Elaine",
+						"access_rules": ["$can_surf"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Swimmer Paula",
+						"access_rules": ["$can_surf"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Swimmer Simon",
+						"access_rules": ["$can_surf"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Swimmer Randall",
+						"access_rules": ["$can_surf"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
 						"name": "Hidden Item in Rock",
 						"access_rules": ["$can_rocksmash,$hid"],
 						"visibility_rules": ["hiddenitems_on"]
@@ -928,8 +1693,61 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 100,
-						"y": 260
+						"x": 20,
+						"y": 52
+					}
+				]
+			},
+			{
+				"name": "Route 41",
+				"access_rules": ["$ecruteak_access,$can_surf"],
+				"sections": [
+					{
+						"name": "Swimmer Kaylee",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Swimmer Susie",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Swimmer Denise",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Swimmer Kara",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Swimmer Wendy",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Swimmer Charlie",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Swimmer George",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Swimmer Berke",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Swimmer Kirk",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Swimmer Mathew",
+						"visibility_rules": ["trainersanity_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 20,
+						"y": 44
 					}
 				]
 			},
@@ -1001,8 +1819,8 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 100,
-						"y": 380
+						"x": 20,
+						"y": 76
 					}
 				]
 			},
@@ -1012,11 +1830,38 @@
 				"sections": [
 					{
 						"name": "Gym - Storm Badge from Chuck",
-						"access_rules": ["$can_strength"]
+						"access_rules": ["$can_strength"],
+						"visibility_rules": ["badges_on", "badges_shuffle"]
+					},
+					{
+						"name": "​Gym - Storm Badge from Chuck",
+						"access_rules": ["$can_strength"],
+						"visibility_rules": ["badges_off"],
+						"hosted_item": "STORM_BADGE"
 					},
 					{
 						"name": "Gym - TM01 from Chuck",
 						"access_rules": ["$can_strength"]
+					},
+					{
+						"name": "Gym - Blackbelt Lao",
+						"access_rules": ["$can_strength"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - Blackbelt Lung",
+						"access_rules": ["$can_strength"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - Blackbelt Nob",
+						"access_rules": ["$can_strength"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - Blackbelt Yoshi",
+						"access_rules": ["$can_strength"],
+						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "HM02 from Chuck's Wife",
@@ -1039,8 +1884,8 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 60,
-						"y": 420
+						"x": 12,
+						"y": 84
 					}
 				]
 			},
@@ -1056,6 +1901,18 @@
 						"name": "Item 2"
 					},
 					{
+						"name": "Fisher Tully",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Hiker Benjamin",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Pokemaniac Shane",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
 						"name": "Hidden Item in Pond Rock",
 						"access_rules": ["$can_surf,$hid"],
 						"visibility_rules": ["hiddenitems_on"]
@@ -1064,8 +1921,8 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 380,
-						"y": 140
+						"x": 76,
+						"y": 28
 					}
 				]
 			},
@@ -1113,6 +1970,15 @@
 						"access_rules": ["$can_strength", "$can_waterfall"]
 					},
 					{
+						"name": "1F Inside - Pokemaniac Miller",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "1F Inside - Super Nerd Markus",
+						"access_rules": ["$can_strength", "$can_waterfall"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
 						"name": "1F Inside - Hidden Item",
 						"access_rules": ["$hid,$can_waterfall"],
 						"visibility_rules": ["hiddenitems_on"]
@@ -1140,6 +2006,11 @@
 					{
 						"name": "2F - Item 6",
 						"access_rules": ["$can_waterfall"]
+					},
+					{
+						"name": "2F - Super Nerd Hugh",
+						"access_rules": ["$can_waterfall"],
+						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "2F - Hidden Item",
@@ -1175,8 +2046,8 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 380,
-						"y": 100
+						"x": 76,
+						"y": 20
 					}
 				]
 			},
@@ -1186,73 +2057,150 @@
 				"sections": [
 					{
 						"name": "Gym - Glacier Badge from Pryce",
-						"access_rules": ["hideout_cleared"]
+						"access_rules": ["EVENT_CLEARED_ROCKET_HIDEOUT"],
+						"visibility_rules": ["badges_on", "badges_shuffle"]
+					},
+					{
+						"name": "​Gym - Glacier Badge from Pryce",
+						"access_rules": ["EVENT_CLEARED_ROCKET_HIDEOUT"],
+						"visibility_rules": ["badges_off"],
+						"hosted_item": "GLACIER_BADGE"
 					},
 					{
 						"name": "Gym - TM16 from Pryce",
-						"access_rules": ["hideout_cleared"]
+						"access_rules": ["EVENT_CLEARED_ROCKET_HIDEOUT"]
+					},
+					{
+						"name": "Gym - Boarder Brad",
+						"access_rules": ["EVENT_CLEARED_ROCKET_HIDEOUT"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - Boarder Douglas",
+						"access_rules": ["EVENT_CLEARED_ROCKET_HIDEOUT"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - Boarder Ronald",
+						"access_rules": ["EVENT_CLEARED_ROCKET_HIDEOUT"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - Skier Clarissa",
+						"access_rules": ["EVENT_CLEARED_ROCKET_HIDEOUT"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - Skier Roxanne",
+						"access_rules": ["EVENT_CLEARED_ROCKET_HIDEOUT"],
+						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "Rocket HQ B1F - Item 1",
-						"access_rules": ["help_lance"]
+						"access_rules": ["EVENT_DECIDED_TO_HELP_LANCE"]
 					},
 					{
 						"name": "Rocket HQ B1F - Item 2",
-						"access_rules": ["help_lance"]
+						"access_rules": ["EVENT_DECIDED_TO_HELP_LANCE"]
 					},
 					{
 						"name": "Rocket HQ B1F - Item 3",
-						"access_rules": ["help_lance"]
+						"access_rules": ["EVENT_DECIDED_TO_HELP_LANCE"]
+					},
+					{
+						"name": "Rocket HQ B1F - Grunt",
+						"access_rules": ["EVENT_DECIDED_TO_HELP_LANCE"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Rocket HQ B1F - Scientist Jed",
+						"access_rules": ["EVENT_DECIDED_TO_HELP_LANCE"],
+						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "Rocket HQ B1F - Hidden Item in West",
-						"access_rules": ["help_lance,$hid"],
+						"access_rules": ["EVENT_DECIDED_TO_HELP_LANCE,$hid"],
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
 						"name": "Rocket HQ B2F - Item",
-						"access_rules": ["help_lance"]
+						"access_rules": ["EVENT_DECIDED_TO_HELP_LANCE"]
 					},
 					{
 						"name": "Rocket HQ B2F - HM06 from Lance",
-						"access_rules": ["help_lance"]
+						"access_rules": ["EVENT_DECIDED_TO_HELP_LANCE"]
+					},
+					{
+						"name": "Rocket HQ B2F - Grunt 1",
+						"access_rules": ["EVENT_DECIDED_TO_HELP_LANCE"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Rocket HQ B2F - Grunt 2",
+						"access_rules": ["EVENT_DECIDED_TO_HELP_LANCE"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Rocket HQ B2F - Grunt 3",
+						"access_rules": ["EVENT_DECIDED_TO_HELP_LANCE"],
+						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "Rocket HQ B2F - Hidden Item",
-						"access_rules": ["help_lance,$hid"],
+						"access_rules": ["EVENT_DECIDED_TO_HELP_LANCE,$hid"],
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
 						"name": "Rocket HQ B3F - Item 1",
-						"access_rules": ["help_lance"]
+						"access_rules": ["EVENT_DECIDED_TO_HELP_LANCE"]
 					},
 					{
 						"name": "Rocket HQ B3F - Item 2",
-						"access_rules": ["help_lance"]
+						"access_rules": ["EVENT_DECIDED_TO_HELP_LANCE"]
 					},
 					{
 						"name": "Rocket HQ B3F - Item 3",
-						"access_rules": ["help_lance"]
+						"access_rules": ["EVENT_DECIDED_TO_HELP_LANCE"]
 					},
 					{
 						"name": "Rocket HQ B3F - Item 4",
-						"access_rules": ["help_lance"]
+						"access_rules": ["EVENT_DECIDED_TO_HELP_LANCE"]
 					},
 					{
 						"name": "Rocket HQ B3F - Item 5",
-						"access_rules": ["help_lance"]
+						"access_rules": ["EVENT_DECIDED_TO_HELP_LANCE"]
+					},
+					{
+						"name": "Rocket HQ B3F - Grunt 1",
+						"access_rules": ["EVENT_DECIDED_TO_HELP_LANCE"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Rocket HQ B3F - Grunt 2",
+						"access_rules": ["EVENT_DECIDED_TO_HELP_LANCE"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Rocket HQ B3F - Scientist Mitch",
+						"access_rules": ["EVENT_DECIDED_TO_HELP_LANCE"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Rocket HQ B3F - Scientist Ross",
+						"access_rules": ["EVENT_DECIDED_TO_HELP_LANCE"],
+						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "Clear Rocket HQ",
-						"access_rules": ["help_lance"],
-						"hosted_item": "hideout_cleared"
+						"access_rules": ["EVENT_DECIDED_TO_HELP_LANCE"],
+						"hosted_item": "EVENT_CLEARED_ROCKET_HIDEOUT"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 500,
-						"y": 140
+						"x": 100,
+						"y": 28
 					}
 				]
 			},
@@ -1261,18 +2209,42 @@
 				"access_rules": ["$ecruteak_access"],
 				"sections": [
 					{
-						"name": "Sludge Bomb from Guard in Gate",
-						"access_rules": ["hideout_cleared"]
+						"name": "Item"
 					},
 					{
-						"name": "Item"
+						"name": "Camper Spencer",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Fisher Marvin",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Picnicker Tiffany",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Pokemaniac Ben",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Pokemaniac Brent",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Pokemaniac Ron",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Sludge Bomb from Guard in Gate",
+						"access_rules": ["EVENT_CLEARED_ROCKET_HIDEOUT"]
 					}
 				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 500,
-						"y": 100
+						"x": 100,
+						"y": 20
 					}
 				]
 			},
@@ -1301,6 +2273,23 @@
 						"access_rules": ["$can_cut"]
 					},
 					{
+						"name": "Cool Trainer Lois",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Fisher Andre",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Fisher Raymond",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Cool Trainer Aaron",
+						"access_rules": ["$can_cut"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
 						"name": "Hidden Item in West Path",
 						"access_rules": ["$hid"],
 						"visibility_rules": ["hiddenitems_on"]
@@ -1318,14 +2307,14 @@
 					{
 						"name": "Help Lance",
 						"access_rules": ["$can_surf"],
-						"hosted_item": "help_lance"
+						"hosted_item": "EVENT_DECIDED_TO_HELP_LANCE"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 500,
-						"y": 60
+						"x": 100,
+						"y": 12
 					}
 				]
 			},
@@ -1344,6 +2333,34 @@
 						"name": "Item 3"
 					},
 					{
+						"name": "Bird Keeper Vance",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Cool Trainer Allen",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Cool Trainer Cybil",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Fisher Edgar",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Fisher Wilton",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Pokemaniac Zach",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Psychic Phil",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
 						"name": "Hidden Item Across Water",
 						"access_rules": ["$can_surf,$hid"],
 						"visibility_rules": ["hiddenitems_on"]
@@ -1352,8 +2369,8 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 540,
-						"y": 140
+						"x": 108,
+						"y": 28
 					}
 				]
 			},
@@ -1410,8 +2427,8 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 620,
-						"y": 100
+						"x": 124,
+						"y": 20
 					}
 				]
 			},
@@ -1421,54 +2438,101 @@
 				"sections": [
 					{
 						"name": "Gym - Rising Badge from Clair",
-						"access_rules": ["tower_cleared"]
+						"access_rules": ["EVENT_CLEARED_RADIO_TOWER,$can_strength"],
+						"visibility_rules": ["badges_on", "badges_shuffle"]
+					},
+					{
+						"name": "​Gym - Rising Badge from Clair",
+						"access_rules": ["EVENT_CLEARED_RADIO_TOWER,$can_strength"],
+						"visibility_rules": ["badges_off"],
+						"hosted_item": "RISING_BADGE"
 					},
 					{
 						"name": "Gym - TM24 from Clair",
-						"access_rules": ["tower_cleared"]
+						"access_rules": ["EVENT_CLEARED_RADIO_TOWER,$can_strength"]
+					},
+					{
+						"name": "Gym - 1F - Cool Trainer Lola",
+						"access_rules": ["EVENT_CLEARED_RADIO_TOWER,$can_strength"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - 1F - Cool Trainer Mike",
+						"access_rules": ["EVENT_CLEARED_RADIO_TOWER,$can_strength"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - 1F - Cool Trainer Paul",
+						"access_rules": ["EVENT_CLEARED_RADIO_TOWER,$can_strength"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - 2F - Cool Trainer Cody",
+						"access_rules": ["EVENT_CLEARED_RADIO_TOWER,$can_strength"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - 2F - Cool Trainer Fran",
+						"access_rules": ["EVENT_CLEARED_RADIO_TOWER,$can_strength"],
+						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "Spell Tag from Santos"
 					},
 					{
 						"name": "Dragon's Den B1F - Item 1",
-						"access_rules": ["$can_surf,tower_cleared"]
+						"access_rules": ["$can_surf,$can_strength,EVENT_CLEARED_RADIO_TOWER"]
 					},
 					{
 						"name": "Dragon's Den B1F - Item 2",
-						"access_rules": ["$can_surf,tower_cleared"]
+						"access_rules": ["$can_surf,$can_strength,EVENT_CLEARED_RADIO_TOWER"]
 					},
 					{
 						"name": "Dragon's Den B1F - Item 3",
-						"access_rules": ["$can_surf,tower_cleared"]
+						"access_rules": ["$can_surf,$can_strength,EVENT_CLEARED_RADIO_TOWER"]
+					},
+					{
+						"name": "Dragon's Den B1F - Cool Trainer Cara",
+						"access_rules": ["$can_surf,$can_strength,EVENT_CLEARED_RADIO_TOWER"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Dragon's Den B1F - Cool Trainer Darin",
+						"access_rules": ["$can_surf,$can_strength,EVENT_CLEARED_RADIO_TOWER"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Dragon's Den B1F - Twins Lea & Pia",
+						"access_rules": ["$can_surf,$can_strength,EVENT_CLEARED_RADIO_TOWER"],
+						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "Dragon's Den B1F - Hidden Item in SE Corner",
-						"access_rules": ["$can_surf,tower_cleared,$hid"],
+						"access_rules": ["$can_surf,$can_strength,EVENT_CLEARED_RADIO_TOWER,$hid"],
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
 						"name": "Dragon's Den B1F - Hidden Item in Water 1",
-						"access_rules": ["$can_surf,tower_cleared,$hid"],
+						"access_rules": ["$can_surf,$can_strength,EVENT_CLEARED_RADIO_TOWER,$hid"],
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
 						"name": "Dragon's Den B1F - Hidden Item in Water 2",
-						"access_rules": ["$can_surf,tower_cleared,$hid"],
+						"access_rules": ["$can_surf,$can_strength,EVENT_CLEARED_RADIO_TOWER,$hid"],
 						"visibility_rules": ["hiddenitems_on"]
 					}
 				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 620,
-						"y": 140
+						"x": 124,
+						"y": 28
 					}
 				]
 			},
 			{
 				"name": "Dark Cave Blackthorn Entrance",
-				"access_rules": ["$blackthorn_access,$can_flash"],
+				"access_rules": ["$blackthorn_access,$can_flash,$can_surf"],
 				"sections": [
 					{
 						"name": "Blackglasses from Man"
@@ -1483,8 +2547,8 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 580,
-						"y": 220
+						"x": 116,
+						"y": 44
 					}
 				]
 			},
@@ -1505,6 +2569,34 @@
 						"name": "Item 4"
 					},
 					{
+						"name": "Blackbelt Kenji",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Cool Trainer Kelly",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Cool Trainer Ryan",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Hiker Erik",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Hiker Michael",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Hiker Parry",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Hiker Timothy",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
 						"name": "Hidden Item in Southeast Pond",
 						"access_rules": ["$can_surf,$hid"],
 						"visibility_rules": ["hiddenitems_on"]
@@ -1513,8 +2605,8 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 620,
-						"y": 260
+						"x": 124,
+						"y": 52
 					}
 				]
 			},
@@ -1524,22 +2616,35 @@
 				"sections": [
 					{
 						"name": "Item"
+					},
+					{
+						"name": "Camper Ted",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Hiker Bailey",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Picnicker Erin",
+						"visibility_rules": ["trainersanity_on"]
 					}
 				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 580,
-						"y": 340
+						"x": 116,
+						"y": 68
 					}
 				]
 			},
 			{
 				"name": "Route 27",
+				"access_rules": ["$can_surf", "$viridian_access"],
 				"sections": [
 					{
 						"name": "Sandstorm from Woman in House",
-						"access_rules": ["$can_waterfall"]
+						"access_rules": ["$can_waterfall", "$viridian_access,$can_surf"]
 					},
 					{
 						"name": "Item 1",
@@ -1547,7 +2652,37 @@
 					},
 					{
 						"name": "Item 2",
-						"access_rules": ["$can_whirlpool,$can_waterfall"]
+						"access_rules": ["$can_whirlpool,$can_waterfall", "$can_whirlpool,$viridian_access"]
+					},
+					{
+						"name": "Psychic Gilbert",
+						"access_rules": ["$can_waterfall", "$viridian_access"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Cool Trainer Blake",
+						"access_rules": ["$can_waterfall", "$viridian_access"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Cool Trainer Brian",
+						"access_rules": ["$can_waterfall", "$viridian_access"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Cool Trainer Reena",
+						"access_rules": ["$can_waterfall", "$viridian_access"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Cool Trainer Megan",
+						"access_rules": ["$can_waterfall", "$viridian_access,$can_surf"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Bird Keeper Jose",
+						"access_rules": ["$can_whirlpool,$can_waterfall", "$can_whirlpool,$viridian_access"],
+						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "Tohjo Falls - Item",
@@ -1557,24 +2692,48 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 740,
-						"y": 420
+						"x": 148,
+						"y": 84
 					}
 				]
 			},
 			{
 				"name": "Route 26",
-				"access_rules": ["$can_waterfall"],
+				"access_rules": ["$can_waterfall", "$viridian_access"],
 				"sections": [
 					{
 						"name": "Item"
+					},
+					{
+						"name": "Cool Trainer Beth",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Cool Trainer Gaven",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Cool Trainer Jake",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Cool Trainer Joyce",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Fisher Scott",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Psychic Richard",
+						"visibility_rules": ["trainersanity_on"]
 					}
 				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 820,
-						"y": 380
+						"x": 164,
+						"y": 76
 					}
 				]
 			},
@@ -1611,8 +2770,8 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 820,
-						"y": 180
+						"x": 164,
+						"y": 36
 					}
 				]
 			},
@@ -1622,20 +2781,21 @@
 				"sections": [
 					{
 						"name": "Become Champion",
-						"hosted_item": "become_champion"
+						"hosted_item": "EVENT_BEAT_ELITE_FOUR"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 820,
-						"y": 100
+						"x": 164,
+						"y": 20
 					}
 				]
 			},
 			{
 				"name": "Route 28",
 				"access_rules": ["$red_access"],
+				"visibility_rules": ["johto_only_off"],
 				"sections": [
 					{
 						"name": "Steel Wing from Celebrity in House",
@@ -1650,14 +2810,15 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 780,
-						"y": 260
+						"x": 156,
+						"y": 52
 					}
 				]
 			},
 			{
 				"name": "Silver Cave",
 				"access_rules": ["$red_access"],
+				"visibility_rules": ["johto_only_off"],
 				"sections": [
 					{
 						"name": "Outside - Hidden Item Across Water",
@@ -1712,35 +2873,44 @@
 					},
 					{
 						"name": "Defeat Red",
-						"hosted_item": "defeat_red"
+						"hosted_item": "EVENT_BEAT_RED"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 700,
-						"y": 260
+						"x": 140,
+						"y": 52
 					}
 				]
 			},
 			{
 				"name": "Route 22",
+				"visibility_rules": ["johto_only_off"],
 				"sections": [],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 860,
-						"y": 260
+						"x": 172,
+						"y": 52
 					}
 				]
 			},
 			{
 				"name": "Viridian City",
 				"access_rules": ["$viridian_access"],
+				"visibility_rules": ["johto_only_off"],
 				"sections": [
 					{
 						"name": "Gym - Earth Badge from Blue",
-						"access_rules": ["blue_returned"]
+						"access_rules": ["EVENT_VIRIDIAN_GYM_BLUE"],
+						"visibility_rules": ["badges_on", "badges_shuffle"]
+					},
+					{
+						"name": "​Gym - Earth Badge from Blue",
+						"access_rules": ["EVENT_VIRIDIAN_GYM_BLUE"],
+						"visibility_rules": ["badges_off"],
+						"hosted_item": "EARTH_BADGE"
 					},
 					{
 						"name": "TM42 from Sleepy Guy",
@@ -1750,38 +2920,50 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 940,
-						"y": 300
+						"x": 188,
+						"y": 60
 					}
 				]
 			},
 			{
 				"name": "Route 1",
 				"access_rules": ["$viridian_access"],
-				"sections": [],
+				"visibility_rules": ["johto_only_off"],
+				"sections": [
+					{
+						"name": "Cool Trainer Quinn",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Schoolboy Danny",
+						"visibility_rules": ["trainersanity_on"]
+					}
+				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 940,
-						"y": 380
+						"x": 188,
+						"y": 76
 					}
 				]
 			},
 			{
 				"name": "Pallet Town",
 				"access_rules": ["$viridian_access"],
+				"visibility_rules": ["johto_only_off"],
 				"sections": [],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 940,
-						"y": 460
+						"x": 188,
+						"y": 92
 					}
 				]
 			},
 			{
 				"name": "Route 2",
 				"access_rules": ["$viridian_access"],
+				"visibility_rules": ["johto_only_off"],
 				"sections": [
 					{
 						"name": "Nugget from Guy"
@@ -1798,6 +2980,18 @@
 					},
 					{
 						"name": "Item 4"
+					},
+					{
+						"name": "Bug Catcher Doug",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Bug Catcher Ed",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Bug Catcher Rob",
+						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "Hidden Item 1",
@@ -1823,17 +3017,28 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 940,
-						"y": 260
+						"x": 188,
+						"y": 52
 					}
 				]
 			},
 			{
 				"name": "Pewter City",
 				"access_rules": ["$viridian_access"],
+				"visibility_rules": ["johto_only_off"],
 				"sections": [
 					{
-						"name": "Gym - Boulder Badge from Brock"
+						"name": "Gym - Boulder Badge from Brock",
+						"visibility_rules": ["badges_on", "badges_shuffle"]
+					},
+					{
+						"name": "​Gym - Boulder Badge from Brock",
+						"visibility_rules": ["badges_off"],
+						"hosted_item": "BOULDER_BADGE"
+					},
+					{
+						"name": "Gym - Camper Jerry",
+						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "Silver Wing from Old Man"
@@ -1842,41 +3047,73 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 940,
-						"y": 180
+						"x": 188,
+						"y": 36
 					}
 				]
 			},
 			{
 				"name": "Route 3",
 				"access_rules": ["$viridian_access"],
-				"sections": [],
+				"visibility_rules": ["johto_only_off"],
+				"sections": [
+					{
+						"name": "Firebreather Burt",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Firebreather Otis",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Youngster Jimmy",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Youngster Warren",
+						"visibility_rules": ["trainersanity_on"]
+					}
+				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 1060,
-						"y": 180
+						"x": 212,
+						"y": 36
 					}
 				]
 			},
 			{
 				"name": "Mt. Moon",
 				"access_rules": ["$viridian_access"],
+				"visibility_rules": ["johto_only_off"],
 				"sections": [],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 1060,
-						"y": 140
+						"x": 212,
+						"y": 28
 					}
 				]
 			},
 			{
 				"name": "Route 4",
 				"access_rules": ["$viridian_access"],
+				"visibility_rules": ["johto_only_off"],
 				"sections": [
 					{
 						"name": "Item"
+					},
+					{
+						"name": "Bird Keeper Hank",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Picnicker Hope",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Picnicker Sharon",
+						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "Hidden Item on Plateau",
@@ -1887,20 +3124,39 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 1100,
-						"y": 180
+						"x": 220,
+						"y": 36
 					}
 				]
 			},
 			{
 				"name": "Cerulean City",
 				"access_rules": ["$saffron_access"],
+				"visibility_rules": ["johto_only_off"],
 				"sections": [
 					{
-						"name": "Gym - Cascade Badge from Misty"
+						"name": "Gym - Cascade Badge from Misty",
+						"visibility_rules": ["badges_on", "badges_shuffle"]
+					},
+					{
+						"name": "​Gym - Cascade Badge from Misty",
+						"visibility_rules": ["badges_off"],
+						"hosted_item": "CASCADE_BADGE"
 					},
 					{
 						"name": "Gym - Machine Part in Water"
+					},
+					{
+						"name": "Gym - Swimmer Briana",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - Swimmer Diana",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - Swimmer Parker",
+						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "Hidden Item in Water",
@@ -1911,40 +3167,42 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 1180,
-						"y": 180
+						"x": 236,
+						"y": 36
 					}
 				]
 			},
 			{
 				"name": "Route 5",
 				"access_rules": ["$saffron_access"],
+				"visibility_rules": ["johto_only_off"],
 				"sections": [
 					{
 						"name": "Cleanse Tag from Woman in House"
 					},
 					{
 						"name": "Underground Path - Hidden Item in North",
-						"access_rules": ["$hid,restored_power"],
+						"access_rules": ["$hid,EVENT_RESTORED_POWER_TO_KANTO"],
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
 						"name": "Underground Path - Hidden Item in South",
-						"access_rules": ["$hid,restored_power"],
+						"access_rules": ["$hid,EVENT_RESTORED_POWER_TO_KANTO"],
 						"visibility_rules": ["hiddenitems_on"]
 					}
 				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 1180,
-						"y": 220
+						"x": 236,
+						"y": 44
 					}
 				]
 			},
 			{
 				"name": "Route 25",
 				"access_rules": ["$saffron_access"],
+				"visibility_rules": ["johto_only_off"],
 				"sections": [
 					{
 						"name": "Nugget Bridge Prize"
@@ -1952,6 +3210,34 @@
 					{
 						"name": "Item Behind Cut Tree",
 						"access_rules": ["$can_cut"]
+					},
+					{
+						"name": "Camper Lloyd",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Lass Ellen",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Lass Laura",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Lass Shannon",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Schoolboy Dudley",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Schoolboy Joe",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Super Nerd Pat",
+						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "Hidden Item in Tree",
@@ -1962,15 +3248,45 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 1260,
-						"y": 100
+						"x": 152,
+						"y": 20
 					}
 				]
 			},
 			{
 				"name": "Route 9",
 				"access_rules": ["$saffron_access,$can_cut", "$saffron_access,$can_flash"],
+				"visibility_rules": ["johto_only_off"],
 				"sections": [
+					{
+						"name": "Camper Dean",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Camper Sid",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Hiker Sidney",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Hiker Tim",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Picnicker Edna",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Picnicker Heidi",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Hidden Item in Southeast Corner",
+						"access_rules": ["$hid"],
+						"visibility_rules": ["hiddenitems_on"]
+					},
 					{
 						"name": "Hidden Item in Southeast Corner",
 						"access_rules": ["$hid"],
@@ -1980,14 +3296,15 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 1260,
-						"y": 180
+						"x": 152,
+						"y": 36
 					}
 				]
 			},
 			{
 				"name": "Rock Tunnel",
 				"access_rules": ["$saffron_access,$can_flash"],
+				"visibility_rules": ["johto_only_off"],
 				"sections": [
 					{
 						"name": "1F - Item 1"
@@ -2023,76 +3340,151 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 1340,
-						"y": 180
+						"x": 268,
+						"y": 36
 					}
 				]
 			},
 			{
 				"name": "Power Plant",
 				"access_rules": ["$powerplant_access"],
+				"visibility_rules": ["johto_only_off"],
 				"sections": [
 					{
 						"name": "TM07 from Manager",
-						"access_rules": ["machinepart"]
+						"access_rules": ["MACHINE_PART"]
 					},
 					{
 						"name": "Restore Power to Kanto",
-						"access_rules": ["machinepart"],
-						"hosted_item": "restored_power"
+						"access_rules": ["MACHINE_PART"],
+						"hosted_item": "EVENT_RESTORED_POWER_TO_KANTO"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 1380,
-						"y": 220
+						"x": 276,
+						"y": 44
 					}
 				]
 			},
 			{
-				"name": "Lavendar Town",
+				"name": "Route 10",
 				"access_rules": ["$saffron_access"],
+				"visibility_rules": ["johto_only_off"],
 				"sections": [
 					{
-						"name": "Radio Tower - EXPN Card",
-						"access_rules": ["restored_power"],
-						"hosted_item": "expncard"
+						"name": "Hiker Jim",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Pokefan Robert",
+						"visibility_rules": ["trainersanity_on"]
 					}
 				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 1340,
-						"y": 260
+						"x": 268,
+						"y": 44
+					}
+				]
+			},
+			{
+				"name": "Lavender Town",
+				"access_rules": ["$saffron_access"],
+				"visibility_rules": ["johto_only_off"],
+				"sections": [
+					{
+						"name": "Radio Tower - EXPN Card",
+						"access_rules": ["EVENT_RESTORED_POWER_TO_KANTO"],
+						"visibility_rules": ["pokegear_on"]
+					},
+					{
+						"name": "​Radio Tower - EXPN Card",
+						"access_rules": ["EVENT_RESTORED_POWER_TO_KANTO"],
+						"visibility_rules": ["pokegear_off"],
+						"hosted_item": "EXPN_CARD"
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 268,
+						"y": 52
 					}
 				]
 			},
 			{
 				"name": "Route 8",
 				"access_rules": ["$saffron_access"],
-				"sections": [],
+				"visibility_rules": ["johto_only_off"],
+				"sections": [
+					{
+						"name": "Biker Dwayne",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Biker Harris",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Biker Zeke",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Super Nerd Sam",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Super Nerd Tom",
+						"visibility_rules": ["trainersanity_on"]
+					}
+				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 1260,
-						"y": 260
+						"x": 252,
+						"y": 52
 					}
 				]
 			},
 			{
 				"name": "Saffron City",
 				"access_rules": ["$saffron_access"],
+				"visibility_rules": ["johto_only_off"],
 				"sections": [
 					{
-						"name": "Gym - Marsh Badge from Sabrina"
+						"name": "Gym - Marsh Badge from Sabrina",
+						"visibility_rules": ["badges_on", "badges_shuffle"]
+					},
+					{
+						"name": "​Gym - Marsh Badge from Sabrina",
+						"visibility_rules": ["badges_off"],
+						"hosted_item": "MARSH_BADGE"
+					},
+					{
+						"name": "Gym - Medium Doris",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - Medium Rebecca",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - Psychic Franklin",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - Psychic Jared",
+						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "TM29 from Mr Psychic"
 					},
 					{
 						"name": "Pass from Copycat",
-						"access_rules": ["lostitem"]
+						"access_rules": ["LOST_ITEM"]
 					},
 					{
 						"name": "Silph Co. 1F - Up-Grade from Guard"
@@ -2104,22 +3496,50 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 1180,
-						"y": 260
+						"x": 236,
+						"y": 52
 					}
 				]
 			},
 			{
 				"name": "Celadon City",
 				"access_rules": ["$saffron_access"],
+				"visibility_rules": ["johto_only_off"],
 				"sections": [
 					{
 						"name": "Gym - Rainbow Badge from Erika",
-						"access_rules": ["$can_cut"]
+						"access_rules": ["$can_cut"],
+						"visibility_rules": ["badges_on", "badges_shuffle"]
+					},
+					{
+						"name": "​Gym - Rainbow Badge from Erika",
+						"access_rules": ["$can_cut"],
+						"visibility_rules": ["badges_off"],
+						"hosted_item": "RAINBOW_BADGE"
 					},
 					{
 						"name": "Gym - TM19 from Erika",
 						"access_rules": ["$can_cut"]
+					},
+					{
+						"name": "Gym - Beauty Julia",
+						"access_rules": ["$can_cut"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - Lass Michelle",
+						"access_rules": ["$can_cut"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - Picnicker Tanya",
+						"access_rules": ["$can_cut"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - Twins Jo & Zoe",
+						"access_rules": ["$can_cut"],
+						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "TM03 from Man in Mansion Roof"
@@ -2132,15 +3552,32 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 1060,
-						"y": 260
+						"x": 212,
+						"y": 52
 					}
 				]
 			},
 			{
 				"name": "Route 17",
-				"access_rules": ["$saffron_access,bicycle"],
+				"access_rules": ["$saffron_access,BICYCLE"],
+				"visibility_rules": ["johto_only_off"],
 				"sections": [
+					{
+						"name": "Biker Charles",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Biker Glenn",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Biker Joel",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Biker Riley",
+						"visibility_rules": ["trainersanity_on"]
+					},
 					{
 						"name": "Hidden Item at Corner",
 						"access_rules": ["$hid"],
@@ -2155,22 +3592,67 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 1020,
-						"y": 380
+						"x": 204,
+						"y": 76
+					}
+				]
+			},
+			{
+				"name": "Route 18",
+				"access_rules": ["$saffron_access"],
+				"visibility_rules": ["johto_only_off"],
+				"sections": [
+					{
+						"name": "Bird Keeper Bob",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Bird Keeper Boris",
+						"visibility_rules": ["trainersanity_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 212,
+						"y": 100
 					}
 				]
 			},
 			{
 				"name": "Vermilion City",
 				"access_rules": ["$saffron_access"],
+				"visibility_rules": ["johto_only_off"],
 				"sections": [
 					{
 						"name": "Gym - Thunder Badge from Lt. Surge",
-						"access_rules": ["$can_cut", "$can_surf"]
+						"access_rules": ["$can_cut", "$can_surf"],
+						"visibility_rules": ["badges_on", "badges_shuffle"]
+					},
+					{
+						"name": "​Gym - Thunder Badge from Lt. Surge",
+						"access_rules": ["$can_cut", "$can_surf"],
+						"visibility_rules": ["badges_off"],
+						"hosted_item": "THUNDER_BADGE"
+					},
+					{
+						"name": "Gym - Gentleman Gregory",
+						"access_rules": ["$can_cut", "$can_surf"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - Guitarist Vincent",
+						"access_rules": ["$can_cut", "$can_surf"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - Juggler Horton",
+						"access_rules": ["$can_cut", "$can_surf"],
+						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "Lost Item from Guy in Fan Club",
-						"access_rules": ["restored_power"]
+						"access_rules": ["EVENT_RESTORED_POWER_TO_KANTO"]
 					},
 					{
 						"name": "Rare Candy from Fan Club President"
@@ -2186,21 +3668,22 @@
 					},
 					{
 						"name": "Port - Hidden Item in Buoy",
-						"access_rules": ["ssticket,$can_surf,$hid"],
+						"access_rules": ["S_S_TICKET,$can_surf,$hid"],
 						"visibility_rules": ["hiddenitems_on"]
 					}
 				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 1180,
-						"y": 340
+						"x": 236,
+						"y": 68
 					}
 				]
 			},
 			{
 				"name": "Diglett's Cave",
 				"access_rules": ["$viridian_access"],
+				"visibility_rules": ["johto_only_off"],
 				"sections": [
 					{
 						"name": "Hidden Item on Boulder",
@@ -2211,15 +3694,54 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 1220,
-						"y": 300
+						"x": 244,
+						"y": 60
+					}
+				]
+			},
+			{
+				"name": "Route 6",
+				"access_rules": ["$saffron_access"],
+				"visibility_rules": ["johto_only_off"],
+				"sections": [
+					{
+						"name": "Pokefan Allan",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Pokefan Rex",
+						"visibility_rules": ["trainersanity_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 236,
+						"y": 60
 					}
 				]
 			},
 			{
 				"name": "Route 11",
 				"access_rules": ["$saffron_access"],
+				"visibility_rules": ["johto_only_off"],
 				"sections": [
+					{
+						"name": "Psychic Fidel",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Psychic Herman",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Youngster Jason",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Youngster Owen",
+						"visibility_rules": ["trainersanity_on"]
+					},
 					{
 						"name": "Hidden Item in Tree",
 						"access_rules": ["$hid"],
@@ -2229,14 +3751,15 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 1260,
-						"y": 340
+						"x": 252,
+						"y": 68
 					}
 				]
 			},
 			{
 				"name": "Route 12",
 				"access_rules": ["$saffron_access"],
+				"visibility_rules": ["johto_only_off"],
 				"sections": [
 					{
 						"name": "Super Rod from Fishing Guru"
@@ -2250,6 +3773,22 @@
 						"access_rules": ["$can_cut,$can_surf"]
 					},
 					{
+						"name": "Fisher Barney",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Fisher Kyle",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Fisher Martin",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Fisher Stephen",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
 						"name": "Hidden Item on Island",
 						"access_rules": ["$can_surf,$hid"],
 						"visibility_rules": ["hiddenitems_on"]
@@ -2258,15 +3797,36 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 1340,
-						"y": 340
+						"x": 268,
+						"y": 68
 					}
 				]
 			},
 			{
 				"name": "Route 13",
 				"access_rules": ["$saffron_access"],
+				"visibility_rules": ["johto_only_off"],
 				"sections": [
+					{
+						"name": "Bird Keeper Bret",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Bird Keeper Perry",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Hiker Kenny",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Pokefan Alex",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Pokefan Joshua",
+						"visibility_rules": ["trainersanity_on"]
+					},
 					{
 						"name": "Hidden Item in Fence Maze",
 						"access_rules": ["$hid"],
@@ -2276,46 +3836,92 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 1300,
-						"y": 420
+						"x": 260,
+						"y": 84
 					}
 				]
 			},
 			{
 				"name": "Route 14",
 				"access_rules": ["$saffron_access"],
-				"sections": [],
+				"visibility_rules": ["johto_only_off"],
+				"sections": [
+					{
+						"name": "Bird Keeper Roy",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Pokefan Carter",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Pokefan Trevor",
+						"visibility_rules": ["trainersanity_on"]
+					}
+				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 1260,
-						"y": 460
+						"x": 252,
+						"y": 92
 					}
 				]
 			},
 			{
 				"name": "Route 15",
 				"access_rules": ["$saffron_access"],
+				"visibility_rules": ["johto_only_off"],
 				"sections": [
 					{
 						"name": "Item",
 						"access_rules": ["$can_cut"]
+					},
+					{
+						"name": "Schoolboy Billy",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Schoolboy Johnny",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Schoolboy Kipp",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Schoolboy Tommy",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Teacher Colette",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Teacher Hillary",
+						"visibility_rules": ["trainersanity_on"]
 					}
 				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 1220,
-						"y": 500
+						"x": 244,
+						"y": 100
 					}
 				]
 			},
 			{
 				"name": "Fuchsia City",
 				"access_rules": ["$saffron_access"],
+				"visibility_rules": ["johto_only_off"],
 				"sections": [
 					{
-						"name": "Gym - Soul Badge from Janine"
+						"name": "Gym - Soul Badge from Janine",
+						"visibility_rules": ["badges_on", "badges_shuffle"]
+					},
+					{
+						"name": "​Gym - Soul Badge from Janine",
+						"visibility_rules": ["badges_off"],
+						"hosted_item": "SOUL_BADGE"
 					},
 					{
 						"name": "Gym - TM06 from Janine"
@@ -2324,46 +3930,102 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 1140,
-						"y": 500
+						"x": 228,
+						"y": 100
 					}
 				]
 			},
 			{
 				"name": "Route 19",
 				"access_rules": ["$saffron_access"],
-				"sections": [],
+				"visibility_rules": ["johto_only_off"],
+				"sections": [
+					{
+						"name": "Swimmer Dawn",
+						"access_rules": ["$can_surf"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Swimmer Harold",
+						"access_rules": ["$can_surf"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Swimmer Jerome",
+						"access_rules": ["$can_surf"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Swimmer Tucker",
+						"access_rules": ["$can_surf"],
+						"visibility_rules": ["trainersanity_on"]
+					}
+				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 1100,
-						"y": 580
+						"x": 220,
+						"y": 116
+					}
+				]
+			},
+			{
+				"name": "Route 20",
+				"access_rules": ["$viridian_access,$can_surf"],
+				"visibility_rules": ["johto_only_off"],
+				"sections": [
+					{
+						"name": "Swimmer Nicole",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Swimmer Lori",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Swimmer Cameron",
+						"visibility_rules": ["trainersanity_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 212,
+						"y": 116
 					}
 				]
 			},
 			{
 				"name": "Seafoam Islands",
 				"access_rules": ["$viridian_access,$can_surf"],
+				"visibility_rules": ["johto_only_off"],
 				"sections": [
 					{
-						"name": "Gym - Volcano Badge from Blaine"
+						"name": "Gym - Volcano Badge from Blaine",
+						"visibility_rules": ["badges_on", "badges_shuffle"]
+					},
+					{
+						"name": "​Gym - Volcano Badge from Blaine",
+						"visibility_rules": ["badges_off"],
+						"hosted_item": "VOLCANO_BADGE"
 					}
 				],
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 1020,
-						"y": 580
+						"x": 204,
+						"y": 116
 					}
 				]
 			},
 			{
 				"name": "Cinnabar Island",
 				"access_rules": ["$viridian_access,$can_surf"],
+				"visibility_rules": ["johto_only_off"],
 				"sections": [
 					{
 						"name": "Blue Returns to Gym",
-						"hosted_item": "blue_returned"
+						"hosted_item": "EVENT_VIRIDIAN_GYM_BLUE"
 					},
 					{
 						"name": "Hidden Item in North",
@@ -2374,8 +4036,34 @@
 				"map_locations": [
 					{
 						"map": "johtokanto",
-						"x": 940,
-						"y": 580
+						"x": 188,
+						"y": 116
+					}
+				]
+			},
+			{
+				"name": "Route 21",
+				"access_rules": ["$viridian_access,$can_surf"],
+				"visibility_rules": ["johto_only_off"],
+				"sections": [
+					{
+						"name": "Swimmer Nikki",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Fisher Arnold",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Swimmer Seth",
+						"visibility_rules": ["trainersanity_on"]
+					}
+				],
+				"map_locations": [
+					{
+						"map": "johtokanto",
+						"x": 188,
+						"y": 100
 					}
 				]
 			}

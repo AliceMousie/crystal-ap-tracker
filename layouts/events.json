@@ -15,8 +15,20 @@
 						"h_alignment": "left",
 						"item_h_alignment": "center",
 						"rows": [
-							["kenya_collected", "kenya_delivered", "jasmine_returned", "help_lance", "hideout_cleared"],
-							["tower_cleared", "become_champion", "restored_power", "blue_returned", "defeat_red"]
+							[
+								"EVENT_GOT_KENYA",
+								"EVENT_GAVE_KENYA",
+								"EVENT_JASMINE_RETURNED_TO_GYM",
+								"EVENT_DECIDED_TO_HELP_LANCE",
+								"EVENT_CLEARED_ROCKET_HIDEOUT"
+							],
+							[
+								"EVENT_CLEARED_RADIO_TOWER",
+								"EVENT_BEAT_ELITE_FOUR",
+								"EVENT_RESTORED_POWER_TO_KANTO",
+								"EVENT_VIRIDIAN_GYM_BLUE",
+								"EVENT_BEAT_RED"
+							]
 						]
 					}
 				]

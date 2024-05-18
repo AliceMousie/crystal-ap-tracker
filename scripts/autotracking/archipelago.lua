@@ -6,8 +6,8 @@ ScriptHost:LoadScript("scripts/autotracking/ap_helper.lua")
 BASE_OFFSET = 7680000
 
 CUR_INDEX = -1
--- PLAYER_ID = -1
--- TEAM_NUMBER = 0
+PLAYER_ID = -1
+TEAM_NUMBER = 0
 
 EVENT_ID=""
 KEY_ID=""
@@ -22,8 +22,8 @@ function onClear(slot_data)
 		return
 	end
 
-	-- PLAYER_ID = Archipelago.PlayerNumber or -1
-	-- TEAM_NUMBER = Archipelago.TeamNumber or 0
+	PLAYER_ID = Archipelago.PlayerNumber or -1
+	TEAM_NUMBER = Archipelago.TeamNumber or 0
 	
 	--print(dump_table(slot_data))
 
@@ -31,6 +31,17 @@ function onClear(slot_data)
 		if SLOT_CODES[k] then
 			Tracker:FindObjectForCode(SLOT_CODES[k].code).CurrentStage = SLOT_CODES[k].mapping[v]
 		end
+	end
+
+	if PLAYER_ID>-1 then
+		updateEvents(0)
+		EVENT_ID="pokemon_crystal_events_"..TEAM_NUMBER.."_"..PLAYER_ID
+		Archipelago:SetNotify({EVENT_ID})
+		Archipelago:Get({EVENT_ID})
+
+		KEY_ID="pokemon_crystal_keys_"..TEAM_NUMBER.."_"..PLAYER_ID
+		Archipelago:SetNotify({KEY_ID})
+		Archipelago:Get({KEY_ID})
 	end
 end
 
@@ -48,7 +59,7 @@ function onItem(index, item_id, item_name, player_number)
 	if obj then
 		obj.Active = true
 	else
-		print(string.format("onItem: could not find object for code %s", v[1]))
+		--print(string.format("onItem: could not find object for code %s", v[1]))
 	end
 end
 
@@ -67,6 +78,50 @@ function onLocation(location_id, location_name)
 	end
 end
 
+function onNotify(key, value, old_value)
+	if key == EVENT_ID then
+		updateEvents(value)
+	elseif key == KEY_ID then
+		updateVanillaKeyItems(value)
+	end
+end
+
+function onNotifyLaunch(key, value)
+	if key == EVENT_ID then
+		updateEvents(value)
+	elseif key == KEY_ID then
+		updateVanillaKeyItems(value)
+	end
+end
+
+function updateEvents(value)
+	if value ~= nil then
+		local gyms = 0
+		for i, code in ipairs(FLAG_EVENT_CODES) do
+			local bit = value >> (i - 1) & 1
+			if #code>0 then
+				Tracker:FindObjectForCode(code).Active = Tracker:FindObjectForCode(code).Active or bit
+			end
+		end
+	end
+end
+
+function updateVanillaKeyItems(value) 
+	if value ~= nil then
+		for i, obj in ipairs(FLAG_ITEM_CODES) do
+			local bit = value >> (i - 1) & 1
+			if obj.codes and has(obj.option) then
+				for i, code in ipairs(obj.codes) do 
+					Tracker:FindObjectForCode(code).Active = Tracker:FindObjectForCode(code).Active or bit
+				end
+			end
+		end
+	end
+end
+
+
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
+Archipelago:AddSetReplyHandler("notify handler", onNotify)
+Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)

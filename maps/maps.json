@@ -1,9 +1,9 @@
 [
 	{
 		"name": "johtokanto",
-		"location_size": 32,
-		"location_border_thickness": 4,
-		"img": "images/maps/johtokanto.png"
+		"location_size": 6,
+		"location_border_thickness": 1,
+		"img": "images/maps/johtokanto_small.png"
 	},
 	{
 		"name": "darkcave",
