@@ -2433,6 +2433,21 @@
 						"access_rules": ["EVENT_CLEARED_RADIO_TOWER,$can_strength"]
 					},
 					{
+						"name": "Gym - 1F - Cool Trainer Paul",
+						"access_rules": ["EVENT_CLEARED_RADIO_TOWER"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - 2F - Cool Trainer Cody",
+						"access_rules": ["EVENT_CLEARED_RADIO_TOWER"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - 2F - Cool Trainer Fran",
+						"access_rules": ["EVENT_CLEARED_RADIO_TOWER"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
 						"name": "Gym - 1F - Cool Trainer Lola",
 						"access_rules": ["EVENT_CLEARED_RADIO_TOWER,$can_strength"],
 						"visibility_rules": ["trainersanity_on"]
@@ -2443,30 +2458,15 @@
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
-						"name": "Gym - 1F - Cool Trainer Paul",
-						"access_rules": ["EVENT_CLEARED_RADIO_TOWER,$can_strength"],
-						"visibility_rules": ["trainersanity_on"]
-					},
-					{
-						"name": "Gym - 2F - Cool Trainer Cody",
-						"access_rules": ["EVENT_CLEARED_RADIO_TOWER,$can_strength"],
-						"visibility_rules": ["trainersanity_on"]
-					},
-					{
-						"name": "Gym - 2F - Cool Trainer Fran",
-						"access_rules": ["EVENT_CLEARED_RADIO_TOWER,$can_strength"],
-						"visibility_rules": ["trainersanity_on"]
-					},
-					{
 						"name": "Spell Tag from Santos"
 					},
 					{
 						"name": "Dragon's Den B1F - Item 1",
-						"access_rules": ["$can_surf,$can_strength,EVENT_CLEARED_RADIO_TOWER"]
+						"access_rules": ["$can_strength,EVENT_CLEARED_RADIO_TOWER"]
 					},
 					{
 						"name": "Dragon's Den B1F - Item 2",
-						"access_rules": ["$can_surf,$can_strength,EVENT_CLEARED_RADIO_TOWER"]
+						"access_rules": ["$can_whirlpool,$can_strength,EVENT_CLEARED_RADIO_TOWER"]
 					},
 					{
 						"name": "Dragon's Den B1F - Item 3",
@@ -2479,7 +2479,7 @@
 					},
 					{
 						"name": "Dragon's Den B1F - Cool Trainer Darin",
-						"access_rules": ["$can_surf,$can_strength,EVENT_CLEARED_RADIO_TOWER"],
+						"access_rules": ["$can_strength,EVENT_CLEARED_RADIO_TOWER"],
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
@@ -2489,12 +2489,12 @@
 					},
 					{
 						"name": "Dragon's Den B1F - Hidden Item in SE Corner",
-						"access_rules": ["$can_surf,$can_strength,EVENT_CLEARED_RADIO_TOWER,$hid"],
+						"access_rules": ["$can_whirlpool,$can_strength,EVENT_CLEARED_RADIO_TOWER,$hid"],
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
 						"name": "Dragon's Den B1F - Hidden Item in Water 1",
-						"access_rules": ["$can_surf,$can_strength,EVENT_CLEARED_RADIO_TOWER,$hid"],
+						"access_rules": ["$can_whirlpool,$can_strength,EVENT_CLEARED_RADIO_TOWER,$hid"],
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
