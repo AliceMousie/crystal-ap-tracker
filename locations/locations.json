@@ -290,47 +290,47 @@
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
-						"name": "Aerodactyl Room - Item 1",
+						"name": "Aerodactyl Room Item 1",
 						"access_rules": ["$can_surf,$can_flash"]
 					},
 					{
-						"name": "Aerodactyl Room - Item 2",
+						"name": "Aerodactyl Room Item 2",
 						"access_rules": ["$can_surf,$can_flash"]
 					},
 					{
-						"name": "Aerodactyl Room - Item 3",
+						"name": "Aerodactyl Room Item 3",
 						"access_rules": ["$can_surf,$can_flash"]
 					},
 					{
-						"name": "Aerodactyl Room - Item 4",
+						"name": "Aerodactyl Room Item 4",
 						"access_rules": ["$can_surf,$can_flash"]
 					},
 					{
-						"name": "Kabuto Room - Item 1"
+						"name": "Kabuto Room Item 1"
 					},
 					{
-						"name": "Kabuto Room - Item 2"
+						"name": "Kabuto Room Item 2"
 					},
 					{
-						"name": "Kabuto Room - Item 3"
+						"name": "Kabuto Room Item 3"
 					},
 					{
-						"name": "Kabuto Room - Item 4"
+						"name": "Kabuto Room Item 4"
 					},
 					{
-						"name": "Omanyte Room - Item 1",
+						"name": "Omanyte Room Item 1",
 						"access_rules": ["$can_surf,$can_strength"]
 					},
 					{
-						"name": "Omanyte Room - Item 2",
+						"name": "Omanyte Room Item 2",
 						"access_rules": ["$can_surf,$can_strength"]
 					},
 					{
-						"name": "Omanyte Room - Item 3",
+						"name": "Omanyte Room Item 3",
 						"access_rules": ["$can_surf,$can_strength"]
 					},
 					{
-						"name": "Omanyte Room - Item 4",
+						"name": "Omanyte Room Item 4",
 						"access_rules": ["$can_surf,$can_strength"]
 					}
 				],
