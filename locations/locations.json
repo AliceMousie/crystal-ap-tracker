@@ -532,22 +532,6 @@
 						"name": "B1F - Item 1"
 					},
 					{
-						"name": "B1F - Grunt 1",
-						"visibility_rules": ["trainersanity_on"]
-					},
-					{
-						"name": "B1F - Grunt 2",
-						"visibility_rules": ["trainersanity_on"]
-					},
-					{
-						"name": "B1F - Grunt 3",
-						"visibility_rules": ["trainersanity_on"]
-					},
-					{
-						"name": "B1F - Grunt 4",
-						"visibility_rules": ["trainersanity_on"]
-					},
-					{
 						"name": "B2F - Item 1",
 						"access_rules": ["$can_surf,$can_strength"]
 					},
