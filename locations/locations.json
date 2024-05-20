@@ -286,10 +286,7 @@
 				"sections": [
 					{
 						"name": "Outside - Psychic Nathan",
-						"visibility_rules": ["trainersanity_on"]
-					},
-					{
-						"name": "Outside - Super Nerd Stan",
+						"access_rules": ["$can_surf"],
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
@@ -307,22 +304,6 @@
 					{
 						"name": "Aerodactyl Room - Item 4",
 						"access_rules": ["$can_surf,$can_flash"]
-					},
-					{
-						"name": "Ho-oh Room - Item 1",
-						"access_rules": ["$can_surf"]
-					},
-					{
-						"name": "Ho-oh Room - Item 2",
-						"access_rules": ["$can_surf"]
-					},
-					{
-						"name": "Ho-oh Room - Item 3",
-						"access_rules": ["$can_surf"]
-					},
-					{
-						"name": "Ho-oh Room - Item 4",
-						"access_rules": ["$can_surf"]
 					},
 					{
 						"name": "Kabuto Room - Item 1"
@@ -1747,7 +1728,7 @@
 					{
 						"map": "johtokanto",
 						"x": 20,
-						"y": 44
+						"y": 68
 					}
 				]
 			},
@@ -2817,7 +2798,7 @@
 			},
 			{
 				"name": "Silver Cave",
-				"access_rules": ["$red_access"],
+				"access_rules": ["$red_access,$can_flash"],
 				"visibility_rules": ["johto_only_off"],
 				"sections": [
 					{
@@ -3932,27 +3913,23 @@
 			},
 			{
 				"name": "Route 19",
-				"access_rules": ["$saffron_access"],
+				"access_rules": ["$viridian_access,$can_surf"],
 				"visibility_rules": ["johto_only_off"],
 				"sections": [
 					{
 						"name": "Swimmer Dawn",
-						"access_rules": ["$can_surf"],
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "Swimmer Harold",
-						"access_rules": ["$can_surf"],
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "Swimmer Jerome",
-						"access_rules": ["$can_surf"],
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "Swimmer Tucker",
-						"access_rules": ["$can_surf"],
 						"visibility_rules": ["trainersanity_on"]
 					}
 				],
