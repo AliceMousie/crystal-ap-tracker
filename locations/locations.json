@@ -2446,7 +2446,7 @@
 					},
 					{
 						"name": "Dragon's Den B1F - Item 1",
-						"access_rules": ["$can_strength,EVENT_CLEARED_RADIO_TOWER"]
+						"access_rules": ["$can_surf,$can_strength,EVENT_CLEARED_RADIO_TOWER"]
 					},
 					{
 						"name": "Dragon's Den B1F - Item 2",
@@ -2463,7 +2463,7 @@
 					},
 					{
 						"name": "Dragon's Den B1F - Cool Trainer Darin",
-						"access_rules": ["$can_strength,EVENT_CLEARED_RADIO_TOWER"],
+						"access_rules": ["$can_surf,$can_strength,EVENT_CLEARED_RADIO_TOWER"],
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
