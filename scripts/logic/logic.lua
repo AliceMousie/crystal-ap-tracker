@@ -109,7 +109,7 @@ function ecruteak_access()
 end
 
 function tintower_access()
-	return ecruteak_access() and has("CLEAR_BELL") and has("tower_cleared")
+	return ecruteak_access() and has("CLEAR_BELL") and has("EVENT_CLEARED_RADIO_TOWER")
 end
 
 function cianwood_access()
