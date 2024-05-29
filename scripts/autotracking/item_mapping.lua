@@ -31,6 +31,7 @@ ITEM_MAPPING = {
 	[182] = "RADIO_CARD",
 	[185] = "EXPN_CARD",
 	[186] = "POKE_GEAR",
+	[202] = "TM_ROCK_SMASH",
 	[245] = "HM_CUT",
 	[246] = "HM_FLY",
 	[247] = "HM_SURF",
