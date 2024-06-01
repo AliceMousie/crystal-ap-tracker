@@ -1439,7 +1439,7 @@
 					{
 						"name": "Port - Hidden Item in Southeast Buoy",
 						"access_rules": ["S_S_TICKET,$can_surf,[$hid]"],
-						"visibility_rules": ["hiddenitems_on"]
+						"visibility_rules": ["hiddenitems_on,johto_only_off"]
 					}
 				],
 				"map_locations": [
