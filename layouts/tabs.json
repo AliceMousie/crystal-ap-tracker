@@ -358,6 +358,18 @@
 					"type": "tabbed",
 					"tabs": [
 						{ "title": "Fast Ship 1F", "content": { "type": "map", "maps": ["FastShip1F"] } },
+						{
+							"title": "Fast Ship 1F - Cabins 1",
+							"content": { "type": "map", "maps": ["FastShipCabins_NNW_NNE_NE"] }
+						},
+						{
+							"title": "Fast Ship 1F - Cabins 2",
+							"content": { "type": "map", "maps": ["FastShipCabins_SE_SSE_CaptainsCabin"] }
+						},
+						{
+							"title": "Fast Ship 1F - Cabins 3",
+							"content": { "type": "map", "maps": ["FastShipCabins_SW_SSW_NW"] }
+						},
 						{ "title": "Fast Ship B1F", "content": { "type": "map", "maps": ["FastShipB1F"] } }
 					]
 				}
