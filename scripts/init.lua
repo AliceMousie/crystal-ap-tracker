@@ -15,6 +15,7 @@ if PopVersion and PopVersion >= "0.23.0" then
 end
 
 -- Layout
+Tracker:AddLayouts("layouts/dungeon_maps.json")
 Tracker:AddLayouts("layouts/events.json")
 Tracker:AddLayouts("layouts/settings.json")
 Tracker:AddLayouts("layouts/items.json")
