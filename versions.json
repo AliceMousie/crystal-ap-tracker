@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "0.0.6",
+			"download_url": "https://codeload.github.com/AliceMousie/crystal-ap-tracker/zip/refs/tags/v0.0.6",
+			"sha256": "1e5dd68ba058bc9342bc9f75d9a18e7051377933eafd1c787e3adf3591b3ef47",
+			"changelog": ["Added more detail maps", "Auto map tracking"]
+		},
+		{
 			"package_version": "0.0.5",
 			"download_url": "https://codeload.github.com/AliceMousie/crystal-ap-tracker/zip/refs/tags/v0.0.5",
 			"sha256": "d08855251652fb53f60a55d7cf9adc2e384097a5a8c232dfe9f822d643f01835",
