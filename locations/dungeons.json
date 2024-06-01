@@ -2089,6 +2089,11 @@
 			},
 			{
 				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Route 32/Hidden Item North of Bridge" }],
+				"map_locations": [{ "map": "Route32South", "x": 184, "y": 8 }]
+			},
+			{
+				"name": "",
 				"sections": [{ "ref": "JohtoKanto/Route 32/Poison Barb from Frieda" }],
 				"map_locations": [{ "map": "Route32South", "x": 200, "y": 440 }]
 			},
@@ -2131,11 +2136,6 @@
 					}
 				],
 				"map_locations": [{ "map": "Route32South", "x": 184, "y": 536 }]
-			},
-			{
-				"name": "",
-				"sections": [{ "ref": "JohtoKanto/Route 32/Hidden Item North of Bridge" }],
-				"map_locations": [{ "map": "Route32North", "x": 184, "y": 648 }]
 			},
 			{
 				"name": "",
