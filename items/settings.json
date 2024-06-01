@@ -195,5 +195,26 @@
 				"inherit_codes": false
 			}
 		]
+	},
+	{
+		"name": "Auto-Track Map",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Auto-Track Map - On",
+				"img": "/images/settings/automap.png",
+				"codes": "automap,automap_on",
+				"inherit_codes": false
+			},
+			{
+				"name": "Auto-Track Map - Off",
+				"img": "/images/settings/automap.png",
+				"img_mods": "@disabled",
+				"codes": "automap,automap_off",
+				"inherit_codes": false
+			}
+		]
 	}
 ]

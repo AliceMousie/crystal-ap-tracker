@@ -16,7 +16,8 @@
 						"h_alignment": "left",
 						"rows": [
 							["goal", "johto_only", "e4_badges", "red_badges", "badges"],
-							["badgereqs", "pokegear", "trainersanity", "hiddenitems", "reqitemfinder"]
+							["badgereqs", "pokegear", "trainersanity", "hiddenitems", "reqitemfinder"],
+							["automap"]
 						]
 					}
 				]

@@ -1,5 +1,6 @@
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/map_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/flag_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/ap_helper.lua")
 
@@ -127,9 +128,27 @@ function updateVanillaKeyItems(value)
 	end
 end
 
+function onMap(value)
+	
+	--print(dump_table(value))
+	-- print(value["data"]["mapGroup"])
+	-- print(value["data"]["mapNumber"])
+	if has("automap_on") and value ~= nil and value["data"] ~= nil then
+		--print("onMap received")
+		map_group = value["data"]["mapGroup"]
+		map_number = value["data"]["mapNumber"]
+		tabs = MAP_MAPPING[map_group][map_number]
+		--print(dump_table(tabs))
+		for i, tab in ipairs(tabs) do
+			Tracker:UiHint("ActivateTab", tab)
+		end
+	end
+end
+
 
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
 Archipelago:AddSetReplyHandler("notify handler", onNotify)
 Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
+Archipelago:AddBouncedHandler("map handler", onMap)

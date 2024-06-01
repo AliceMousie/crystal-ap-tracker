@@ -345,23 +345,20 @@
 						{
 							"title": "Victory Road",
 							"content": {
-								"type": "tabbed",
-								"tabs": [
-									{
-										"title": "Victory Road 1F",
-										"content": { "type": "map", "maps": ["VictoryRoad1F"] }
-									},
-									{
-										"title": "Victory Road 2F",
-										"content": { "type": "map", "maps": ["VictoryRoad2F"] }
-									},
-									{
-										"title": "Victory Road 3F",
-										"content": { "type": "map", "maps": ["VictoryRoad3F"] }
-									}
-								]
+								"type": "map",
+								"maps": ["VictoryRoad1F", "VictoryRoad2F", "VictoryRoad3F"]
 							}
 						}
+					]
+				}
+			},
+			{
+				"title": "Fast Ship",
+				"content": {
+					"type": "tabbed",
+					"tabs": [
+						{ "title": "Fast Ship 1F", "content": { "type": "map", "maps": ["FastShip1F"] } },
+						{ "title": "Fast Ship B1F", "content": { "type": "map", "maps": ["FastShipB1F"] } }
 					]
 				}
 			},
