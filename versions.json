@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "0.0.7",
+			"download_url": "https://codeload.github.com/AliceMousie/crystal-ap-tracker/zip/refs/tags/v0.0.7",
+			"sha256": "e5e40bb8d8063ceb5c721d337ba5833b4efdaa967baea6ca1acaca4522f93653",
+			"changelog": ["Added split map view", "Fixed some map tracking issues"]
+		},
+		{
 			"package_version": "0.0.6",
 			"download_url": "https://codeload.github.com/AliceMousie/crystal-ap-tracker/zip/refs/tags/v0.0.6",
 			"sha256": "1e5dd68ba058bc9342bc9f75d9a18e7051377933eafd1c787e3adf3591b3ef47",
