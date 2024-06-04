@@ -719,60 +719,60 @@
 			},
 			{
 				"name": "",
-				"sections": [{ "ref": "JohtoKanto/S.S. Aqua/B1F - Sailor Garrett (Eastbound)" }],
+				"sections": [{ "ref": "JohtoKanto/S.S. Aqua/B1F - Sailor Garrett (Westbound)" }],
 				"map_locations": [{ "map": "FastShipB1F", "x": 280, "y": 72 }]
 			},
 			{
 				"name": "",
-				"sections": [{ "ref": "JohtoKanto/S.S. Aqua/B1F - Fisher Jonah (Eastbound)" }],
+				"sections": [{ "ref": "JohtoKanto/S.S. Aqua/B1F - Fisher Jonah (Westbound)" }],
 				"map_locations": [{ "map": "FastShipB1F", "x": 408, "y": 136 }]
 			},
 			{
 				"name": "",
-				"sections": [{ "ref": "JohtoKanto/S.S. Aqua/B1F - Blackbelt Wai (Eastbound)" }],
+				"sections": [{ "ref": "JohtoKanto/S.S. Aqua/B1F - Blackbelt Wai (Westbound)" }],
 				"map_locations": [{ "map": "FastShipB1F", "x": 248, "y": 184 }]
 			},
 			{
 				"name": "",
-				"sections": [{ "ref": "JohtoKanto/S.S. Aqua/B1F - Sailor Kenneth (Westbound)" }],
+				"sections": [{ "ref": "JohtoKanto/S.S. Aqua/B1F - Sailor Kenneth (Eastbound)" }],
 				"map_locations": [{ "map": "FastShipB1F", "x": 376, "y": 72 }]
 			},
 			{
 				"name": "",
-				"sections": [{ "ref": "JohtoKanto/S.S. Aqua/B1F - Teacher Shirley (Westbound)" }],
+				"sections": [{ "ref": "JohtoKanto/S.S. Aqua/B1F - Teacher Shirley (Eastbound)" }],
 				"map_locations": [{ "map": "FastShipB1F", "x": 152, "y": 184 }]
 			},
 			{
 				"name": "",
-				"sections": [{ "ref": "JohtoKanto/S.S. Aqua/B1F - Schoolboy Nate (Westbound)" }],
+				"sections": [{ "ref": "JohtoKanto/S.S. Aqua/B1F - Schoolboy Nate (Eastbound)" }],
 				"map_locations": [{ "map": "FastShipB1F", "x": 232, "y": 152 }]
 			},
 			{
 				"name": "",
-				"sections": [{ "ref": "JohtoKanto/S.S. Aqua/B1F - Schoolboy Ricky (Westbound)" }],
+				"sections": [{ "ref": "JohtoKanto/S.S. Aqua/B1F - Schoolboy Ricky (Eastbound)" }],
 				"map_locations": [{ "map": "FastShipB1F", "x": 232, "y": 184 }]
 			},
 			{
 				"name": "",
-				"sections": [{ "ref": "JohtoKanto/S.S. Aqua/1F - Cool Trainer Sean (Eastbound)" }],
+				"sections": [{ "ref": "JohtoKanto/S.S. Aqua/1F - Cool Trainer Sean (Westbound)" }],
 				"map_locations": [{ "map": "FastShipCabins_NNW_NNE_NE", "x": 72, "y": 56 }]
 			},
 			{
 				"name": "",
 				"sections": [
-					{ "ref": "JohtoKanto/S.S. Aqua/1F - Cool Trainer Carol (Eastbound)" },
-					{ "ref": "JohtoKanto/S.S. Aqua/1F - Pokemaniac Ethan (Westbound)" }
+					{ "ref": "JohtoKanto/S.S. Aqua/1F - Cool Trainer Carol (Westbound)" },
+					{ "ref": "JohtoKanto/S.S. Aqua/1F - Pokemaniac Ethan (Eastbound)" }
 				],
 				"map_locations": [{ "map": "FastShipCabins_NNW_NNE_NE", "x": 24, "y": 88 }]
 			},
 			{
 				"name": "",
-				"sections": [{ "ref": "JohtoKanto/S.S. Aqua/1F - Gentleman Edward (Eastbound)" }],
+				"sections": [{ "ref": "JohtoKanto/S.S. Aqua/1F - Gentleman Edward (Westbound)" }],
 				"map_locations": [{ "map": "FastShipCabins_NNW_NNE_NE", "x": 120, "y": 488 }]
 			},
 			{
 				"name": "",
-				"sections": [{ "ref": "JohtoKanto/S.S. Aqua/1F - Burglar Corey (Westbound)" }],
+				"sections": [{ "ref": "JohtoKanto/S.S. Aqua/1F - Burglar Corey (Eastbound)" }],
 				"map_locations": [{ "map": "FastShipCabins_NNW_NNE_NE", "x": 40, "y": 488 }]
 			},
 			{
@@ -788,34 +788,34 @@
 			{
 				"name": "",
 				"sections": [
-					{ "ref": "JohtoKanto/S.S. Aqua/1F - Psychic Rodney (Eastbound)" },
-					{ "ref": "JohtoKanto/S.S. Aqua/1F - Pokefan Georgia (Westbound)" }
+					{ "ref": "JohtoKanto/S.S. Aqua/1F - Psychic Rodney (Westbound)" },
+					{ "ref": "JohtoKanto/S.S. Aqua/1F - Pokefan Georgia (Eastbound)" }
 				],
 				"map_locations": [{ "map": "FastShipCabins_SE_SSE_CaptainsCabin", "x": 88, "y": 88 }]
 			},
 			{
 				"name": "",
-				"sections": [{ "ref": "JohtoKanto/S.S. Aqua/1F - Pokefan Jeremy (Westbound)" }],
+				"sections": [{ "ref": "JohtoKanto/S.S. Aqua/1F - Pokefan Jeremy (Eastbound)" }],
 				"map_locations": [{ "map": "FastShipCabins_SE_SSE_CaptainsCabin", "x": 40, "y": 56 }]
 			},
 			{
 				"name": "",
-				"sections": [{ "ref": "JohtoKanto/S.S. Aqua/1F - Super Nerd Shawn (Eastbound)" }],
+				"sections": [{ "ref": "JohtoKanto/S.S. Aqua/1F - Super Nerd Shawn (Westbound)" }],
 				"map_locations": [{ "map": "FastShipCabins_SE_SSE_CaptainsCabin", "x": 24, "y": 248 }]
 			},
 			{
 				"name": "",
-				"sections": [{ "ref": "JohtoKanto/S.S. Aqua/1F - Bug Catcher Ken (Westbound)" }],
+				"sections": [{ "ref": "JohtoKanto/S.S. Aqua/1F - Bug Catcher Ken (Eastbound)" }],
 				"map_locations": [{ "map": "FastShipCabins_SW_SSW_NW", "x": 104, "y": 248 }]
 			},
 			{
 				"name": "",
-				"sections": [{ "ref": "JohtoKanto/S.S. Aqua/1F - Beauty Cassie (Eastbound)" }],
+				"sections": [{ "ref": "JohtoKanto/S.S. Aqua/1F - Beauty Cassie (Westbound)" }],
 				"map_locations": [{ "map": "FastShipCabins_SW_SSW_NW", "x": 24, "y": 424 }]
 			},
 			{
 				"name": "",
-				"sections": [{ "ref": "JohtoKanto/S.S. Aqua/1F - Guitarist Clyde (Westbound)" }],
+				"sections": [{ "ref": "JohtoKanto/S.S. Aqua/1F - Guitarist Clyde (Eastbound)" }],
 				"map_locations": [{ "map": "FastShipCabins_SW_SSW_NW", "x": 56, "y": 456 }]
 			},
 			{

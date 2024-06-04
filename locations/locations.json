@@ -1530,79 +1530,79 @@
 				"visibility_rules": ["johto_only_off"],
 				"sections": [
 					{
-						"name": "1F - Beauty Cassie (Eastbound)",
+						"name": "1F - Beauty Cassie (Westbound)",
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
-						"name": "1F - Cool Trainer Carol (Eastbound)",
+						"name": "1F - Cool Trainer Carol (Westbound)",
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
-						"name": "1F - Cool Trainer Sean (Eastbound)",
+						"name": "1F - Cool Trainer Sean (Westbound)",
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
-						"name": "1F - Gentleman Edward (Eastbound)",
+						"name": "1F - Gentleman Edward (Westbound)",
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
-						"name": "1F - Psychic Rodney (Eastbound)",
+						"name": "1F - Psychic Rodney (Westbound)",
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
-						"name": "1F - Super Nerd Shawn (Eastbound)",
+						"name": "1F - Super Nerd Shawn (Westbound)",
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
-						"name": "1F - Bug Catcher Ken (Westbound)",
+						"name": "1F - Bug Catcher Ken (Eastbound)",
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
-						"name": "1F - Burglar Corey (Westbound)",
+						"name": "1F - Burglar Corey (Eastbound)",
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
-						"name": "1F - Guitarist Clyde (Westbound)",
+						"name": "1F - Guitarist Clyde (Eastbound)",
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
-						"name": "1F - Pokefan Georgia (Westbound)",
+						"name": "1F - Pokefan Georgia (Eastbound)",
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
-						"name": "1F - Pokefan Jeremy (Westbound)",
+						"name": "1F - Pokefan Jeremy (Eastbound)",
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
-						"name": "1F - Pokemaniac Ethan (Westbound)",
+						"name": "1F - Pokemaniac Ethan (Eastbound)",
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
-						"name": "B1F - Blackbelt Wai (Eastbound)",
+						"name": "B1F - Blackbelt Wai (Westbound)",
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
-						"name": "B1F - Fisher Jonah (Eastbound)",
+						"name": "B1F - Fisher Jonah (Westbound)",
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
-						"name": "B1F - Sailor Garrett (Eastbound)",
+						"name": "B1F - Sailor Garrett (Westbound)",
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
-						"name": "B1F - Sailor Kenneth (Westbound)",
+						"name": "B1F - Sailor Kenneth (Eastbound)",
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
-						"name": "B1F - Schoolboy Nate (Westbound)",
+						"name": "B1F - Schoolboy Nate (Eastbound)",
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
-						"name": "B1F - Schoolboy Ricky (Westbound)",
+						"name": "B1F - Schoolboy Ricky (Eastbound)",
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
-						"name": "B1F - Teacher Shirley (Westbound)",
+						"name": "B1F - Teacher Shirley (Eastbound)",
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
