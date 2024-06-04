@@ -309,7 +309,7 @@
 						{ "title": "Ice Path 1F", "content": { "type": "map", "maps": ["IcePath1F"] } },
 						{ "title": "Ice Path B1F", "content": { "type": "map", "maps": ["IcePathB1F"] } },
 						{
-							"title": "Ice Path B2 - FMahogany Side",
+							"title": "Ice Path B2F - Mahogany Side",
 							"content": { "type": "map", "maps": ["IcePathB2FMahoganySide"] }
 						},
 						{

@@ -721,7 +721,7 @@
 				"sections": [
 					{
 						"name": "Gym - Plain Badge from Whitney",
-						"visibility_rules": ["badges_on", "badges_off"]
+						"visibility_rules": ["badges_on", "badges_shuffle"]
 					},
 					{
 						"name": "​Gym - Plain Badge from Whitney",
@@ -957,7 +957,7 @@
 					},
 					{
 						"name": "3F - Grunt 3",
-						"access_rules": ["$tower_takeover"],
+						"access_rules": ["$tower_takeover,CARD_KEY"],
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
@@ -976,12 +976,12 @@
 					},
 					{
 						"name": "4F - Grunt 2",
-						"access_rules": ["$tower_takeover"],
+						"access_rules": ["$tower_takeover,CARD_KEY"],
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "4F - Rocket Executive",
-						"access_rules": ["$tower_takeover"],
+						"access_rules": ["$tower_takeover,CARD_KEY"],
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
@@ -3506,6 +3506,7 @@
 					},
 					{
 						"name": "Hidden Item At Dead End",
+						"access_rules": ["[$hid]"],
 						"visibility_rules": ["hiddenitems_on"]
 					}
 				],
@@ -3619,7 +3620,7 @@
 					},
 					{
 						"name": "HP Up from Man by PokeCenter",
-						"access_rules": ["$red_badges"]
+						"access_rules": ["$all_badges"]
 					},
 					{
 						"name": "Hidden Item by Gym",

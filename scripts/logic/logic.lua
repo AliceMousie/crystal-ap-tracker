@@ -152,6 +152,11 @@ function red_badges()
 	return badges() >= progCount("red_badges")
 end
 
+function all_badges()
+	return badges() > 15
+end
+
+
 function red_access()
 	return red_badges() and viridian_access()
 end
