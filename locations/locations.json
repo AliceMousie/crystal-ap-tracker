@@ -47,6 +47,10 @@
 						"name": "Item"
 					},
 					{
+						"name": "Berry Tree",
+						"visibility_rules": ["berries_on"]
+					},
+					{
 						"name": "Pink Bow from Tuscany",
 						"access_rules": ["ZEPHYR_BADGE"]
 					}
@@ -89,6 +93,14 @@
 						"name": "Berry from House"
 					},
 					{
+						"name": "Berry Tree 1",
+						"visibility_rules": ["berries_on"]
+					},
+					{
+						"name": "Berry Tree 2",
+						"visibility_rules": ["berries_on"]
+					},
+					{
 						"name": "Hidden Item in Flowers",
 						"access_rules": ["[$hid]"],
 						"visibility_rules": ["hiddenitems_on"]
@@ -129,6 +141,10 @@
 					},
 					{
 						"name": "Item 2"
+					},
+					{
+						"name": "Berry Tree",
+						"visibility_rules": ["berries_on"]
 					},
 					{
 						"name": "Bug Catcher Wade",
@@ -220,6 +236,10 @@
 						"name": "Hidden Item Behind Cut Tree",
 						"access_rules": ["$can_cut,[$hid]"],
 						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "Berry Tree",
+						"visibility_rules": ["berries_on"]
 					}
 				],
 				"map_locations": [
@@ -513,6 +533,10 @@
 				"name": "Route 33",
 				"sections": [
 					{
+						"name": "Berry Tree",
+						"visibility_rules": ["berries_on"]
+					},
+					{
 						"name": "Hiker Anthony",
 						"visibility_rules": ["trainersanity_on"]
 					}
@@ -589,6 +613,10 @@
 						"name": "Hidden Item By Well",
 						"access_rules": ["[$hid]"],
 						"visibility_rules": ["hiddenitems_on"]
+					},
+					{
+						"name": "Berry Tree",
+						"visibility_rules": ["berries_on"]
 					}
 				],
 				"map_locations": [
@@ -1027,6 +1055,11 @@
 						"name": "Item"
 					},
 					{
+						"name": "Berry Tree",
+						"visibility_rules": ["berries_on"],
+						"access_rules": ["$can_surf"]
+					},
+					{
 						"name": "Bird Keeper Bryan",
 						"visibility_rules": ["trainersanity_on"]
 					},
@@ -1121,6 +1154,10 @@
 				"name": "Route 36",
 				"sections": [
 					{
+						"name": "Berry Tree",
+						"visibility_rules": ["berries_on"]
+					},
+					{
 						"name": "Psychic Mark",
 						"visibility_rules": ["trainersanity_on"]
 					},
@@ -1148,6 +1185,18 @@
 				"name": "Route 37",
 				"access_rules": ["$ecruteak_access"],
 				"sections": [
+					{
+						"name": "Berry Tree 1",
+						"visibility_rules": ["berries_on"]
+					},
+					{
+						"name": "Berry Tree 2",
+						"visibility_rules": ["berries_on"]
+					},
+					{
+						"name": "Berry Tree 3",
+						"visibility_rules": ["berries_on"]
+					},
 					{
 						"name": "Psychic Greg",
 						"visibility_rules": ["trainersanity_on"]
@@ -1342,6 +1391,10 @@
 				"access_rules": ["$ecruteak_access"],
 				"sections": [
 					{
+						"name": "Berry Tree",
+						"visibility_rules": ["berries_on"]
+					},
+					{
 						"name": "Beauty Olivia",
 						"visibility_rules": ["trainersanity_on"]
 					},
@@ -1380,6 +1433,10 @@
 				"sections": [
 					{
 						"name": "Moomoo Farm - TM13 After Feeding Moomoo"
+					},
+					{
+						"name": "Berry Tree",
+						"visibility_rules": ["berries_on"]
 					},
 					{
 						"name": "Pokefan Derek",
@@ -1866,6 +1923,21 @@
 						"name": "Item 2"
 					},
 					{
+						"name": "Berry Tree 1",
+						"visibility_rules": ["berries_on"],
+						"access_rules": ["$can_surf,$can_cut"]
+					},
+					{
+						"name": "Berry Tree 2",
+						"visibility_rules": ["berries_on"],
+						"access_rules": ["$can_surf,$can_cut"]
+					},
+					{
+						"name": "Berry Tree 3",
+						"visibility_rules": ["berries_on"],
+						"access_rules": ["$can_surf,$can_cut"]
+					},
+					{
 						"name": "Fisher Tully",
 						"visibility_rules": ["trainersanity_on"]
 					},
@@ -2177,6 +2249,11 @@
 						"name": "Item"
 					},
 					{
+						"name": "Berry Tree",
+						"visibility_rules": ["berries_on"],
+						"access_rules": ["$can_surf,$can_cut"]
+					},
+					{
 						"name": "Camper Spencer",
 						"visibility_rules": ["trainersanity_on"]
 					},
@@ -2296,6 +2373,10 @@
 					},
 					{
 						"name": "Item 3"
+					},
+					{
+						"name": "Berry Tree",
+						"visibility_rules": ["berries_on"]
 					},
 					{
 						"name": "Bird Keeper Vance",
@@ -2534,6 +2615,10 @@
 						"name": "Item 4"
 					},
 					{
+						"name": "Berry Tree",
+						"visibility_rules": ["berries_on"]
+					},
+					{
 						"name": "Blackbelt Kenji",
 						"visibility_rules": ["trainersanity_on"]
 					},
@@ -2581,6 +2666,14 @@
 				"sections": [
 					{
 						"name": "Item"
+					},
+					{
+						"name": "Berry Tree 1",
+						"visibility_rules": ["berries_on"]
+					},
+					{
+						"name": "Berry Tree 2",
+						"visibility_rules": ["berries_on"]
 					},
 					{
 						"name": "Camper Ted",
@@ -2668,6 +2761,10 @@
 				"sections": [
 					{
 						"name": "Item"
+					},
+					{
+						"name": "Berry Tree",
+						"visibility_rules": ["berries_on"]
 					},
 					{
 						"name": "Cool Trainer Beth",
@@ -2947,6 +3044,10 @@
 						"name": "Item 4"
 					},
 					{
+						"name": "Berry Tree",
+						"visibility_rules": ["berries_on"]
+					},
+					{
 						"name": "Bug Catcher Doug",
 						"visibility_rules": ["trainersanity_on"]
 					},
@@ -3004,6 +3105,14 @@
 					{
 						"name": "Gym - Camper Jerry",
 						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Berry Tree 1",
+						"visibility_rules": ["berries_on"]
+					},
+					{
+						"name": "Berry Tree 2",
+						"visibility_rules": ["berries_on"]
 					},
 					{
 						"name": "Silver Wing from Old Man"
@@ -3381,6 +3490,10 @@
 				"visibility_rules": ["johto_only_off"],
 				"sections": [
 					{
+						"name": "Berry Tree",
+						"visibility_rules": ["berries_on"]
+					},
+					{
 						"name": "Biker Dwayne",
 						"visibility_rules": ["trainersanity_on"]
 					},
@@ -3687,6 +3800,10 @@
 				"access_rules": ["$saffron_access"],
 				"visibility_rules": ["johto_only_off"],
 				"sections": [
+					{
+						"name": "Berry Tree",
+						"visibility_rules": ["berries_on"]
+					},
 					{
 						"name": "Psychic Fidel",
 						"visibility_rules": ["trainersanity_on"]

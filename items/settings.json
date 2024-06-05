@@ -134,6 +134,27 @@
 		]
 	},
 	{
+		"name": "Randomize Berry Trees",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Randomize Berry Trees - Off",
+				"img": "/images/settings/berries.png",
+				"img_mods": "@disabled",
+				"codes": "berries,berries_off",
+				"inherit_codes": false
+			},
+			{
+				"name": "Randomize Berry Trees - On",
+				"img": "/images/settings/berries.png",
+				"codes": "berries,berries_on",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
 		"name": "Randomize Hidden Items",
 		"type": "progressive",
 		"loop": true,

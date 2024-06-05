@@ -29,6 +29,11 @@
 			},
 			{
 				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Azalea Town/Berry Tree" }],
+				"map_locations": [{ "map": "AzaleaTown", "x": 136, "y": 40 }]
+			},
+			{
+				"name": "",
 				"sections": [
 					{ "ref": "JohtoKanto/Azalea Town/Charcoal from Charcoal Kiln", "name": "Charcoal Kiln - Charcoal" }
 				],
@@ -561,6 +566,11 @@
 			},
 			{
 				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Route 31/Berry Tree" }],
+				"map_locations": [{ "map": "Route31", "x": 264, "y": 120 }]
+			},
+			{
+				"name": "",
 				"sections": [
 					{
 						"ref": "JohtoKanto/Dark Cave Violet Entrance/Hidden Item in North",
@@ -604,6 +614,16 @@
 				"name": "",
 				"sections": [{ "ref": "JohtoKanto/Route 46/Hiker Bailey" }],
 				"map_locations": [{ "map": "Route46", "x": 200, "y": 312 }]
+			},
+			{
+				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Route 46/Berry Tree 1" }],
+				"map_locations": [{ "map": "Route46", "x": 120, "y": 88 }]
+			},
+			{
+				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Route 46/Berry Tree 2" }],
+				"map_locations": [{ "map": "Route46", "x": 136, "y": 104 }]
 			},
 			{
 				"name": "",
@@ -787,6 +807,11 @@
 				"name": "",
 				"sections": [{ "ref": "JohtoKanto/S.S. Aqua/1F - Guitarist Clyde (Eastbound)" }],
 				"map_locations": [{ "map": "FastShipCabins_SW_SSW_NW", "x": 56, "y": 456 }]
+			},
+			{
+				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Fuchsia City/Berry Tree" }],
+				"map_locations": [{ "map": "FuchsiaCity", "x": 136, "y": 24 }]
 			},
 			{
 				"name": "",
@@ -1248,6 +1273,11 @@
 			},
 			{
 				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Route 44/Berry Tree" }],
+				"map_locations": [{ "map": "Route44", "x": 152, "y": 88 }]
+			},
+			{
+				"name": "",
 				"sections": [{ "ref": "JohtoKanto/Ice Path/B1F - Hidden Item on Boulder" }],
 				"map_locations": [{ "map": "IcePathB1F", "x": 280, "y": 488 }]
 			},
@@ -1660,6 +1690,16 @@
 			},
 			{
 				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Route 30/Berry Tree 1" }],
+				"map_locations": [{ "map": "Route30", "x": 88, "y": 632 }]
+			},
+			{
+				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Route 30/Berry Tree 2" }],
+				"map_locations": [{ "map": "Route30", "x": 184, "y": 88 }]
+			},
+			{
+				"name": "",
 				"sections": [{ "ref": "JohtoKanto/Route 30/Berry from House", "name": "Route 30 - Berry from House" }],
 				"map_locations": [{ "map": "Route30", "x": 120, "y": 632 }]
 			},
@@ -1883,6 +1923,16 @@
 				"name": "",
 				"sections": [{ "ref": "JohtoKanto/Pewter City/Silver Wing from Old Man" }],
 				"map_locations": [{ "map": "PewterCity", "x": 472, "y": 280 }]
+			},
+			{
+				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Pewter City/Berry Tree 1" }],
+				"map_locations": [{ "map": "PewterCity", "x": 520, "y": 56 }]
+			},
+			{
+				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Pewter City/Berry Tree 2" }],
+				"map_locations": [{ "map": "PewterCity", "x": 488, "y": 56 }]
 			},
 			{
 				"name": "",
@@ -2189,6 +2239,11 @@
 			},
 			{
 				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Route 1/Berry Tree" }],
+				"map_locations": [{ "map": "Route1", "x": 56, "y": 120 }]
+			},
+			{
+				"name": "",
 				"sections": [{ "ref": "JohtoKanto/Route 11/Hidden Item in Tree" }],
 				"map_locations": [{ "map": "Route11", "x": 520, "y": 88 }]
 			},
@@ -2211,6 +2266,11 @@
 				"name": "",
 				"sections": [{ "ref": "JohtoKanto/Route 11/Psychic Fidel" }],
 				"map_locations": [{ "map": "Route11", "x": 136, "y": 104 }]
+			},
+			{
+				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Route 11/Berry Tree" }],
+				"map_locations": [{ "map": "Route11", "x": 520, "y": 40 }]
 			},
 			{
 				"name": "",
@@ -2441,6 +2501,11 @@
 			},
 			{
 				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Route 2/Berry Tree" }, { "ref": "JohtoKanto/Route 2/Berry Tree" }],
+				"map_locations": [{ "map": "Route2", "x": 168, "y": 232 }]
+			},
+			{
+				"name": "",
 				"sections": [{ "ref": "JohtoKanto/Route 2/Item 1" }, { "ref": "JohtoKanto/Route 2/Item 1" }],
 				"map_locations": [{ "map": "Route2", "x": 312, "y": 40 }]
 			},
@@ -2605,6 +2670,11 @@
 			},
 			{
 				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Route 26/Berry Tree" }],
+				"map_locations": [{ "map": "Route26", "x": 232, "y": 872 }]
+			},
+			{
+				"name": "",
 				"sections": [{ "ref": "JohtoKanto/Route 27/Item 1" }],
 				"map_locations": [{ "map": "Route27", "x": 856, "y": 200 }]
 			},
@@ -2682,6 +2752,11 @@
 				"name": "",
 				"sections": [{ "ref": "JohtoKanto/Route 29/Pink Bow from Tuscany" }],
 				"map_locations": [{ "map": "Route29", "x": 472, "y": 200 }]
+			},
+			{
+				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Route 29/Berry Tree" }],
+				"map_locations": [{ "map": "Route29", "x": 200, "y": 40 }]
 			},
 			{
 				"name": "",
@@ -2842,6 +2917,11 @@
 				"name": "",
 				"sections": [{ "ref": "JohtoKanto/Route 33/Hiker Anthony" }],
 				"map_locations": [{ "map": "Route33", "x": 104, "y": 216 }]
+			},
+			{
+				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Route 33/Berry Tree" }],
+				"map_locations": [{ "map": "Route33", "x": 232, "y": 264 }]
 			},
 			{
 				"name": "",
@@ -3008,6 +3088,11 @@
 			},
 			{
 				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Route 35/Berry Tree" }],
+				"map_locations": [{ "map": "Route35", "x": 40, "y": 408 }]
+			},
+			{
+				"name": "",
 				"sections": [
 					{ "ref": "JohtoKanto/Route 35/Kenya Collected" },
 					{
@@ -3039,6 +3124,11 @@
 			},
 			{
 				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Route 36/Berry Tree" }],
+				"map_locations": [{ "map": "Route36", "x": 344, "y": 72 }]
+			},
+			{
+				"name": "",
 				"sections": [{ "ref": "JohtoKanto/Route 37/Hidden Item" }],
 				"map_locations": [{ "map": "Route37", "x": 72, "y": 40 }]
 			},
@@ -3056,6 +3146,21 @@
 				"name": "",
 				"sections": [{ "ref": "JohtoKanto/Route 37/Psychic Greg" }],
 				"map_locations": [{ "map": "Route37", "x": 104, "y": 104 }]
+			},
+			{
+				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Route 37/Berry Tree 1" }],
+				"map_locations": [{ "map": "Route37", "x": 216, "y": 88 }]
+			},
+			{
+				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Route 37/Berry Tree 2" }],
+				"map_locations": [{ "map": "Route37", "x": 264, "y": 88 }]
+			},
+			{
+				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Route 37/Berry Tree 3" }],
+				"map_locations": [{ "map": "Route37", "x": 248, "y": 120 }]
 			},
 			{
 				"name": "",
@@ -3089,6 +3194,11 @@
 			},
 			{
 				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Route 38/Berry Tree" }],
+				"map_locations": [{ "map": "Route38", "x": 200, "y": 168 }]
+			},
+			{
+				"name": "",
 				"sections": [{ "ref": "JohtoKanto/Route 39/Hidden Item Between Miltank" }],
 				"map_locations": [{ "map": "Route39", "x": 88, "y": 216 }]
 			},
@@ -3111,6 +3221,11 @@
 				"name": "",
 				"sections": [{ "ref": "JohtoKanto/Route 39/Psychic Norman" }],
 				"map_locations": [{ "map": "Route39", "x": 216, "y": 120 }]
+			},
+			{
+				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Route 39/Berry Tree" }],
+				"map_locations": [{ "map": "Route39", "x": 152, "y": 56 }]
 			},
 			{
 				"name": "",
@@ -3249,6 +3364,21 @@
 			},
 			{
 				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Route 42/Berry Tree 1" }],
+				"map_locations": [{ "map": "Route42", "x": 440, "y": 264 }]
+			},
+			{
+				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Route 42/Berry Tree 2" }],
+				"map_locations": [{ "map": "Route42", "x": 456, "y": 264 }]
+			},
+			{
+				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Route 42/Berry Tree 3" }],
+				"map_locations": [{ "map": "Route42", "x": 472, "y": 264 }]
+			},
+			{
+				"name": "",
 				"sections": [{ "ref": "JohtoKanto/Route 42/Fisher Tully" }],
 				"map_locations": [{ "map": "Route42", "x": 648, "y": 168 }]
 			},
@@ -3296,6 +3426,11 @@
 				"name": "",
 				"sections": [{ "ref": "JohtoKanto/Route 43/Picnicker Tiffany" }],
 				"map_locations": [{ "map": "Route43", "x": 152, "y": 408 }]
+			},
+			{
+				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Route 43/Berry Tree" }],
+				"map_locations": [{ "map": "Route43", "x": 24, "y": 424 }]
 			},
 			{
 				"name": "",
@@ -3369,6 +3504,11 @@
 			},
 			{
 				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Route 45/Berry Tree" }],
+				"map_locations": [{ "map": "Route45", "x": 264, "y": 1320 }]
+			},
+			{
+				"name": "",
 				"sections": [
 					{
 						"ref": "JohtoKanto/Route 5/Cleanse Tag from Woman in House",
@@ -3411,6 +3551,11 @@
 				"name": "",
 				"sections": [{ "ref": "JohtoKanto/Route 8/Super Nerd Tom" }],
 				"map_locations": [{ "map": "Route8", "x": 504, "y": 200 }]
+			},
+			{
+				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Route 8/Berry Tree" }],
+				"map_locations": [{ "map": "Route8", "x": 536, "y": 88 }]
 			},
 			{
 				"name": "",
@@ -3592,6 +3737,11 @@
 					{ "ref": "JohtoKanto/Sprout Tower/3F - Sage Neal", "name": "Sprout Tower 3F - Sage Neal" }
 				],
 				"map_locations": [{ "map": "VioletCity", "x": 376, "y": 88 }]
+			},
+			{
+				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Violet City/Berry Tree" }],
+				"map_locations": [{ "map": "VioletCity", "x": 232, "y": 472 }]
 			},
 			{
 				"name": "",
