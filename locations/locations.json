@@ -2879,7 +2879,7 @@
 			},
 			{
 				"name": "Silver Cave",
-				"access_rules": ["$red_access,$can_flash"],
+				"access_rules": ["$red_access"],
 				"visibility_rules": ["johto_only_off"],
 				"sections": [
 					{
@@ -2888,54 +2888,60 @@
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
-						"name": "1F - Item 1"
+						"name": "1F - Item 1",
+						"access_rules": ["$can_flash"]
 					},
 					{
-						"name": "1F - Item 2"
+						"name": "1F - Item 2",
+						"access_rules": ["$can_flash"]
 					},
 					{
-						"name": "1F - Item 3"
+						"name": "1F - Item 3",
+						"access_rules": ["$can_flash"]
 					},
 					{
-						"name": "1F - Item 4"
+						"name": "1F - Item 4",
+						"access_rules": ["$can_flash"]
 					},
 					{
 						"name": "1F - Hidden Item 1",
-						"access_rules": ["[$hid]"],
+						"access_rules": ["$can_flash,[$hid]"],
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
 						"name": "1F - Hidden Item 2",
-						"access_rules": ["[$hid]"],
+						"access_rules": ["$can_flash,[$hid]"],
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
 						"name": "2F - Item 1",
-						"access_rules": ["$can_waterfall"]
+						"access_rules": ["$can_flash,$can_waterfall"]
 					},
 					{
 						"name": "2F - Item 2",
-						"access_rules": ["$can_waterfall"]
+						"access_rules": ["$can_flash,$can_waterfall"]
 					},
 					{
-						"name": "2F - Item 3"
+						"name": "2F - Item 3",
+						"access_rules": ["$can_flash"]
 					},
 					{
 						"name": "2F - Chambers Item 1",
-						"access_rules": ["$can_waterfall"]
+						"access_rules": ["$can_flash,$can_waterfall"]
 					},
 					{
 						"name": "2F - Chambers Item 2",
-						"access_rules": ["$can_waterfall"]
+						"access_rules": ["$can_flash,$can_waterfall"]
 					},
 					{
 						"name": "2F - Hidden Item",
-						"access_rules": ["[$hid]"],
+						"access_rules": ["$can_flash,[$hid]"],
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
 						"name": "Defeat Red",
-						"hosted_item": "EVENT_BEAT_RED"
+						"hosted_item": "EVENT_BEAT_RED",
+						"access_rules": ["$can_flash"]
 					}
 				],
 				"map_locations": [
