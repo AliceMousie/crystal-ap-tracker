@@ -16,9 +16,13 @@
 						"h_alignment": "left",
 						"rows": [
 							["goal", "johto_only", "e4_badges", "red_badges", "badges"],
-							["badgereqs", "pokegear", "trainersanity", "hiddenitems", "reqitemfinder"],
-							["automap"]
+							["badgereqs", "pokegear", "trainersanity", "hiddenitems", "reqitemfinder", "automap"]
 						]
+					},
+					{
+						"type": "item",
+						"margin": "12, 2",
+						"item": "free_fly"
 					}
 				]
 			}

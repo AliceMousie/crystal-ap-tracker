@@ -197,6 +197,98 @@
 		]
 	},
 	{
+		"name": "Free Fly Location",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Free Fly Location - Off",
+				"img": "/images/settings/freefly_0.png",
+				"codes": "free_fly,free_fly_0",
+				"inherit_codes": false
+			},
+			{
+				"name": "Free Fly Location - Ecruteak City",
+				"img": "/images/settings/freefly_1.png",
+				"codes": "free_fly,free_fly_Ecruteak",
+				"inherit_codes": false
+			},
+			{
+				"name": "Free Fly Location - Olivine City",
+				"img": "/images/settings/freefly_2.png",
+				"codes": "free_fly,free_fly_Olivine",
+				"inherit_codes": false
+			},
+			{
+				"name": "Free Fly Location - Cianwood City",
+				"img": "/images/settings/freefly_3.png",
+				"codes": "free_fly,free_fly_Cianwood",
+				"inherit_codes": false
+			},
+			{
+				"name": "Free Fly Location - Mahogany Town",
+				"img": "/images/settings/freefly_4.png",
+				"codes": "free_fly,free_fly_Mahogany",
+				"inherit_codes": false
+			},
+			{
+				"name": "Free Fly Location - Blackthorn City",
+				"img": "/images/settings/freefly_5.png",
+				"codes": "free_fly,free_fly_Blackthorn",
+				"inherit_codes": false
+			},
+			{
+				"name": "Free Fly Location - Viridian City",
+				"img": "/images/settings/freefly_6.png",
+				"codes": "free_fly,free_fly_Viridian",
+				"inherit_codes": false
+			},
+			{
+				"name": "Free Fly Location - Pewter City",
+				"img": "/images/settings/freefly_7.png",
+				"codes": "free_fly,free_fly_Pewter",
+				"inherit_codes": false
+			},
+			{
+				"name": "Free Fly Location - Cerulean City",
+				"img": "/images/settings/freefly_8.png",
+				"codes": "free_fly,free_fly_Cerulean",
+				"inherit_codes": false
+			},
+			{
+				"name": "Free Fly Location - Vermilion City",
+				"img": "/images/settings/freefly_9.png",
+				"codes": "free_fly,free_fly_Vermilion",
+				"inherit_codes": false
+			},
+			{
+				"name": "Free Fly Location - Lavender Town",
+				"img": "/images/settings/freefly_10.png",
+				"codes": "free_fly,free_fly_Lavender",
+				"inherit_codes": false
+			},
+			{
+				"name": "Free Fly Location - Celadon City",
+				"img": "/images/settings/freefly_11.png",
+				"codes": "free_fly,free_fly_Celadon",
+				"inherit_codes": false
+			},
+			{
+				"name": "Free Fly Location - Saffron City",
+				"img": "/images/settings/freefly_12.png",
+				"codes": "free_fly,free_fly_Saffron",
+				"inherit_codes": false
+			},
+			{
+				"name": "Free Fly Location - Fuchsia City",
+				"img": "/images/settings/freefly_13.png",
+				"codes": "free_fly,free_fly_Fuchsia",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
 		"name": "Auto-Track Map",
 		"type": "progressive",
 		"loop": true,

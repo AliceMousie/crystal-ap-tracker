@@ -1,3 +1,17 @@
+FLY_ECRUTEAK = 22
+FLY_OLIVINE = 21
+FLY_CIANWOOD = 19
+FLY_MAHOGANY = 23
+FLY_BLACKTHORN = 25
+FLY_VIRIDIAN = 3
+FLY_PEWTER = 4
+FLY_CERULEAN = 5
+FLY_VERMILION = 7
+FLY_LAVENDER = 8
+FLY_CELADON = 10
+FLY_SAFFRON = 9
+FLY_FUCHSIA = 11
+
 function has_value(t, val)
 	for i, v in ipairs(t) do
 		if v == val then return 1 end

@@ -100,12 +100,37 @@ function can_rocksmash()
 	return has("TM_ROCK_SMASH")
 end
 
+function fly_badge()
+	return (
+		(has("badgereqs_vanilla") and has("STORM_BADGE")) or
+		(has("badgereqs_kanto") and has("STORM_BADGE") or has("THUNDER_BADGE")) or
+		has("badgereqs_none")
+	)
+end
+
+function can_fly()
+	return (has("HM_FLY") and fly_badge())
+end
+
+
+function can_freefly(destination)
+	return can_fly() and has("free_fly_"..destination)
+end
+
 function tower_takeover() 
-	return badges() > progCount("e4_badges") - 2
+	return badges() >= progCount("e4_badges") - 1
+end
+
+function ecruteak_freefly()
+	return can_freefly("Ecruteak") or can_freefly("Olivine") or can_freefly("Mahogany") or can_freefly("Blackthorn") or (can_freefly("Cianwood") and can_surf())
 end
 
 function ecruteak_access()
-	return has("SQUIRTBOTTLE") or (has("PASS") and has("S_S_TICKET"))
+	return has("SQUIRTBOTTLE") or ferry_from_vermilion() or ecruteak_freefly()
+end
+
+function ferry_from_vermilion()
+	return (has("PASS") or saffron_freefly() or west_kanto_freefly()) and has("S_S_TICKET")
 end
 
 function tintower_access()
@@ -113,15 +138,15 @@ function tintower_access()
 end
 
 function cianwood_access()
-	return ecruteak_access() and can_surf()
+	return (ecruteak_access() and can_surf()) or can_freefly("Cianwood")
 end
 
 function icepath_access()
-	return ecruteak_access() and tower_takeover() 
+	return (ecruteak_access() and tower_takeover() ) or can_freefly("Blackthorn")
 end
 
 function blackthorn_access()
-	return icepath_access() and can_strength()
+	return (icepath_access() and can_strength()) or can_freefly("Blackthorn")
 end
 
 function clear_snorlax()
@@ -132,20 +157,36 @@ function elite_four_badges()
 	return badges() >= progCount("e4_badges")
 end
 
+function rt26_access()
+	return can_waterfall() or (viridian_access() and clear_snorlax()) 
+end
+
 function victoryroad_access()
-	return (can_waterfall() or (clear_snorlax() and saffron_access())) and elite_four_badges()
+	return rt26_access() and elite_four_badges()
+end
+
+function saffron_freefly()
+	return can_freefly("Saffron") or can_freefly("Cerulean") or can_freefly("Vermilion") or can_freefly("Lavender") or can_freefly("Fuchsia") or can_freefly("Celadon")
 end
 
 function saffron_access()
-	return has("PASS") or (has("S_S_TICKET") and has("SQUIRTBOTTLE"))
+	return has("PASS") or ferry_from_ecruteak() or saffron_freefly() or west_kanto_freefly()
+end
+
+function ferry_from_ecruteak()
+	return (has("SQUIRTBOTTLE") or ecruteak_freefly()) and has("S_S_TICKET")
 end
 
 function powerplant_access()
 	return saffron_access() and can_surf() and (can_flash() or can_cut())
 end
 
+function west_kanto_freefly()
+	return can_freefly("Viridian") or can_freefly("Pewter")
+end
+
 function viridian_access()
-	return clear_snorlax() and saffron_access()
+	return (clear_snorlax() and saffron_access()) or west_kanto_freefly()
 end
 
 function red_badges()
@@ -156,7 +197,6 @@ function all_badges()
 	return badges() > 15
 end
 
-
 function red_access()
-	return red_badges() and viridian_access()
+	return red_badges() and rt26_access() and viridian_access()
 end

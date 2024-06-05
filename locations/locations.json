@@ -2352,15 +2352,15 @@
 					},
 					{
 						"name": "1F - Item 2",
-						"access_rules": ["$can_strength"]
+						"access_rules": ["$blackthorn_access"]
 					},
 					{
 						"name": "B1F - Item",
-						"access_rules": ["$can_strength"]
+						"access_rules": ["$blackthorn_access"]
 					},
 					{
 						"name": "B1F - Hidden Item on Boulder",
-						"access_rules": ["[$hid],$can_strength"],
+						"access_rules": ["[$hid],$blackthorn_access"],
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
@@ -2368,11 +2368,11 @@
 					},
 					{
 						"name": "B2F - Item 2",
-						"access_rules": ["$can_strength"]
+						"access_rules": ["$blackthorn_access"]
 					},
 					{
 						"name": "B2F - Item 3",
-						"access_rules": ["$can_strength"]
+						"access_rules": ["$blackthorn_access"]
 					},
 					{
 						"name": "B2F - Hidden Item in Corner",
@@ -2381,12 +2381,12 @@
 					},
 					{
 						"name": "B2F - Hidden Item on Boulder",
-						"access_rules": ["[$hid],$can_strength"],
+						"access_rules": ["[$hid],$blackthorn_access"],
 						"visibility_rules": ["hiddenitems_on"]
 					},
 					{
 						"name": "B3F - Item",
-						"access_rules": ["$can_strength"]
+						"access_rules": ["$blackthorn_access"]
 					}
 				],
 				"map_locations": [
@@ -2605,11 +2605,11 @@
 			},
 			{
 				"name": "Route 27",
-				"access_rules": ["$can_surf", "$viridian_access"],
+				"access_rules": ["$can_surf", "$rt26_access"],
 				"sections": [
 					{
 						"name": "Sandstorm from Woman in House",
-						"access_rules": ["$can_waterfall", "$viridian_access,$can_surf"]
+						"access_rules": ["$can_waterfall", "$rt26_access,$can_surf"]
 					},
 					{
 						"name": "Item 1",
@@ -2617,36 +2617,36 @@
 					},
 					{
 						"name": "Item 2",
-						"access_rules": ["$can_whirlpool,$can_waterfall", "$can_whirlpool,$viridian_access"]
+						"access_rules": ["$can_whirlpool,$can_waterfall", "$can_whirlpool,$rt26_access"]
 					},
 					{
 						"name": "Psychic Gilbert",
-						"access_rules": ["$can_waterfall", "$viridian_access"],
+						"access_rules": ["$can_waterfall", "$rt26_access"],
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "Cool Trainer Blake",
-						"access_rules": ["$can_waterfall", "$viridian_access"],
+						"access_rules": ["$can_waterfall", "$rt26_access"],
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "Cool Trainer Brian",
-						"access_rules": ["$can_waterfall", "$viridian_access"],
+						"access_rules": ["$can_waterfall", "$rt26_access"],
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "Cool Trainer Reena",
-						"access_rules": ["$can_waterfall", "$viridian_access"],
+						"access_rules": ["$can_waterfall", "$rt26_access"],
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "Cool Trainer Megan",
-						"access_rules": ["$can_waterfall", "$viridian_access,$can_surf"],
+						"access_rules": ["$can_waterfall", "$rt26_access,$can_surf"],
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "Bird Keeper Jose",
-						"access_rules": ["$can_whirlpool,$can_waterfall", "$can_whirlpool,$viridian_access"],
+						"access_rules": ["$can_whirlpool,$can_waterfall", "$can_whirlpool,$rt26_access"],
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
@@ -2664,7 +2664,7 @@
 			},
 			{
 				"name": "Route 26",
-				"access_rules": ["$can_waterfall", "$viridian_access"],
+				"access_rules": ["$rt26_access"],
 				"sections": [
 					{
 						"name": "Item"
