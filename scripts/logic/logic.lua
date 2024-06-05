@@ -198,5 +198,5 @@ function all_badges()
 end
 
 function red_access()
-	return red_badges() and rt26_access() and viridian_access()
+	return red_badges() and rt26_access()
 end
