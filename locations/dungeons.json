@@ -1863,8 +1863,8 @@
 				"name": "",
 				"sections": [
 					{
-						"ref": "JohtoKanto/Olivine City/Port - Hidden Item in Southeast Buoy",
-						"name": "Olivine Port - Hidden Item in Southeast Buoy"
+						"ref": "JohtoKanto/Olivine City/Port - Hidden Item in Southwest Buoy",
+						"name": "Olivine Port - Hidden Item in Southwest Buoy"
 					}
 				],
 				"map_locations": [{ "map": "OlivineCity", "x": 312, "y": 440 }]

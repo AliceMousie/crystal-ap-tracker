@@ -1494,7 +1494,7 @@
 						"name": "Good Rod from Fishing Guru"
 					},
 					{
-						"name": "Port - Hidden Item in Southeast Buoy",
+						"name": "Port - Hidden Item in Southwest Buoy",
 						"access_rules": ["S_S_TICKET,$can_surf,[$hid]"],
 						"visibility_rules": ["hiddenitems_on,johto_only_off"]
 					}
@@ -4009,6 +4009,10 @@
 					},
 					{
 						"name": "Gym - TM06 from Janine"
+					},
+					{
+						"name": "Berry Tree",
+						"visibility_rules": ["berries_on"]
 					}
 				],
 				"map_locations": [
