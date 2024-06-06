@@ -200,3 +200,7 @@ end
 function red_access()
 	return red_badges() and rt26_access()
 end
+
+function silver_cave()
+	return not has("johto_only_on")
+end

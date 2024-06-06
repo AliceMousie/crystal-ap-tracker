@@ -82,7 +82,7 @@ SLOT_CODES = {
 	},
 	johto_only={
 		code="johto_only", 
-		mapping=MAP_TOGGLE
+		mapping=MAP_TRIPLE
 	},
 	free_fly_location={
 		code="free_fly",

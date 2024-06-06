@@ -37,6 +37,12 @@
 				"img": "/images/settings/johto_off.png",
 				"codes": "johto_only,johto_only_on",
 				"inherit_codes": false
+			},
+			{
+				"name": "Johto Only - Include Silver Cave",
+				"img": "/images/settings/johto_silver.png",
+				"codes": "johto_only,johto_only_silver",
+				"inherit_codes": false
 			}
 		]
 	},
