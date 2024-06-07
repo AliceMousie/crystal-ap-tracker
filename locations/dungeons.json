@@ -50,6 +50,9 @@
 				"name": "",
 				"sections": [
 					{ "ref": "JohtoKanto/Slowpoke Well/B1F - Item 1", "name": "Slowpoke Well B1F - Item 1" },
+					{ "ref": "JohtoKanto/Slowpoke Well/B1F - Grunt 1", "name": "Slowpoke Well B1F - Grunt 1" },
+					{ "ref": "JohtoKanto/Slowpoke Well/B1F - Grunt 2", "name": "Slowpoke Well B1F - Grunt 2" },
+					{ "ref": "JohtoKanto/Slowpoke Well/B1F - Grunt 3", "name": "Slowpoke Well B1F - Grunt 3" },
 					{ "ref": "JohtoKanto/Slowpoke Well/B2F - Item 1", "name": "Slowpoke Well B2F - Item 1" },
 					{
 						"ref": "JohtoKanto/Slowpoke Well/B2F - Kings Rock from Man",
@@ -3702,6 +3705,21 @@
 				"name": "",
 				"sections": [{ "ref": "JohtoKanto/Slowpoke Well/B1F - Item 1" }],
 				"map_locations": [{ "map": "SlowpokeWellB1F", "x": 168, "y": 56 }]
+			},
+			{
+				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Slowpoke Well/B1F - Grunt 1" }],
+				"map_locations": [{ "map": "SlowpokeWellB1F", "x": 248, "y": 120 }]
+			},
+			{
+				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Slowpoke Well/B1F - Grunt 2" }],
+				"map_locations": [{ "map": "SlowpokeWellB1F", "x": 88, "y": 104 }]
+			},
+			{
+				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Slowpoke Well/B1F - Grunt 3" }],
+				"map_locations": [{ "map": "SlowpokeWellB1F", "x": 168, "y": 72 }]
 			},
 			{
 				"name": "",

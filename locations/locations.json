@@ -562,6 +562,18 @@
 					{
 						"name": "B2F - Kings Rock from Man",
 						"access_rules": ["$can_surf,$can_strength"]
+					},
+					{
+						"name": "B1F - Grunt 1",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "B1F - Grunt 2",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "B1F - Grunt 3",
+						"visibility_rules": ["trainersanity_on"]
 					}
 				],
 				"map_locations": [
