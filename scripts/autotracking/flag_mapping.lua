@@ -33,5 +33,5 @@ FLAG_ITEM_CODES = {
 	{option="pokegear_off", codes=nil},
 	{option="pokegear_off", codes=nil},
 	{option="pokegear_off", codes={"EXPN_CARD"}},
-	{option="pokegear_off", codes={"POKEGEAR"}},
+	{option="pokegear_off", codes={"POKE_GEAR"}},
 }

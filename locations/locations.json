@@ -1878,22 +1878,20 @@
 						"access_rules": ["$can_strength"]
 					},
 					{
-						"name": "Gym - Blackbelt Lao",
-						"access_rules": ["$can_strength"],
-						"visibility_rules": ["trainersanity_on"]
-					},
-					{
-						"name": "Gym - Blackbelt Lung",
-						"access_rules": ["$can_strength"],
-						"visibility_rules": ["trainersanity_on"]
-					},
-					{
 						"name": "Gym - Blackbelt Nob",
-						"access_rules": ["$can_strength"],
+						"visibility_rules": ["trainersanity_on"]
+					},
+
+					{
+						"name": "Gym - Blackbelt Lao",
 						"visibility_rules": ["trainersanity_on"]
 					},
 					{
 						"name": "Gym - Blackbelt Yoshi",
+						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Gym - Blackbelt Lung",
 						"access_rules": ["$can_strength"],
 						"visibility_rules": ["trainersanity_on"]
 					},
