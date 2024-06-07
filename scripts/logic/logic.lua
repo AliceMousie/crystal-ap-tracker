@@ -112,9 +112,13 @@ function can_fly()
 	return (has("HM_FLY") and fly_badge())
 end
 
+function has_mapcard()
+	return has("POKE_GEAR") and has("MAP_CARD")
+end
+
 
 function can_freefly(destination)
-	return can_fly() and has("free_fly_"..destination)
+	return can_fly() and (has("free_fly_"..destination) or (has("map_card_fly_"..destination) and has_mapcard()))
 end
 
 function tower_takeover() 

@@ -22,7 +22,8 @@
 								"HM_FLASH",
 								"HM_WHIRLPOOL",
 								"HM_WATERFALL",
-								"TM_ROCK_SMASH"
+								"TM_ROCK_SMASH",
+								"LOST_ITEM"
 							],
 							[
 								"ZEPHYR_BADGE",
@@ -32,7 +33,8 @@
 								"STORM_BADGE",
 								"MINERAL_BADGE",
 								"GLACIER_BADGE",
-								"RISING_BADGE"
+								"RISING_BADGE",
+								"WATER_STONE"
 							],
 							[
 								"BOULDER_BADGE",
@@ -42,7 +44,8 @@
 								"SOUL_BADGE",
 								"MARSH_BADGE",
 								"VOLCANO_BADGE",
-								"EARTH_BADGE"
+								"EARTH_BADGE",
+								"ESCAPE_ROPE"
 							],
 							[
 								"MYSTERY_EGG",
@@ -56,12 +59,12 @@
 							],
 							[
 								"POKE_GEAR",
+								"MAP_CARD",
 								"RADIO_CARD",
 								"EXPN_CARD",
 								"CLEAR_BELL",
 								"S_S_TICKET",
 								"MACHINE_PART",
-								"LOST_ITEM",
 								"PASS"
 							]
 						]

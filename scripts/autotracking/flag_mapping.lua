@@ -30,8 +30,11 @@ FLAG_ITEM_CODES = {
 	{option="badges_off", codes={"EARTH_BADGE"}},
 
 	{option="pokegear_off", codes={"RADIO_CARD"}},
-	{option="pokegear_off", codes=nil},
+	{option="pokegear_off", codes={"MAP_CARD"}},
 	{option="pokegear_off", codes=nil},
 	{option="pokegear_off", codes={"EXPN_CARD"}},
 	{option="pokegear_off", codes={"POKE_GEAR"}},
+	{option="pokegear_off", codes=nil},
+	{option=nil, codes={"ESCAPE_ROPE"}},
+	{option=nil, codes={"WATER_STONE"}},
 }

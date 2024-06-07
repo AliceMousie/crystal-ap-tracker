@@ -244,5 +244,23 @@
 		"type": "toggle",
 		"img": "/images/items/expncard.png",
 		"codes": "EXPN_CARD"
+	},
+	{
+		"name": "Map Card",
+		"type": "toggle",
+		"img": "/images/items/mapcard.png",
+		"codes": "MAP_CARD"
+	},
+	{
+		"name": "Water Stone",
+		"type": "toggle",
+		"img": "/images/items/waterstone.png",
+		"codes": "WATER_STONE"
+	},
+	{
+		"name": "Escape Rope",
+		"type": "toggle",
+		"img": "/images/items/escaperope.png",
+		"codes": "ESCAPE_ROPE"
 	}
 ]

@@ -326,32 +326,36 @@
 						"access_rules": ["$can_surf,$can_flash"]
 					},
 					{
-						"name": "Kabuto Room Item 1 (Escape Rope)"
+						"name": "Kabuto Room Item 1 (Escape Rope)",
+						"access_rules": ["ESCAPE_ROPE"]
 					},
 					{
-						"name": "Kabuto Room Item 2 (Escape Rope)"
+						"name": "Kabuto Room Item 2 (Escape Rope)",
+						"access_rules": ["ESCAPE_ROPE"]
 					},
 					{
-						"name": "Kabuto Room Item 3 (Escape Rope)"
+						"name": "Kabuto Room Item 3 (Escape Rope)",
+						"access_rules": ["ESCAPE_ROPE"]
 					},
 					{
-						"name": "Kabuto Room Item 4 (Escape Rope)"
+						"name": "Kabuto Room Item 4 (Escape Rope)",
+						"access_rules": ["ESCAPE_ROPE"]
 					},
 					{
 						"name": "Omanyte Room Item 1 (Water Stone)",
-						"access_rules": ["$can_surf,$can_strength"]
+						"access_rules": ["$can_surf,$can_strength,WATER_STONE"]
 					},
 					{
 						"name": "Omanyte Room Item 2 (Water Stone)",
-						"access_rules": ["$can_surf,$can_strength"]
+						"access_rules": ["$can_surf,$can_strength,WATER_STONE"]
 					},
 					{
 						"name": "Omanyte Room Item 3 (Water Stone)",
-						"access_rules": ["$can_surf,$can_strength"]
+						"access_rules": ["$can_surf,$can_strength,WATER_STONE"]
 					},
 					{
 						"name": "Omanyte Room Item 4 (Water Stone)",
-						"access_rules": ["$can_surf,$can_strength"]
+						"access_rules": ["$can_surf,$can_strength,WATER_STONE"]
 					}
 				],
 				"map_locations": [

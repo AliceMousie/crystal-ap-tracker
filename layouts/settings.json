@@ -21,8 +21,13 @@
 					},
 					{
 						"type": "item",
-						"margin": "12, 2",
+						"margin": "12, 4",
 						"item": "free_fly"
+					},
+					{
+						"type": "item",
+						"margin": "12, 8",
+						"item": "map_card_fly"
 					}
 				]
 			}

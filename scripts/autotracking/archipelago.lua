@@ -32,7 +32,6 @@ function onClear(slot_data)
 		if SLOT_CODES[k] then
 			Tracker:FindObjectForCode(SLOT_CODES[k].code).CurrentStage = SLOT_CODES[k].mapping[v]
 		else
-			print(v)
 			if k == "elite_four_badges" then
 				Tracker:FindObjectForCode("e4_badges").AcquiredCount = v
 			end 
@@ -117,9 +116,10 @@ end
 
 function updateVanillaKeyItems(value) 
 	if value ~= nil then
+		--print(value)
 		for i, obj in ipairs(FLAG_ITEM_CODES) do
 			local bit = value >> (i - 1) & 1
-			if obj.codes and has(obj.option) then
+			if obj.codes and (obj.option == nil or has(obj.option)) then
 				for i, code in ipairs(obj.codes) do 
 					Tracker:FindObjectForCode(code).Active = Tracker:FindObjectForCode(code).Active or bit
 				end
@@ -129,16 +129,10 @@ function updateVanillaKeyItems(value)
 end
 
 function onMap(value)
-	
-	--print(dump_table(value))
-	-- print(value["data"]["mapGroup"])
-	-- print(value["data"]["mapNumber"])
 	if has("automap_on") and value ~= nil and value["data"] ~= nil then
-		--print("onMap received")
 		map_group = value["data"]["mapGroup"]
 		map_number = value["data"]["mapNumber"]
 		tabs = MAP_MAPPING[map_group][map_number]
-		--print(dump_table(tabs))
 		for i, tab in ipairs(tabs) do
 			Tracker:UiHint("ActivateTab", tab)
 		end

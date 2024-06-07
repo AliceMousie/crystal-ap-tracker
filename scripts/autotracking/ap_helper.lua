@@ -88,6 +88,10 @@ SLOT_CODES = {
 		code="free_fly",
 		mapping=MAP_FREEFLY
 	},
+	map_card_fly_location={
+		code="map_card_fly",
+		mapping=MAP_FREEFLY
+	},
 	randomize_berry_trees={
 		code="berries",
 		mapping=MAP_TOGGLE

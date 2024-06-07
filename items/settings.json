@@ -316,6 +316,98 @@
 		]
 	},
 	{
+		"name": "Map Card Fly Location",
+		"type": "progressive",
+		"loop": true,
+		"allow_disabled": false,
+		"stages": [
+			{
+				"name": "Map Card Fly Location - Off",
+				"img": "/images/settings/mapfly_0.png",
+				"codes": "map_card_fly,map_card_fly_0",
+				"inherit_codes": false
+			},
+			{
+				"name": "Map Card Fly Location - Ecruteak City",
+				"img": "/images/settings/mapfly_1.png",
+				"codes": "map_card_fly,map_card_fly_Ecruteak",
+				"inherit_codes": false
+			},
+			{
+				"name": "Map Card Fly Location - Olivine City",
+				"img": "/images/settings/mapfly_2.png",
+				"codes": "map_card_fly,map_card_fly_Olivine",
+				"inherit_codes": false
+			},
+			{
+				"name": "Map Card Fly Location - Cianwood City",
+				"img": "/images/settings/mapfly_3.png",
+				"codes": "map_card_fly,map_card_fly_Cianwood",
+				"inherit_codes": false
+			},
+			{
+				"name": "Map Card Fly Location - Mahogany Town",
+				"img": "/images/settings/mapfly_4.png",
+				"codes": "map_card_fly,map_card_fly_Mahogany",
+				"inherit_codes": false
+			},
+			{
+				"name": "Map Card Fly Location - Blackthorn City",
+				"img": "/images/settings/mapfly_5.png",
+				"codes": "map_card_fly,map_card_fly_Blackthorn",
+				"inherit_codes": false
+			},
+			{
+				"name": "Map Card Fly Location - Viridian City",
+				"img": "/images/settings/mapfly_6.png",
+				"codes": "map_card_fly,map_card_fly_Viridian",
+				"inherit_codes": false
+			},
+			{
+				"name": "Map Card Fly Location - Pewter City",
+				"img": "/images/settings/mapfly_7.png",
+				"codes": "map_card_fly,map_card_fly_Pewter",
+				"inherit_codes": false
+			},
+			{
+				"name": "Map Card Fly Location - Cerulean City",
+				"img": "/images/settings/mapfly_8.png",
+				"codes": "map_card_fly,map_card_fly_Cerulean",
+				"inherit_codes": false
+			},
+			{
+				"name": "Map Card Fly Location - Vermilion City",
+				"img": "/images/settings/mapfly_9.png",
+				"codes": "map_card_fly,map_card_fly_Vermilion",
+				"inherit_codes": false
+			},
+			{
+				"name": "Map Card Fly Location - Lavender Town",
+				"img": "/images/settings/mapfly_10.png",
+				"codes": "map_card_fly,map_card_fly_Lavender",
+				"inherit_codes": false
+			},
+			{
+				"name": "Map Card Fly Location - Celadon City",
+				"img": "/images/settings/mapfly_11.png",
+				"codes": "map_card_fly,map_card_fly_Celadon",
+				"inherit_codes": false
+			},
+			{
+				"name": "Map Card Fly Location - Saffron City",
+				"img": "/images/settings/mapfly_12.png",
+				"codes": "map_card_fly,map_card_fly_Saffron",
+				"inherit_codes": false
+			},
+			{
+				"name": "Map Card Fly Location - Fuchsia City",
+				"img": "/images/settings/mapfly_13.png",
+				"codes": "map_card_fly,map_card_fly_Fuchsia",
+				"inherit_codes": false
+			}
+		]
+	},
+	{
 		"name": "Auto-Track Map",
 		"type": "progressive",
 		"loop": true,

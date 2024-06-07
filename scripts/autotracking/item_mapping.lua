@@ -1,5 +1,7 @@
 ITEM_MAPPING = {
 	[6] = "BICYCLE",
+	[18] = "ESCAPE_ROPE",
+	[23] = "WATER_STONE",
 	[51] = "ITEMFINDER",
 	[61] = "RED_SCALE",
 	[62] = "SECRETPOTION",
@@ -29,6 +31,7 @@ ITEM_MAPPING = {
 	[180] = "VOLCANO_BADGE",
 	[181] = "EARTH_BADGE",
 	[182] = "RADIO_CARD",
+	[183] = "MAP_CARD",
 	[185] = "EXPN_CARD",
 	[186] = "POKE_GEAR",
 	[202] = "TM_ROCK_SMASH",
