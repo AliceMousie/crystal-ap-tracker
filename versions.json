@@ -1,6 +1,20 @@
 {
 	"versions": [
 		{
+			"package_version": "0.1.0",
+			"download_url": "https://codeload.github.com/AliceMousie/crystal-ap-tracker/zip/refs/tags/v0.1.0",
+			"sha256": "59655923010a0cfdf533b710567463f9e20c2751a70984ee19d6eb0e7dba69ea",
+			"changelog": [
+				"Added berry tree locations",
+				"Added free fly and map card fly locations",
+				"Added escape rope and water stone items for Alph logic",
+				"Added autotracking for these items when bought at marts",
+				"Fixed vanilla key item autotracking",
+				"Fixed some settings being incorrectly set when connecting to AP",
+				"Other minor fixes"
+			]
+		},
+		{
 			"package_version": "0.0.7",
 			"download_url": "https://codeload.github.com/AliceMousie/crystal-ap-tracker/zip/refs/tags/v0.0.7",
 			"sha256": "e5e40bb8d8063ceb5c721d337ba5833b4efdaa967baea6ca1acaca4522f93653",
