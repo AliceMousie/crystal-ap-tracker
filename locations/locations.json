@@ -4026,7 +4026,8 @@
 					},
 					{
 						"name": "Berry Tree",
-						"visibility_rules": ["berries_on"]
+						"visibility_rules": ["berries_on"],
+						"access_rules": ["$can_cut"]
 					}
 				],
 				"map_locations": [
