@@ -73,6 +73,11 @@
 					{
 						"name": "Map Card from Guide",
 						"visibility_rules": ["pokegear_on"]
+					},
+					{
+						"name": "​Map Card from Guide",
+						"visibility_rules": ["pokegear_off"],
+						"hosted_item": "MAP_CARD"
 					}
 				],
 				"map_locations": [
