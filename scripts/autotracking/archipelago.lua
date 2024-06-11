@@ -4,8 +4,6 @@ ScriptHost:LoadScript("scripts/autotracking/map_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/flag_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/ap_helper.lua")
 
-BASE_OFFSET = 7680000
-
 CUR_INDEX = -1
 PLAYER_ID = -1
 TEAM_NUMBER = 0
@@ -58,7 +56,7 @@ function onItem(index, item_id, item_name, player_number)
 		return
 	end
 	CUR_INDEX = index;
-	local v = ITEM_MAPPING[item_id - BASE_OFFSET]
+	local v = ITEM_MAPPING[item_id]
 	if not v then
 		--print(string.format("onItem: could not find item mapping for id %s", item_id))
 		return
@@ -73,7 +71,7 @@ end
 
 --called when a location gets cleared
 function onLocation(location_id, location_name)
-	local v = LOCATION_MAPPING[location_id - BASE_OFFSET]
+	local v = LOCATION_MAPPING[location_id]
 	if not v then
 		print(string.format("onLocation: could not find location mapping for id %s", location_id))
 		return
