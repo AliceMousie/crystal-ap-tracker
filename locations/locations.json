@@ -3019,6 +3019,10 @@
 					{
 						"name": "Schoolboy Danny",
 						"visibility_rules": ["trainersanity_on"]
+					},
+					{
+						"name": "Berry Tree",
+						"visibility_rules": ["berries_on"]
 					}
 				],
 				"map_locations": [

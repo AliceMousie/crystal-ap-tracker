@@ -108,36 +108,30 @@
 						"name": "Dragon's Den B1F - Item 1"
 					},
 					{
-						"ref": "JohtoKanto/Blackthorn City/Dragon's Den B1F - Item 2",
-						"name": "Dragon's Den B1F - Item 2"
-					},
-					{
-						"ref": "JohtoKanto/Blackthorn City/Dragon's Den B1F - Hidden Item in Water 1",
-						"name": "Dragon's Den B1F - Hidden Item in Water 1"
-					},
-					{
-						"ref": "JohtoKanto/Blackthorn City/Dragon's Den B1F - Hidden Item in Water 2",
-						"name": "Dragon's Den B1F - Hidden Item in Water 2"
-					},
-					{
-						"ref": "JohtoKanto/Blackthorn City/Dragon's Den B1F - Hidden Item in SE Corner",
-						"name": "Dragon's Den B1F - Hidden Item in SE Corner"
-					},
-					{
-						"ref": "JohtoKanto/Blackthorn City/Dragon's Den B1F - Item 3",
-						"name": "Dragon's Den B1F - Item 3"
-					},
-					{
 						"ref": "JohtoKanto/Blackthorn City/Dragon's Den B1F - Cool Trainer Darin",
 						"name": "Dragon's Den B1F - Cool Trainer Darin"
 					},
 					{
-						"ref": "JohtoKanto/Blackthorn City/Dragon's Den B1F - Cool Trainer Cara",
+						"ref": "JohtoKanto/Dragon's Den/B1F - Hidden Item in Water 2",
+						"name": "Dragon's Den B1F - Hidden Item in Water 2"
+					},
+					{ "ref": "JohtoKanto/Dragon's Den/B1F - Item 3", "name": "Dragon's Den B1F - Item 3" },
+					{
+						"ref": "JohtoKanto/Dragon's Den/B1F - Cool Trainer Cara",
 						"name": "Dragon's Den B1F - Cool Trainer Cara"
 					},
 					{
-						"ref": "JohtoKanto/Blackthorn City/Dragon's Den B1F - Twins Lea & Pia",
+						"ref": "JohtoKanto/Dragon's Den/B1F - Twins Lea & Pia",
 						"name": "Dragon's Den B1F - Twins Lea & Pia"
+					},
+					{ "ref": "JohtoKanto/Dragon's Den/B1F - Item 2", "name": "Dragon's Den B1F - Item 2" },
+					{
+						"ref": "JohtoKanto/Dragon's Den/B1F - Hidden Item in Water 1",
+						"name": "Dragon's Den B1F - Hidden Item in Water 1"
+					},
+					{
+						"ref": "JohtoKanto/Dragon's Den/B1F - Hidden Item in SE Corner",
+						"name": "Dragon's Den B1F - Hidden Item in SE Corner"
 					}
 				],
 				"map_locations": [{ "map": "BlackthornCity", "x": 328, "y": 24 }]
@@ -371,20 +365,17 @@
 				"name": "",
 				"sections": [
 					{ "ref": "JohtoKanto/Cianwood City/Gym - Blackbelt Lao", "name": "Cianwood Gym - Blackbelt Lao" },
-					{ "ref": "JohtoKanto/Cianwood City/Gym - Blackbelt Lung", "name": "Cianwood Gym - Blackbelt Lung" },
+					{ "ref": "JohtoKanto/Cianwood Gym/Blackbelt Lung", "name": "Cianwood Gym - Blackbelt Lung" },
 					{ "ref": "JohtoKanto/Cianwood City/Gym - Blackbelt Nob", "name": "Cianwood Gym - Blackbelt Nob" },
 					{
 						"ref": "JohtoKanto/Cianwood City/Gym - Blackbelt Yoshi",
 						"name": "Cianwood Gym - Blackbelt Yoshi"
 					},
 					{
-						"ref": "JohtoKanto/Cianwood City/Gym - Storm Badge from Chuck",
+						"ref": "JohtoKanto/Cianwood Gym/Storm Badge from Chuck",
 						"name": "Cianwood Gym - Storm Badge from Chuck"
 					},
-					{
-						"ref": "JohtoKanto/Cianwood City/Gym - TM01 from Chuck",
-						"name": "Cianwood Gym - TM01 from Chuck"
-					}
+					{ "ref": "JohtoKanto/Cianwood Gym/TM01 from Chuck", "name": "Cianwood Gym - TM01 from Chuck" }
 				],
 				"map_locations": [{ "map": "CianwoodCity", "x": 136, "y": 696 }]
 			},
@@ -670,43 +661,43 @@
 			},
 			{
 				"name": "",
-				"sections": [{ "ref": "JohtoKanto/Blackthorn City/Dragon's Den B1F - Item 2" }],
-				"map_locations": [{ "map": "DragonsDenB1F", "x": 568, "y": 264 }]
-			},
-			{
-				"name": "",
-				"sections": [{ "ref": "JohtoKanto/Blackthorn City/Dragon's Den B1F - Hidden Item in Water 1" }],
-				"map_locations": [{ "map": "DragonsDenB1F", "x": 504, "y": 248 }]
-			},
-			{
-				"name": "",
-				"sections": [{ "ref": "JohtoKanto/Blackthorn City/Dragon's Den B1F - Hidden Item in Water 2" }],
-				"map_locations": [{ "map": "DragonsDenB1F", "x": 344, "y": 280 }]
-			},
-			{
-				"name": "",
-				"sections": [{ "ref": "JohtoKanto/Blackthorn City/Dragon's Den B1F - Hidden Item in SE Corner" }],
-				"map_locations": [{ "map": "DragonsDenB1F", "x": 536, "y": 472 }]
-			},
-			{
-				"name": "",
-				"sections": [{ "ref": "JohtoKanto/Blackthorn City/Dragon's Den B1F - Item 3" }],
-				"map_locations": [{ "map": "DragonsDenB1F", "x": 88, "y": 328 }]
-			},
-			{
-				"name": "",
 				"sections": [{ "ref": "JohtoKanto/Blackthorn City/Dragon's Den B1F - Cool Trainer Darin" }],
 				"map_locations": [{ "map": "DragonsDenB1F", "x": 328, "y": 136 }]
 			},
 			{
 				"name": "",
-				"sections": [{ "ref": "JohtoKanto/Blackthorn City/Dragon's Den B1F - Cool Trainer Cara" }],
+				"sections": [{ "ref": "JohtoKanto/Dragon's Den/B1F - Hidden Item in Water 2" }],
+				"map_locations": [{ "map": "DragonsDenB1F", "x": 344, "y": 280 }]
+			},
+			{
+				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Dragon's Den/B1F - Item 3" }],
+				"map_locations": [{ "map": "DragonsDenB1F", "x": 88, "y": 328 }]
+			},
+			{
+				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Dragon's Den/B1F - Cool Trainer Cara" }],
 				"map_locations": [{ "map": "DragonsDenB1F", "x": 136, "y": 136 }]
 			},
 			{
 				"name": "",
-				"sections": [{ "ref": "JohtoKanto/Blackthorn City/Dragon's Den B1F - Twins Lea & Pia" }],
+				"sections": [{ "ref": "JohtoKanto/Dragon's Den/B1F - Twins Lea & Pia" }],
 				"map_locations": [{ "map": "DragonsDenB1F", "x": 72, "y": 280 }]
+			},
+			{
+				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Dragon's Den/B1F - Item 2" }],
+				"map_locations": [{ "map": "DragonsDenB1F", "x": 568, "y": 264 }]
+			},
+			{
+				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Dragon's Den/B1F - Hidden Item in Water 1" }],
+				"map_locations": [{ "map": "DragonsDenB1F", "x": 504, "y": 248 }]
+			},
+			{
+				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Dragon's Den/B1F - Hidden Item in SE Corner" }],
+				"map_locations": [{ "map": "DragonsDenB1F", "x": 536, "y": 472 }]
 			},
 			{
 				"name": "",
@@ -1549,6 +1540,11 @@
 			},
 			{
 				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Mount Mortar/1F Inside - Pokemaniac Miller" }],
+				"map_locations": [{ "map": "MountMortar1FInside", "x": 536, "y": 696 }]
+			},
+			{
+				"name": "",
 				"sections": [{ "ref": "JohtoKanto/Mount Mortar/1F Inside - Item 1" }],
 				"map_locations": [{ "map": "MountMortar1FInside", "x": 568, "y": 616 }]
 			},
@@ -1566,11 +1562,6 @@
 				"name": "",
 				"sections": [{ "ref": "JohtoKanto/Mount Mortar/1F Inside - Item 7" }],
 				"map_locations": [{ "map": "MountMortar1FInside", "x": 280, "y": 280 }]
-			},
-			{
-				"name": "",
-				"sections": [{ "ref": "JohtoKanto/Mount Mortar/1F Inside - Pokemaniac Miller" }],
-				"map_locations": [{ "map": "MountMortar1FInside", "x": 536, "y": 696 }]
 			},
 			{
 				"name": "",
@@ -2723,18 +2714,8 @@
 			},
 			{
 				"name": "",
-				"sections": [{ "ref": "JohtoKanto/Route 27/Item 2" }],
-				"map_locations": [{ "map": "Route27", "x": 968, "y": 200 }]
-			},
-			{
-				"name": "",
 				"sections": [{ "ref": "JohtoKanto/Route 27/Psychic Gilbert" }],
 				"map_locations": [{ "map": "Route27", "x": 1048, "y": 120 }]
-			},
-			{
-				"name": "",
-				"sections": [{ "ref": "JohtoKanto/Route 27/Bird Keeper Jose" }],
-				"map_locations": [{ "map": "Route27", "x": 936, "y": 216 }]
 			},
 			{
 				"name": "",
@@ -2750,6 +2731,16 @@
 				"name": "",
 				"sections": [{ "ref": "JohtoKanto/Route 27/Cool Trainer Reena" }],
 				"map_locations": [{ "map": "Route27", "x": 1160, "y": 168 }]
+			},
+			{
+				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Route 27/Item 2" }],
+				"map_locations": [{ "map": "Route27", "x": 968, "y": 200 }]
+			},
+			{
+				"name": "",
+				"sections": [{ "ref": "JohtoKanto/Route 27/Bird Keeper Jose" }],
+				"map_locations": [{ "map": "Route27", "x": 936, "y": 216 }]
 			},
 			{
 				"name": "",
