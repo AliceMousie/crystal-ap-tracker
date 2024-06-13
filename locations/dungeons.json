@@ -17,6 +17,10 @@
 						"ref": "JohtoKanto/Azalea Town/Gym - Hive Badge from Bugsy",
 						"name": "Azalea Gym - Hive Badge from Bugsy"
 					},
+					{
+						"ref": "JohtoKanto/Azalea Town/​Gym - Hive Badge from Bugsy",
+						"name": "Azalea Gym - Hive Badge from Bugsy"
+					},
 					{ "ref": "JohtoKanto/Azalea Town/Gym - TM49 from Bugsy", "name": "Azalea Gym - TM49 from Bugsy" },
 					{ "ref": "JohtoKanto/Azalea Town/Gym - Twins Amy & May", "name": "Azalea Gym - Twins Amy & May" }
 				],
@@ -71,6 +75,10 @@
 				"sections": [
 					{
 						"ref": "JohtoKanto/Blackthorn City/Gym - Rising Badge from Clair",
+						"name": "Blackthorn Gym - Rising Badge from Clair"
+					},
+					{
+						"ref": "JohtoKanto/Blackthorn City/​Gym - Rising Badge from Clair",
 						"name": "Blackthorn Gym - Rising Badge from Clair"
 					},
 					{
@@ -229,6 +237,10 @@
 						"ref": "JohtoKanto/Ecruteak City/Gym - Fog Badge from Morty",
 						"name": "Ecruteak City - Fog Badge from Morty"
 					},
+					{
+						"ref": "JohtoKanto/Ecruteak City/​Gym - Fog Badge from Morty",
+						"name": "Ecruteak City - Fog Badge from Morty"
+					},
 					{ "ref": "JohtoKanto/Ecruteak City/Gym - Medium Grace", "name": "Ecruteak Gym - Medium Grace" },
 					{ "ref": "JohtoKanto/Ecruteak City/Gym - Medium Martha", "name": "Ecruteak Gym - Medium Martha" },
 					{ "ref": "JohtoKanto/Ecruteak City/Gym - Sage Jeffrey", "name": "Ecruteak Gym - Sage Jeffrey" },
@@ -299,6 +311,10 @@
 						"ref": "JohtoKanto/Celadon City/Gym - Rainbow Badge from Erika",
 						"name": "Celadon Gym - Rainbow Badge from Erika"
 					},
+					{
+						"ref": "JohtoKanto/Celadon City/​Gym - Rainbow Badge from Erika",
+						"name": "Celadon Gym - Rainbow Badge from Erika"
+					},
 					{ "ref": "JohtoKanto/Celadon City/Gym - TM19 from Erika", "name": "Celadon Gym - TM19 from Erika" },
 					{ "ref": "JohtoKanto/Celadon City/Gym - Twins Jo & Zoe", "name": "Celadon Gym - Twins Jo & Zoe" }
 				],
@@ -327,6 +343,10 @@
 						"name": "Cerulean Gym - Cascade Badge from Misty"
 					},
 					{
+						"ref": "JohtoKanto/Cerulean City/​Gym - Cascade Badge from Misty",
+						"name": "Cerulean Gym - Cascade Badge from Misty"
+					},
+					{
 						"ref": "JohtoKanto/Cerulean City/Gym - Machine Part in Water",
 						"name": "Cerulean Gym - Machine Part in Water"
 					},
@@ -343,7 +363,10 @@
 			},
 			{
 				"name": "",
-				"sections": [{ "ref": "JohtoKanto/Cherrygrove City/Map Card from Guide" }],
+				"sections": [
+					{ "ref": "JohtoKanto/Cherrygrove City/Map Card from Guide" },
+					{ "ref": "JohtoKanto/Cherrygrove City/​Map Card from Guide" }
+				],
 				"map_locations": [{ "map": "CherrygroveCity", "x": 520, "y": 104 }]
 			},
 			{
@@ -429,6 +452,10 @@
 				"sections": [
 					{
 						"ref": "JohtoKanto/Saffron City/Gym - Marsh Badge from Sabrina",
+						"name": "Saffron Gym - Marsh Badge from Sabrina"
+					},
+					{
+						"ref": "JohtoKanto/Saffron City/​Gym - Marsh Badge from Sabrina",
 						"name": "Saffron Gym - Marsh Badge from Sabrina"
 					},
 					{ "ref": "JohtoKanto/Saffron City/Gym - Medium Doris", "name": "Saffron Gym - Medium Doris" },
@@ -727,6 +754,10 @@
 					{
 						"ref": "JohtoKanto/New Bark Town/Player's House - Pokegear from Mom",
 						"name": "Player's House - Pokegear from Mom"
+					},
+					{
+						"ref": "JohtoKanto/New Bark Town/​Player's House - Pokegear from Mom",
+						"name": "Player's House - Pokegear from Mom"
 					}
 				],
 				"map_locations": [{ "map": "NewBarkTown", "x": 216, "y": 88 }]
@@ -847,6 +878,10 @@
 					{
 						"ref": "JohtoKanto/Fuchsia City/Gym - Soul Badge from Janine",
 						"name": "Fuschia Gym - Soul Badge from Janine"
+					},
+					{
+						"ref": "JohtoKanto/Fuchsia City/​Gym - Soul Badge from Janine",
+						"name": "Fuschia Gym - Soul Badge from Janine"
 					}
 				],
 				"map_locations": [{ "map": "FuchsiaCity", "x": 136, "y": 440 }]
@@ -908,6 +943,10 @@
 					{ "ref": "JohtoKanto/Goldenrod City/Gym - Lass Carrie", "name": "Goldenrod Gym - Lass Carrie" },
 					{
 						"ref": "JohtoKanto/Goldenrod City/Gym - Plain Badge from Whitney",
+						"name": "Goldenrod Gym - Plain Badge from Whitney"
+					},
+					{
+						"ref": "JohtoKanto/Goldenrod City/​Gym - Plain Badge from Whitney",
 						"name": "Goldenrod Gym - Plain Badge from Whitney"
 					},
 					{
@@ -1008,6 +1047,10 @@
 					{ "ref": "JohtoKanto/Radio Tower/Clear Radio Tower" },
 					{
 						"ref": "JohtoKanto/Radio Tower/1F - Radio Card from Quiz",
+						"name": "Radio Tower 1F - Radio Card from Quiz"
+					},
+					{
+						"ref": "JohtoKanto/Radio Tower/​1F - Radio Card from Quiz",
 						"name": "Radio Tower 1F - Radio Card from Quiz"
 					},
 					{ "ref": "JohtoKanto/Radio Tower/1F - Grunt", "name": "Radio Tower 1F - Grunt" },
@@ -1466,6 +1509,10 @@
 					{
 						"ref": "JohtoKanto/Lavender Town/Radio Tower - EXPN Card",
 						"name": "Lavender Radio Tower - EXPN Card"
+					},
+					{
+						"ref": "JohtoKanto/Lavender Town/​Radio Tower - EXPN Card",
+						"name": "Lavender Radio Tower - EXPN Card"
 					}
 				],
 				"map_locations": [{ "map": "LavenderTown", "x": 232, "y": 88 }]
@@ -1481,6 +1528,10 @@
 					{ "ref": "JohtoKanto/Mahogany Town/Gym - Boarder Ronald", "name": "Mahogany Gym - Boarder Ronald" },
 					{
 						"ref": "JohtoKanto/Mahogany Town/Gym - Glacier Badge from Pryce",
+						"name": "Mahogany Gym - Glacier Badge from Pryce"
+					},
+					{
+						"ref": "JohtoKanto/Mahogany Town/​Gym - Glacier Badge from Pryce",
 						"name": "Mahogany Gym - Glacier Badge from Pryce"
 					},
 					{ "ref": "JohtoKanto/Mahogany Town/Gym - Skier Clarissa", "name": "Mahogany Gym - Skier Clarissa" },
@@ -1795,6 +1846,10 @@
 						"name": "Olivine Gym - Mineral Badge from Jasmine"
 					},
 					{
+						"ref": "JohtoKanto/Olivine City/​Gym - Mineral Badge from Jasmine",
+						"name": "Olivine Gym - Mineral Badge from Jasmine"
+					},
+					{
 						"ref": "JohtoKanto/Olivine City/Gym - TM23 from Jasmine",
 						"name": "Olivine Gym - TM23 from Jasmine"
 					}
@@ -1965,6 +2020,10 @@
 						"ref": "JohtoKanto/Pewter City/Gym - Boulder Badge from Brock",
 						"name": "Pewter Gym - Boulder Badge from Brock"
 					},
+					{
+						"ref": "JohtoKanto/Pewter City/​Gym - Boulder Badge from Brock",
+						"name": "Pewter Gym - Boulder Badge from Brock"
+					},
 					{ "ref": "JohtoKanto/Pewter City/Gym - Camper Jerry", "name": "Pewter Gym - Camper Jerry" }
 				],
 				"map_locations": [{ "map": "PewterCity", "x": 264, "y": 280 }]
@@ -2011,6 +2070,10 @@
 					{
 						"ref": "JohtoKanto/Vermilion City/Gym - Thunder Badge from Lt. Surge",
 						"name": "Vermilion Gym - Thunder Badge from Lt. Surge"
+					},
+					{
+						"ref": "JohtoKanto/Vermilion City/​Gym - Thunder Badge from Lt. Surge",
+						"name": "Vermilion Gym - Thunder Badge from Lt. Surge"
 					}
 				],
 				"map_locations": [{ "map": "VermilionCity", "x": 168, "y": 312 }]
@@ -2035,7 +2098,10 @@
 			},
 			{
 				"name": "",
-				"sections": [{ "ref": "JohtoKanto/Radio Tower/1F - Radio Card from Quiz" }],
+				"sections": [
+					{ "ref": "JohtoKanto/Radio Tower/1F - Radio Card from Quiz" },
+					{ "ref": "JohtoKanto/Radio Tower/​1F - Radio Card from Quiz" }
+				],
 				"map_locations": [{ "map": "RadioTower1F", "x": 200, "y": 104 }]
 			},
 			{
@@ -2488,59 +2554,47 @@
 			},
 			{
 				"name": "",
-				"sections": [{ "ref": "JohtoKanto/Route 2/Item 2" }, { "ref": "JohtoKanto/Route 2/Item 2" }],
+				"sections": [{ "ref": "JohtoKanto/Route 2/Item 2" }],
 				"map_locations": [{ "map": "Route2", "x": 8, "y": 472 }]
 			},
 			{
 				"name": "",
-				"sections": [
-					{ "ref": "JohtoKanto/Route 2/Hidden Item 1" },
-					{ "ref": "JohtoKanto/Route 2/Hidden Item 1" }
-				],
+				"sections": [{ "ref": "JohtoKanto/Route 2/Hidden Item 1" }],
 				"map_locations": [{ "map": "Route2", "x": 72, "y": 232 }]
 			},
 			{
 				"name": "",
-				"sections": [
-					{ "ref": "JohtoKanto/Route 2/Hidden Item 2" },
-					{ "ref": "JohtoKanto/Route 2/Hidden Item 2" }
-				],
+				"sections": [{ "ref": "JohtoKanto/Route 2/Hidden Item 2" }],
 				"map_locations": [{ "map": "Route2", "x": 72, "y": 440 }]
 			},
 			{
 				"name": "",
-				"sections": [
-					{ "ref": "JohtoKanto/Route 2/Hidden Item 3" },
-					{ "ref": "JohtoKanto/Route 2/Hidden Item 3" }
-				],
+				"sections": [{ "ref": "JohtoKanto/Route 2/Hidden Item 3" }],
 				"map_locations": [{ "map": "Route2", "x": 120, "y": 376 }]
 			},
 			{
 				"name": "",
-				"sections": [
-					{ "ref": "JohtoKanto/Route 2/Hidden Item 4" },
-					{ "ref": "JohtoKanto/Route 2/Hidden Item 4" }
-				],
+				"sections": [{ "ref": "JohtoKanto/Route 2/Hidden Item 4" }],
 				"map_locations": [{ "map": "Route2", "x": 184, "y": 488 }]
 			},
 			{
 				"name": "",
-				"sections": [{ "ref": "JohtoKanto/Route 2/Item 4" }, { "ref": "JohtoKanto/Route 2/Item 4" }],
+				"sections": [{ "ref": "JohtoKanto/Route 2/Item 4" }],
 				"map_locations": [{ "map": "Route2", "x": 40, "y": 376 }]
 			},
 			{
 				"name": "",
-				"sections": [{ "ref": "JohtoKanto/Route 2/Berry Tree" }, { "ref": "JohtoKanto/Route 2/Berry Tree" }],
+				"sections": [{ "ref": "JohtoKanto/Route 2/Berry Tree" }],
 				"map_locations": [{ "map": "Route2", "x": 168, "y": 232 }]
 			},
 			{
 				"name": "",
-				"sections": [{ "ref": "JohtoKanto/Route 2/Item 1" }, { "ref": "JohtoKanto/Route 2/Item 1" }],
+				"sections": [{ "ref": "JohtoKanto/Route 2/Item 1" }],
 				"map_locations": [{ "map": "Route2", "x": 312, "y": 40 }]
 			},
 			{
 				"name": "",
-				"sections": [{ "ref": "JohtoKanto/Route 2/Item 3" }, { "ref": "JohtoKanto/Route 2/Item 3" }],
+				"sections": [{ "ref": "JohtoKanto/Route 2/Item 3" }],
 				"map_locations": [{ "map": "Route2", "x": 232, "y": 808 }]
 			},
 			{
@@ -2550,26 +2604,17 @@
 			},
 			{
 				"name": "",
-				"sections": [
-					{ "ref": "JohtoKanto/Route 2/Bug Catcher Rob" },
-					{ "ref": "JohtoKanto/Route 2/Bug Catcher Rob" }
-				],
+				"sections": [{ "ref": "JohtoKanto/Route 2/Bug Catcher Rob" }],
 				"map_locations": [{ "map": "Route2", "x": 168, "y": 728 }]
 			},
 			{
 				"name": "",
-				"sections": [
-					{ "ref": "JohtoKanto/Route 2/Bug Catcher Doug" },
-					{ "ref": "JohtoKanto/Route 2/Bug Catcher Doug" }
-				],
+				"sections": [{ "ref": "JohtoKanto/Route 2/Bug Catcher Doug" }],
 				"map_locations": [{ "map": "Route2", "x": 8, "y": 648 }]
 			},
 			{
 				"name": "",
-				"sections": [
-					{ "ref": "JohtoKanto/Route 2/Bug Catcher Ed" },
-					{ "ref": "JohtoKanto/Route 2/Bug Catcher Ed" }
-				],
+				"sections": [{ "ref": "JohtoKanto/Route 2/Bug Catcher Ed" }],
 				"map_locations": [{ "map": "Route2", "x": 104, "y": 72 }]
 			},
 			{
@@ -2592,6 +2637,10 @@
 				"sections": [
 					{
 						"ref": "JohtoKanto/Seafoam Islands/Gym - Volcano Badge from Blaine",
+						"name": "Seafoam Gym - Volcano Badge from Blaine"
+					},
+					{
+						"ref": "JohtoKanto/Seafoam Islands/​Gym - Volcano Badge from Blaine",
 						"name": "Seafoam Gym - Volcano Badge from Blaine"
 					}
 				],
@@ -3784,6 +3833,10 @@
 					{
 						"ref": "JohtoKanto/Violet City/Gym - Zephyr Badge from Falkner",
 						"name": "Violet Gym - Zephyr Badge from Falkner"
+					},
+					{
+						"ref": "JohtoKanto/Violet City/​Gym - Zephyr Badge from Falkner",
+						"name": "Violet Gym - Zephyr Badge from Falkner"
 					}
 				],
 				"map_locations": [{ "map": "VioletCity", "x": 296, "y": 280 }]
@@ -4168,6 +4221,10 @@
 				"sections": [
 					{
 						"ref": "JohtoKanto/Viridian City/Gym - Earth Badge from Blue",
+						"name": "Viridian Gym - Earth Badge from Blue"
+					},
+					{
+						"ref": "JohtoKanto/Viridian City/​Gym - Earth Badge from Blue",
 						"name": "Viridian Gym - Earth Badge from Blue"
 					}
 				],
