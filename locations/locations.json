@@ -3057,10 +3057,12 @@
 				"visibility_rules": ["johto_only_off"],
 				"sections": [
 					{
-						"name": "Nugget from Guy"
+						"name": "Nugget from Guy",
+						"access_rules": ["$can_cut", "$clear_snorlax"]
 					},
 					{
-						"name": "Item 1"
+						"name": "Item 1",
+						"access_rules": ["$can_cut", "$clear_snorlax"]
 					},
 					{
 						"name": "Item 2"
@@ -3785,7 +3787,7 @@
 			},
 			{
 				"name": "Diglett's Cave",
-				"access_rules": ["$viridian_access"],
+				"access_rules": ["$clear_snorlax,$saffron_access"],
 				"visibility_rules": ["johto_only_off"],
 				"sections": [
 					{

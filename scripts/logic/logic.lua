@@ -75,7 +75,7 @@ end
 function whirlpool_badge()
 	return (
 		(has("badgereqs_vanilla") and has("GLACIER_BADGE")) or
-		(has("badgereqs_kanto") and has("GLACIER_BADGE") or has("VOLCANO_BADGE")) or
+		(has("badgereqs_kanto") and (has("GLACIER_BADGE") or has("VOLCANO_BADGE"))) or
 		has("badgereqs_none")
 	)
 end
@@ -87,7 +87,7 @@ end
 function waterfall_badge()
 	return (
 		(has("badgereqs_vanilla") and has("RISING_BADGE")) or
-		(has("badgereqs_kanto") and has("RISING_BADGE") or has("EARTH_BADGE")) or
+		(has("badgereqs_kanto") and (has("RISING_BADGE") or has("EARTH_BADGE"))) or
 		has("badgereqs_none")
 	)
 end
@@ -103,7 +103,7 @@ end
 function fly_badge()
 	return (
 		(has("badgereqs_vanilla") and has("STORM_BADGE")) or
-		(has("badgereqs_kanto") and has("STORM_BADGE") or has("THUNDER_BADGE")) or
+		(has("badgereqs_kanto") and (has("STORM_BADGE") or has("THUNDER_BADGE"))) or
 		has("badgereqs_none")
 	)
 end
