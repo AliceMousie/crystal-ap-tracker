@@ -13,6 +13,13 @@ TEAM_NUMBER = 0
 EVENT_ID=""
 KEY_ID=""
 
+function reverse_offset(id)
+	if id >= BASE_OFFSET then
+		return id - BASE_OFFSET
+	end
+	return id
+end
+
 function onClear(slot_data)
 	CUR_INDEX = -1
 	resetLocations()
@@ -58,7 +65,7 @@ function onItem(index, item_id, item_name, player_number)
 		return
 	end
 	CUR_INDEX = index;
-	local v = ITEM_MAPPING[item_id - BASE_OFFSET]
+	local v = ITEM_MAPPING[reverse_offset(item_id)]
 	if not v then
 		--print(string.format("onItem: could not find item mapping for id %s", item_id))
 		return
@@ -73,7 +80,7 @@ end
 
 --called when a location gets cleared
 function onLocation(location_id, location_name)
-	local v = LOCATION_MAPPING[location_id - BASE_OFFSET]
+	local v = LOCATION_MAPPING[reverse_offset(location_id)]
 	if not v then
 		print(string.format("onLocation: could not find location mapping for id %s", location_id))
 		return
